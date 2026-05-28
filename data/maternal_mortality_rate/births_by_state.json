@@ -1,0 +1,290 @@
+[
+    {
+        "Notes":null,
+        "State of Residence":"Alabama",
+        "State of Residence Code":1,
+        "Births":406018
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Arizona",
+        "State of Residence Code":4,
+        "Births":550315
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Arkansas",
+        "State of Residence Code":5,
+        "Births":250928
+    },
+    {
+        "Notes":null,
+        "State of Residence":"California",
+        "State of Residence Code":6,
+        "Births":2963553
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Colorado",
+        "State of Residence Code":8,
+        "Births":438342
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Connecticut",
+        "State of Residence Code":9,
+        "Births":242603
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Delaware",
+        "State of Residence Code":10,
+        "Births":73850
+    },
+    {
+        "Notes":null,
+        "State of Residence":"District of Columbia",
+        "State of Residence Code":11,
+        "Births":59412
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Florida",
+        "State of Residence Code":12,
+        "Births":1537707
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Georgia",
+        "State of Residence Code":13,
+        "Births":876776
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Idaho",
+        "State of Residence Code":16,
+        "Births":155490
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Illinois",
+        "State of Residence Code":17,
+        "Births":929331
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Indiana",
+        "State of Residence Code":18,
+        "Births":559973
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Iowa",
+        "State of Residence Code":19,
+        "Births":257377
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Kansas",
+        "State of Residence Code":20,
+        "Births":243187
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Kentucky",
+        "State of Residence Code":21,
+        "Births":368085
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Louisiana",
+        "State of Residence Code":22,
+        "Births":398032
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Maine",
+        "State of Residence Code":23,
+        "Births":82956
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Maryland",
+        "State of Residence Code":24,
+        "Births":478270
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Massachusetts",
+        "State of Residence Code":25,
+        "Births":477652
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Michigan",
+        "State of Residence Code":26,
+        "Births":727942
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Minnesota",
+        "State of Residence Code":27,
+        "Births":449079
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Mississippi",
+        "State of Residence Code":28,
+        "Births":246872
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Missouri",
+        "State of Residence Code":29,
+        "Births":488240
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Montana",
+        "State of Residence Code":30,
+        "Births":78198
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Nebraska",
+        "State of Residence Code":31,
+        "Births":172384
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Nevada",
+        "State of Residence Code":32,
+        "Births":235461
+    },
+    {
+        "Notes":null,
+        "State of Residence":"New Hampshire",
+        "State of Residence Code":33,
+        "Births":84033
+    },
+    {
+        "Notes":null,
+        "State of Residence":"New Jersey",
+        "State of Residence Code":34,
+        "Births":705525
+    },
+    {
+        "Notes":null,
+        "State of Residence":"New Mexico",
+        "State of Residence Code":35,
+        "Births":153186
+    },
+    {
+        "Notes":null,
+        "State of Residence":"New York",
+        "State of Residence Code":36,
+        "Births":1484732
+    },
+    {
+        "Notes":null,
+        "State of Residence":"North Carolina",
+        "State of Residence Code":37,
+        "Births":839375
+    },
+    {
+        "Notes":null,
+        "State of Residence":"North Dakota",
+        "State of Residence Code":38,
+        "Births":70109
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Ohio",
+        "State of Residence Code":39,
+        "Births":910499
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Oklahoma",
+        "State of Residence Code":40,
+        "Births":339179
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Oregon",
+        "State of Residence Code":41,
+        "Births":281534
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Pennsylvania",
+        "State of Residence Code":42,
+        "Births":917720
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Rhode Island",
+        "State of Residence Code":44,
+        "Births":71329
+    },
+    {
+        "Notes":null,
+        "State of Residence":"South Carolina",
+        "State of Residence Code":45,
+        "Births":400913
+    },
+    {
+        "Notes":null,
+        "State of Residence":"South Dakota",
+        "State of Residence Code":46,
+        "Births":79524
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Tennessee",
+        "State of Residence Code":47,
+        "Births":570726
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Texas",
+        "State of Residence Code":48,
+        "Births":2666521
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Utah",
+        "State of Residence Code":49,
+        "Births":323900
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Virginia",
+        "State of Residence Code":51,
+        "Births":670179
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Washington",
+        "State of Residence Code":53,
+        "Births":585360
+    },
+    {
+        "Notes":null,
+        "State of Residence":"West Virginia",
+        "State of Residence Code":54,
+        "Births":121462
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Wisconsin",
+        "State of Residence Code":55,
+        "Births":429232
+    },
+    {
+        "Notes":null,
+        "State of Residence":"Wyoming",
+        "State of Residence Code":56,
+        "Births":43620
+    }
+]

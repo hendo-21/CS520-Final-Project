@@ -1,0 +1,482 @@
+[
+    {
+        "Notes":null,
+        "State":"Alabama",
+        "State Code":1,
+        "Deaths":220,
+        "Population":35092928,
+        "Crude Rate":0.6,
+        "Crude Rate Lower 95% Confidence Interval":0.5,
+        "Crude Rate Upper 95% Confidence Interval":0.7
+    },
+    {
+        "Notes":null,
+        "State":"Arizona",
+        "State Code":4,
+        "Deaths":207,
+        "Population":51521005,
+        "Crude Rate":0.4,
+        "Crude Rate Lower 95% Confidence Interval":0.3,
+        "Crude Rate Upper 95% Confidence Interval":0.5
+    },
+    {
+        "Notes":null,
+        "State":"Arkansas",
+        "State Code":5,
+        "Deaths":130,
+        "Population":21289765,
+        "Crude Rate":0.6,
+        "Crude Rate Lower 95% Confidence Interval":0.5,
+        "Crude Rate Upper 95% Confidence Interval":0.7
+    },
+    {
+        "Notes":null,
+        "State":"California",
+        "State Code":6,
+        "Deaths":554,
+        "Population":275100980,
+        "Crude Rate":0.2,
+        "Crude Rate Lower 95% Confidence Interval":0.2,
+        "Crude Rate Upper 95% Confidence Interval":0.2
+    },
+    {
+        "Notes":null,
+        "State":"Colorado",
+        "State Code":8,
+        "Deaths":101,
+        "Population":40749117,
+        "Crude Rate":0.2,
+        "Crude Rate Lower 95% Confidence Interval":0.2,
+        "Crude Rate Upper 95% Confidence Interval":0.3
+    },
+    {
+        "Notes":null,
+        "State":"Connecticut",
+        "State Code":9,
+        "Deaths":64,
+        "Population":25219005,
+        "Crude Rate":0.3,
+        "Crude Rate Lower 95% Confidence Interval":0.2,
+        "Crude Rate Upper 95% Confidence Interval":0.3
+    },
+    {
+        "Notes":null,
+        "State":"Delaware",
+        "State Code":10,
+        "Deaths":16,
+        "Population":7033331,
+        "Crude Rate":0.2,
+        "Crude Rate Lower 95% Confidence Interval":0.1,
+        "Crude Rate Upper 95% Confidence Interval":0.4
+    },
+    {
+        "Notes":null,
+        "State":"District of Columbia",
+        "State Code":11,
+        "Deaths":31,
+        "Population":4844095,
+        "Crude Rate":0.6,
+        "Crude Rate Lower 95% Confidence Interval":0.4,
+        "Crude Rate Upper 95% Confidence Interval":0.9
+    },
+    {
+        "Notes":null,
+        "State":"Florida",
+        "State Code":12,
+        "Deaths":457,
+        "Population":154519266,
+        "Crude Rate":0.3,
+        "Crude Rate Lower 95% Confidence Interval":0.3,
+        "Crude Rate Upper 95% Confidence Interval":0.3
+    },
+    {
+        "Notes":null,
+        "State":"Georgia",
+        "State Code":13,
+        "Deaths":425,
+        "Population":75769462,
+        "Crude Rate":0.6,
+        "Crude Rate Lower 95% Confidence Interval":0.5,
+        "Crude Rate Upper 95% Confidence Interval":0.6
+    },
+    {
+        "Notes":null,
+        "State":"Idaho",
+        "State Code":16,
+        "Deaths":42,
+        "Population":13174487,
+        "Crude Rate":0.3,
+        "Crude Rate Lower 95% Confidence Interval":0.2,
+        "Crude Rate Upper 95% Confidence Interval":0.4
+    },
+    {
+        "Notes":null,
+        "State":"Illinois",
+        "State Code":17,
+        "Deaths":232,
+        "Population":88513779,
+        "Crude Rate":0.3,
+        "Crude Rate Lower 95% Confidence Interval":0.2,
+        "Crude Rate Upper 95% Confidence Interval":0.3
+    },
+    {
+        "Notes":null,
+        "State":"Indiana",
+        "State Code":18,
+        "Deaths":204,
+        "Population":47604546,
+        "Crude Rate":0.4,
+        "Crude Rate Lower 95% Confidence Interval":0.4,
+        "Crude Rate Upper 95% Confidence Interval":0.5
+    },
+    {
+        "Notes":null,
+        "State":"Iowa",
+        "State Code":19,
+        "Deaths":69,
+        "Population":22316864,
+        "Crude Rate":0.3,
+        "Crude Rate Lower 95% Confidence Interval":0.2,
+        "Crude Rate Upper 95% Confidence Interval":0.4
+    },
+    {
+        "Notes":null,
+        "State":"Kansas",
+        "State Code":20,
+        "Deaths":76,
+        "Population":20521508,
+        "Crude Rate":0.4,
+        "Crude Rate Lower 95% Confidence Interval":0.3,
+        "Crude Rate Upper 95% Confidence Interval":0.5
+    },
+    {
+        "Notes":null,
+        "State":"Kentucky",
+        "State Code":21,
+        "Deaths":154,
+        "Population":31549556,
+        "Crude Rate":0.5,
+        "Crude Rate Lower 95% Confidence Interval":0.4,
+        "Crude Rate Upper 95% Confidence Interval":0.6
+    },
+    {
+        "Notes":null,
+        "State":"Louisiana",
+        "State Code":22,
+        "Deaths":192,
+        "Population":32339867,
+        "Crude Rate":0.6,
+        "Crude Rate Lower 95% Confidence Interval":0.5,
+        "Crude Rate Upper 95% Confidence Interval":0.7
+    },
+    {
+        "Notes":null,
+        "State":"Maine",
+        "State Code":23,
+        "Deaths":17,
+        "Population":9591078,
+        "Crude Rate":0.2,
+        "Crude Rate Lower 95% Confidence Interval":0.1,
+        "Crude Rate Upper 95% Confidence Interval":0.3
+    },
+    {
+        "Notes":null,
+        "State":"Maryland",
+        "State Code":24,
+        "Deaths":148,
+        "Population":42917462,
+        "Crude Rate":0.3,
+        "Crude Rate Lower 95% Confidence Interval":0.3,
+        "Crude Rate Upper 95% Confidence Interval":0.4
+    },
+    {
+        "Notes":null,
+        "State":"Massachusetts",
+        "State Code":25,
+        "Deaths":99,
+        "Population":48792493,
+        "Crude Rate":0.2,
+        "Crude Rate Lower 95% Confidence Interval":0.2,
+        "Crude Rate Upper 95% Confidence Interval":0.2
+    },
+    {
+        "Notes":null,
+        "State":"Michigan",
+        "State Code":26,
+        "Deaths":217,
+        "Population":70211971,
+        "Crude Rate":0.3,
+        "Crude Rate Lower 95% Confidence Interval":0.3,
+        "Crude Rate Upper 95% Confidence Interval":0.4
+    },
+    {
+        "Notes":null,
+        "State":"Minnesota",
+        "State Code":27,
+        "Deaths":92,
+        "Population":39863793,
+        "Crude Rate":0.2,
+        "Crude Rate Lower 95% Confidence Interval":0.2,
+        "Crude Rate Upper 95% Confidence Interval":0.3
+    },
+    {
+        "Notes":null,
+        "State":"Mississippi",
+        "State Code":28,
+        "Deaths":138,
+        "Population":20702222,
+        "Crude Rate":0.7,
+        "Crude Rate Lower 95% Confidence Interval":0.6,
+        "Crude Rate Upper 95% Confidence Interval":0.8
+    },
+    {
+        "Notes":null,
+        "State":"Missouri",
+        "State Code":29,
+        "Deaths":192,
+        "Population":43203194,
+        "Crude Rate":0.4,
+        "Crude Rate Lower 95% Confidence Interval":0.4,
+        "Crude Rate Upper 95% Confidence Interval":0.5
+    },
+    {
+        "Notes":null,
+        "State":"Montana",
+        "State Code":30,
+        "Deaths":34,
+        "Population":7708843,
+        "Crude Rate":0.4,
+        "Crude Rate Lower 95% Confidence Interval":0.3,
+        "Crude Rate Upper 95% Confidence Interval":0.6
+    },
+    {
+        "Notes":null,
+        "State":"Nebraska",
+        "State Code":31,
+        "Deaths":48,
+        "Population":13716687,
+        "Crude Rate":0.3,
+        "Crude Rate Lower 95% Confidence Interval":0.3,
+        "Crude Rate Upper 95% Confidence Interval":0.5
+    },
+    {
+        "Notes":null,
+        "State":"Nevada",
+        "State Code":32,
+        "Deaths":58,
+        "Population":22036213,
+        "Crude Rate":0.3,
+        "Crude Rate Lower 95% Confidence Interval":0.2,
+        "Crude Rate Upper 95% Confidence Interval":0.3
+    },
+    {
+        "Notes":null,
+        "State":"New Hampshire",
+        "State Code":33,
+        "Deaths":19,
+        "Population":9677753,
+        "Crude Rate":0.2,
+        "Crude Rate Lower 95% Confidence Interval":0.1,
+        "Crude Rate Upper 95% Confidence Interval":0.3
+    },
+    {
+        "Notes":null,
+        "State":"New Jersey",
+        "State Code":34,
+        "Deaths":247,
+        "Population":63993602,
+        "Crude Rate":0.4,
+        "Crude Rate Lower 95% Confidence Interval":0.3,
+        "Crude Rate Upper 95% Confidence Interval":0.4
+    },
+    {
+        "Notes":null,
+        "State":"New Mexico",
+        "State Code":35,
+        "Deaths":59,
+        "Population":14772424,
+        "Crude Rate":0.4,
+        "Crude Rate Lower 95% Confidence Interval":0.3,
+        "Crude Rate Upper 95% Confidence Interval":0.5
+    },
+    {
+        "Notes":null,
+        "State":"New York",
+        "State Code":36,
+        "Deaths":494,
+        "Population":137284074,
+        "Crude Rate":0.4,
+        "Crude Rate Lower 95% Confidence Interval":0.3,
+        "Crude Rate Upper 95% Confidence Interval":0.4
+    },
+    {
+        "Notes":null,
+        "State":"North Carolina",
+        "State Code":37,
+        "Deaths":385,
+        "Population":74604177,
+        "Crude Rate":0.5,
+        "Crude Rate Lower 95% Confidence Interval":0.5,
+        "Crude Rate Upper 95% Confidence Interval":0.6
+    },
+    {
+        "Notes":null,
+        "State":"North Dakota",
+        "State Code":38,
+        "Deaths":20,
+        "Population":5422151,
+        "Crude Rate":0.4,
+        "Crude Rate Lower 95% Confidence Interval":0.2,
+        "Crude Rate Upper 95% Confidence Interval":0.6
+    },
+    {
+        "Notes":null,
+        "State":"Ohio",
+        "State Code":39,
+        "Deaths":306,
+        "Population":82277073,
+        "Crude Rate":0.4,
+        "Crude Rate Lower 95% Confidence Interval":0.3,
+        "Crude Rate Upper 95% Confidence Interval":0.4
+    },
+    {
+        "Notes":null,
+        "State":"Oklahoma",
+        "State Code":40,
+        "Deaths":112,
+        "Population":28036489,
+        "Crude Rate":0.4,
+        "Crude Rate Lower 95% Confidence Interval":0.3,
+        "Crude Rate Upper 95% Confidence Interval":0.5
+    },
+    {
+        "Notes":null,
+        "State":"Oregon",
+        "State Code":41,
+        "Deaths":80,
+        "Population":29641978,
+        "Crude Rate":0.3,
+        "Crude Rate Lower 95% Confidence Interval":0.2,
+        "Crude Rate Upper 95% Confidence Interval":0.3
+    },
+    {
+        "Notes":null,
+        "State":"Pennsylvania",
+        "State Code":42,
+        "Deaths":235,
+        "Population":90368801,
+        "Crude Rate":0.3,
+        "Crude Rate Lower 95% Confidence Interval":0.2,
+        "Crude Rate Upper 95% Confidence Interval":0.3
+    },
+    {
+        "Notes":null,
+        "State":"Rhode Island",
+        "State Code":44,
+        "Deaths":19,
+        "Population":7571415,
+        "Crude Rate":0.3,
+        "Crude Rate Lower 95% Confidence Interval":0.2,
+        "Crude Rate Upper 95% Confidence Interval":0.4
+    },
+    {
+        "Notes":null,
+        "State":"South Carolina",
+        "State Code":45,
+        "Deaths":173,
+        "Population":36776606,
+        "Crude Rate":0.5,
+        "Crude Rate Lower 95% Confidence Interval":0.4,
+        "Crude Rate Upper 95% Confidence Interval":0.5
+    },
+    {
+        "Notes":null,
+        "State":"South Dakota",
+        "State Code":46,
+        "Deaths":30,
+        "Population":6308798,
+        "Crude Rate":0.5,
+        "Crude Rate Lower 95% Confidence Interval":0.3,
+        "Crude Rate Upper 95% Confidence Interval":0.7
+    },
+    {
+        "Notes":null,
+        "State":"Tennessee",
+        "State Code":47,
+        "Deaths":284,
+        "Population":48866814,
+        "Crude Rate":0.6,
+        "Crude Rate Lower 95% Confidence Interval":0.5,
+        "Crude Rate Upper 95% Confidence Interval":0.6
+    },
+    {
+        "Notes":null,
+        "State":"Texas",
+        "State Code":48,
+        "Deaths":961,
+        "Population":208410130,
+        "Crude Rate":0.5,
+        "Crude Rate Lower 95% Confidence Interval":0.4,
+        "Crude Rate Upper 95% Confidence Interval":0.5
+    },
+    {
+        "Notes":null,
+        "State":"Utah",
+        "State Code":49,
+        "Deaths":64,
+        "Population":23257064,
+        "Crude Rate":0.3,
+        "Crude Rate Lower 95% Confidence Interval":0.2,
+        "Crude Rate Upper 95% Confidence Interval":0.4
+    },
+    {
+        "Notes":null,
+        "State":"Virginia",
+        "State Code":51,
+        "Deaths":279,
+        "Population":60496553,
+        "Crude Rate":0.5,
+        "Crude Rate Lower 95% Confidence Interval":0.4,
+        "Crude Rate Upper 95% Confidence Interval":0.5
+    },
+    {
+        "Notes":null,
+        "State":"Washington",
+        "State Code":53,
+        "Deaths":159,
+        "Population":54139634,
+        "Crude Rate":0.3,
+        "Crude Rate Lower 95% Confidence Interval":0.2,
+        "Crude Rate Upper 95% Confidence Interval":0.3
+    },
+    {
+        "Notes":null,
+        "State":"West Virginia",
+        "State Code":54,
+        "Deaths":54,
+        "Population":12480931,
+        "Crude Rate":0.4,
+        "Crude Rate Lower 95% Confidence Interval":0.3,
+        "Crude Rate Upper 95% Confidence Interval":0.6
+    },
+    {
+        "Notes":null,
+        "State":"Wisconsin",
+        "State Code":55,
+        "Deaths":103,
+        "Population":41129034,
+        "Crude Rate":0.3,
+        "Crude Rate Lower 95% Confidence Interval":0.2,
+        "Crude Rate Upper 95% Confidence Interval":0.3
+    },
+    {
+        "Notes":null,
+        "State":"Wyoming",
+        "State Code":56,
+        "Deaths":20,
+        "Population":4070683,
+        "Crude Rate":0.5,
+        "Crude Rate Lower 95% Confidence Interval":0.3,
+        "Crude Rate Upper 95% Confidence Interval":0.8
+    }
+]
