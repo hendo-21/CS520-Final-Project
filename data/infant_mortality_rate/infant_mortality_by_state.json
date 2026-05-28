@@ -1,0 +1,410 @@
+[
+    {
+        "Notes":null,
+        "State":"Alabama",
+        "State Code":1,
+        "Deaths":442,
+        "Births":57858,
+        "Death Rate":"7.64"
+    },
+    {
+        "Notes":null,
+        "State":"Alaska",
+        "State Code":2,
+        "Deaths":65,
+        "Births":9015,
+        "Death Rate":"7.21"
+    },
+    {
+        "Notes":null,
+        "State":"Arizona",
+        "State Code":4,
+        "Deaths":433,
+        "Births":78096,
+        "Death Rate":"5.54"
+    },
+    {
+        "Notes":null,
+        "State":"Arkansas",
+        "State Code":5,
+        "Deaths":290,
+        "Births":35264,
+        "Death Rate":"8.22"
+    },
+    {
+        "Notes":null,
+        "State":"California",
+        "State Code":6,
+        "Deaths":1642,
+        "Births":400108,
+        "Death Rate":"4.10"
+    },
+    {
+        "Notes":null,
+        "State":"Colorado",
+        "State Code":8,
+        "Deaths":280,
+        "Births":61494,
+        "Death Rate":"4.55"
+    },
+    {
+        "Notes":null,
+        "State":"Connecticut",
+        "State Code":9,
+        "Deaths":155,
+        "Births":34559,
+        "Death Rate":"4.49"
+    },
+    {
+        "Notes":null,
+        "State":"Delaware",
+        "State Code":10,
+        "Deaths":64,
+        "Births":10427,
+        "Death Rate":"6.14"
+    },
+    {
+        "Notes":null,
+        "State":"District of Columbia",
+        "State Code":11,
+        "Deaths":55,
+        "Births":7896,
+        "Death Rate":"6.97"
+    },
+    {
+        "Notes":null,
+        "State":"Florida",
+        "State Code":12,
+        "Deaths":1351,
+        "Births":221410,
+        "Death Rate":"6.10"
+    },
+    {
+        "Notes":null,
+        "State":"Georgia",
+        "State Code":13,
+        "Deaths":874,
+        "Births":125120,
+        "Death Rate":"6.99"
+    },
+    {
+        "Notes":null,
+        "State":"Hawaii",
+        "State Code":15,
+        "Deaths":72,
+        "Births":14808,
+        "Death Rate":"4.86"
+    },
+    {
+        "Notes":null,
+        "State":"Idaho",
+        "State Code":16,
+        "Deaths":98,
+        "Births":22397,
+        "Death Rate":"4.38"
+    },
+    {
+        "Notes":null,
+        "State":"Illinois",
+        "State Code":17,
+        "Deaths":738,
+        "Births":124820,
+        "Death Rate":"5.91"
+    },
+    {
+        "Notes":null,
+        "State":"Indiana",
+        "State Code":18,
+        "Deaths":514,
+        "Births":79000,
+        "Death Rate":"6.51"
+    },
+    {
+        "Notes":null,
+        "State":"Iowa",
+        "State Code":19,
+        "Deaths":184,
+        "Births":36052,
+        "Death Rate":"5.10"
+    },
+    {
+        "Notes":null,
+        "State":"Kansas",
+        "State Code":20,
+        "Deaths":178,
+        "Births":34065,
+        "Death Rate":"5.23"
+    },
+    {
+        "Notes":null,
+        "State":"Kentucky",
+        "State Code":21,
+        "Deaths":342,
+        "Births":51984,
+        "Death Rate":"6.58"
+    },
+    {
+        "Notes":null,
+        "State":"Louisiana",
+        "State Code":22,
+        "Deaths":392,
+        "Births":54927,
+        "Death Rate":"7.14"
+    },
+    {
+        "Notes":null,
+        "State":"Maine",
+        "State Code":23,
+        "Deaths":66,
+        "Births":11627,
+        "Death Rate":"5.68"
+    },
+    {
+        "Notes":null,
+        "State":"Maryland",
+        "State Code":24,
+        "Deaths":368,
+        "Births":65594,
+        "Death Rate":"5.61"
+    },
+    {
+        "Notes":null,
+        "State":"Massachusetts",
+        "State Code":25,
+        "Deaths":220,
+        "Births":67093,
+        "Death Rate":"3.28"
+    },
+    {
+        "Notes":null,
+        "State":"Michigan",
+        "State Code":26,
+        "Deaths":604,
+        "Births":99124,
+        "Death Rate":"6.09"
+    },
+    {
+        "Notes":null,
+        "State":"Minnesota",
+        "State Code":27,
+        "Deaths":292,
+        "Births":61715,
+        "Death Rate":"4.73"
+    },
+    {
+        "Notes":null,
+        "State":"Mississippi",
+        "State Code":28,
+        "Deaths":308,
+        "Births":34459,
+        "Death Rate":"8.94"
+    },
+    {
+        "Notes":null,
+        "State":"Missouri",
+        "State Code":29,
+        "Deaths":411,
+        "Births":67123,
+        "Death Rate":"6.12"
+    },
+    {
+        "Notes":null,
+        "State":"Montana",
+        "State Code":30,
+        "Deaths":61,
+        "Births":11078,
+        "Death Rate":"5.51"
+    },
+    {
+        "Notes":null,
+        "State":"Nebraska",
+        "State Code":31,
+        "Deaths":154,
+        "Births":24111,
+        "Death Rate":"6.39"
+    },
+    {
+        "Notes":null,
+        "State":"Nevada",
+        "State Code":32,
+        "Deaths":187,
+        "Births":31794,
+        "Death Rate":"5.88"
+    },
+    {
+        "Notes":null,
+        "State":"New Hampshire",
+        "State Code":33,
+        "Deaths":35,
+        "Births":11936,
+        "Death Rate":"2.93"
+    },
+    {
+        "Notes":null,
+        "State":"New Jersey",
+        "State Code":34,
+        "Deaths":373,
+        "Births":101001,
+        "Death Rate":"3.69"
+    },
+    {
+        "Notes":null,
+        "State":"New Mexico",
+        "State Code":35,
+        "Deaths":92,
+        "Births":20951,
+        "Death Rate":"4.39"
+    },
+    {
+        "Notes":null,
+        "State":"New York",
+        "State Code":36,
+        "Deaths":821,
+        "Births":203612,
+        "Death Rate":"4.03"
+    },
+    {
+        "Notes":null,
+        "State":"North Carolina",
+        "State Code":37,
+        "Deaths":834,
+        "Births":120082,
+        "Death Rate":"6.95"
+    },
+    {
+        "Notes":null,
+        "State":"North Dakota",
+        "State Code":38,
+        "Deaths":47,
+        "Births":9647,
+        "Death Rate":"4.87"
+    },
+    {
+        "Notes":null,
+        "State":"Ohio",
+        "State Code":39,
+        "Deaths":909,
+        "Births":126896,
+        "Death Rate":"7.16"
+    },
+    {
+        "Notes":null,
+        "State":"Oklahoma",
+        "State Code":40,
+        "Deaths":341,
+        "Births":47909,
+        "Death Rate":"7.12"
+    },
+    {
+        "Notes":null,
+        "State":"Oregon",
+        "State Code":41,
+        "Deaths":177,
+        "Births":38298,
+        "Death Rate":"4.62"
+    },
+    {
+        "Notes":null,
+        "State":"Pennsylvania",
+        "State Code":42,
+        "Deaths":707,
+        "Births":126951,
+        "Death Rate":"5.57"
+    },
+    {
+        "Notes":null,
+        "State":"Rhode Island",
+        "State Code":44,
+        "Deaths":47,
+        "Births":9805,
+        "Death Rate":"4.79"
+    },
+    {
+        "Notes":null,
+        "State":"South Carolina",
+        "State Code":45,
+        "Deaths":402,
+        "Births":57729,
+        "Death Rate":"6.96"
+    },
+    {
+        "Notes":null,
+        "State":"South Dakota",
+        "State Code":46,
+        "Deaths":71,
+        "Births":11201,
+        "Death Rate":"6.34"
+    },
+    {
+        "Notes":null,
+        "State":"Tennessee",
+        "State Code":47,
+        "Deaths":538,
+        "Births":83021,
+        "Death Rate":"6.48"
+    },
+    {
+        "Notes":null,
+        "State":"Texas",
+        "State Code":48,
+        "Deaths":2263,
+        "Births":387945,
+        "Death Rate":"5.83"
+    },
+    {
+        "Notes":null,
+        "State":"Utah",
+        "State Code":49,
+        "Deaths":235,
+        "Births":45019,
+        "Death Rate":"5.22"
+    },
+    {
+        "Notes":null,
+        "State":"Vermont",
+        "State Code":50,
+        "Deaths":16,
+        "Births":5065,
+        "Death Rate":"3.16 (Unreliable)"
+    },
+    {
+        "Notes":null,
+        "State":"Virginia",
+        "State Code":51,
+        "Deaths":544,
+        "Births":92649,
+        "Death Rate":"5.87"
+    },
+    {
+        "Notes":null,
+        "State":"Washington",
+        "State Code":53,
+        "Deaths":408,
+        "Births":80932,
+        "Death Rate":"5.04"
+    },
+    {
+        "Notes":null,
+        "State":"West Virginia",
+        "State Code":54,
+        "Deaths":93,
+        "Births":16606,
+        "Death Rate":"5.60"
+    },
+    {
+        "Notes":null,
+        "State":"Wisconsin",
+        "State Code":55,
+        "Deaths":345,
+        "Births":59754,
+        "Death Rate":"5.77"
+    },
+    {
+        "Notes":null,
+        "State":"Wyoming",
+        "State Code":56,
+        "Deaths":23,
+        "Births":5990,
+        "Death Rate":"3.84"
+    }
+]

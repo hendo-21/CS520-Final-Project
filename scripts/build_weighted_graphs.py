@@ -1,3 +1,5 @@
+""" Builds Maternal Mortality Rate and Infant Mortality Rate weighted NetworkX graphs """
+
 import json
 import networkx as nx
 import matplotlib.pyplot as plt
@@ -53,8 +55,7 @@ STATE_CODE_REF = {
     'Wyoming': 'WY',
 }
 
-def main():
-
+def build_mmr_graph():
     # read maternal deaths, births, and state adjacecny list files
     with open('state_adjacency_list.json', 'r') as f:
         state_adjacency_list = json.load(f)
@@ -71,11 +72,12 @@ def main():
         computed_mmr = (maternal_deaths / births) * 100000
         mmr_by_state[STATE_CODE_REF[target_state]] = computed_mmr
 
-    # create the weighted networkx graph for mmr
-    # make a copy of the adjacency dict and remove Vermont (VT) if present
+    # make a copy of the adjacency dict and remove Vermont (VT) if present. Does not delete VT from adjacency lists
     state_adjacency_vt_removed = dict(state_adjacency_list)
     if 'VT' in state_adjacency_vt_removed:
         del state_adjacency_vt_removed['VT']
+
+    # create the weighted networkx graph for mmr
     G = nx.Graph()
     for state in state_adjacency_vt_removed:
         for neighbor in state_adjacency_vt_removed[state]:
@@ -96,6 +98,40 @@ def main():
     nx.draw_networkx_edge_labels(G, pos, edge_labels=labels)
     plt.show()
     '''
+
+def build_imr_graph():
+    # read state ajacency list and infant mortality jsons
+    with open('state_adjacency_list.json', 'r') as file:
+        state_adjacency_list = json.load(file)
+    with open('data/infant_mortality_rate/infant_mortality_by_state.json', 'r') as file:
+        infant_mortality_by_state = json.load(file)
+
+    # remove vermont bc Wonder 'unreliable' flag. Does not delete VT as neighbor from adjacency lists
+    state_adjacency_vt_removed = dict(state_adjacency_list)
+    if 'VT' in state_adjacency_vt_removed:
+        del state_adjacency_vt_removed['VT']
+
+    # build dift of imr by state code
+    imr_by_state = {}
+    for target_state in STATE_CODE_REF:
+        imr_by_state[STATE_CODE_REF[target_state]] = next(item['Death Rate']for item in infant_mortality_by_state if item['State'] == target_state)
+
+
+    # create the weighted networkx graph for imr
+    G = nx.Graph()
+    for state in state_adjacency_vt_removed:
+        for neighbor in state_adjacency_vt_removed[state]:
+            if neighbor != 'VT':
+                G.add_edge(state, neighbor, weight=imr_by_state[state])
+
+    # export the graph
+    nx.write_graphml(G, 'graphs/imr_graph.graphml')
+
+
+def main():
+    build_mmr_graph()
+    build_imr_graph()
+
 
 if __name__ == '__main__':
     main()
