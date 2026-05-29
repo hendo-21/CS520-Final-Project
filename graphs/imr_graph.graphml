@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d0" for="edge" attr.name="weight" attr.type="string" />
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
   <graph edgedefault="undirected">
     <node id="AL" />
     <node id="FL" />
@@ -51,7 +51,7 @@
     <node id="MI" />
     <node id="ND" />
     <edge source="AL" target="FL">
-      <data key="d0">6.10</data>
+      <data key="d0">6.1</data>
     </edge>
     <edge source="AL" target="GA">
       <data key="d0">6.99</data>
@@ -150,7 +150,7 @@
       <data key="d0">5.83</data>
     </edge>
     <edge source="AZ" target="CA">
-      <data key="d0">4.10</data>
+      <data key="d0">4.1</data>
     </edge>
     <edge source="AZ" target="CO">
       <data key="d0">4.55</data>
@@ -270,7 +270,7 @@
       <data key="d0">5.87</data>
     </edge>
     <edge source="MD" target="WV">
-      <data key="d0">5.60</data>
+      <data key="d0">5.6</data>
     </edge>
     <edge source="VA" target="KY">
       <data key="d0">5.87</data>
@@ -279,7 +279,7 @@
       <data key="d0">5.87</data>
     </edge>
     <edge source="VA" target="WV">
-      <data key="d0">5.60</data>
+      <data key="d0">5.6</data>
     </edge>
     <edge source="DE" target="NJ">
       <data key="d0">3.69</data>
@@ -294,7 +294,7 @@
       <data key="d0">5.57</data>
     </edge>
     <edge source="PA" target="WV">
-      <data key="d0">5.60</data>
+      <data key="d0">5.6</data>
     </edge>
     <edge source="NC" target="SC">
       <data key="d0">6.96</data>
@@ -363,13 +363,13 @@
       <data key="d0">7.16</data>
     </edge>
     <edge source="KY" target="WV">
-      <data key="d0">5.60</data>
+      <data key="d0">5.6</data>
     </edge>
     <edge source="OH" target="MI">
       <data key="d0">7.16</data>
     </edge>
     <edge source="OH" target="WV">
-      <data key="d0">5.60</data>
+      <data key="d0">5.6</data>
     </edge>
     <edge source="NH" target="ME">
       <data key="d0">2.93</data>

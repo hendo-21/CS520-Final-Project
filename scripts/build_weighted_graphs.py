@@ -86,7 +86,7 @@ def build_mmr_graph():
                 G.add_edge(state, neighbor, weight=abs_mmr_diff)
     
     # export mmr graph
-    nx.write_graphml(G, 'graphs/mmr_graph.graphml')
+    nx.write_graphml(G, 'graphs/mmr_graph.graphml', infer_numeric_types=True)
     
     '''
     for state in G:
@@ -114,7 +114,7 @@ def build_imr_graph():
     # build dift of imr by state code
     imr_by_state = {}
     for target_state in STATE_CODE_REF:
-        imr_by_state[STATE_CODE_REF[target_state]] = next(item['Death Rate']for item in infant_mortality_by_state if item['State'] == target_state)
+        imr_by_state[STATE_CODE_REF[target_state]] = float(next(item['Death Rate']for item in infant_mortality_by_state if item['State'] == target_state))
 
 
     # create the weighted networkx graph for imr
@@ -125,7 +125,7 @@ def build_imr_graph():
                 G.add_edge(state, neighbor, weight=imr_by_state[state])
 
     # export the graph
-    nx.write_graphml(G, 'graphs/imr_graph.graphml')
+    nx.write_graphml(G, 'graphs/imr_graph.graphml', infer_numeric_types=True)
 
 
 def main():
