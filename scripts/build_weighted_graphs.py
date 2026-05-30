@@ -4,56 +4,7 @@ import json
 import networkx as nx
 import matplotlib.pyplot as plt
 
-STATE_CODE_REF = {
-    'Alabama': 'AL',
-    'Arkansas': 'AR',
-    'Arizona': 'AZ',
-    'California': 'CA',
-    'Colorado': 'CO',
-    'Connecticut': 'CT',
-    'District of Columbia': 'DC',
-    'Delaware': 'DE',
-    'Florida': 'FL',
-    'Georgia': 'GA',
-    'Iowa': 'IA',
-    'Idaho': 'ID',
-    'Illinois': 'IL',
-    'Indiana': 'IN',
-    'Kansas': 'KS',
-    'Kentucky': 'KY',
-    'Louisiana': 'LA',
-    'Massachusetts': 'MA',
-    'Maryland': 'MD',
-    'Maine': 'ME',
-    'Michigan': 'MI',
-    'Minnesota': 'MN',
-    'Missouri': 'MO',
-    'Mississippi': 'MS',
-    'Montana': 'MT',
-    'North Carolina': 'NC',
-    'North Dakota': 'ND',
-    'Nebraska': 'NE',
-    'New Hampshire': 'NH',
-    'New Jersey': 'NJ',
-    'New Mexico': 'NM',
-    'Nevada': 'NV',
-    'New York': 'NY',
-    'Ohio': 'OH',
-    'Oklahoma': 'OK',
-    'Oregon': 'OR',
-    'Pennsylvania': 'PA',
-    'Rhode Island': 'RI',
-    'South Carolina': 'SC',
-    'South Dakota': 'SD',
-    'Tennessee': 'TN',
-    'Texas': 'TX',
-    'Utah': 'UT',
-    'Virginia': 'VA',
-    'Washington': 'WA',
-    'Wisconsin': 'WI',
-    'West Virginia': 'WV',
-    'Wyoming': 'WY',
-}
+from constants import STATE_CODE_REF
 
 def build_mmr_graph():
     # read maternal deaths, births, and state adjacecny list files
@@ -65,12 +16,7 @@ def build_mmr_graph():
         maternal_deaths_by_state = json.load(f)
 
     # compute mmr
-    mmr_by_state = {}
-    for target_state in STATE_CODE_REF:
-        maternal_deaths = next(item['Deaths'] for item in maternal_deaths_by_state if item['State'] == target_state)
-        births = next(item['Births'] for item in births_by_state if item['State of Residence'] == target_state)
-        computed_mmr = (maternal_deaths / births) * 100000
-        mmr_by_state[STATE_CODE_REF[target_state]] = computed_mmr
+    mmr_by_state = compute_mmr(births_by_state, maternal_deaths_by_state)
 
     # make a copy of the adjacency dict and remove Vermont (VT) if present. Does not delete VT from adjacency lists
     state_adjacency_vt_removed = dict(state_adjacency_list)
@@ -87,17 +33,16 @@ def build_mmr_graph():
     
     # export mmr graph
     nx.write_graphml(G, 'graphs/mmr_graph.graphml', infer_numeric_types=True)
-    
-    '''
-    for state in G:
-        weighted_neighbors = [f"{neighbor} ({G[state][neighbor]['weight']:.2f})" for neighbor in G.neighbors(state)]
-        print(" -> ".join([state, *weighted_neighbors]))
 
-    pos = nx.spring_layout(G)
-    labels = nx.get_edge_attributes(G, "weight")
-    nx.draw_networkx_edge_labels(G, pos, edge_labels=labels)
-    plt.show()
-    '''
+def compute_mmr(births_by_state: dict, maternal_deaths_by_state: dict) -> dict:
+    """Computes maternal mortality rate per 100,000 and builds a dict of mmr per state (ex. {'AL': 58.18})"""
+    mmr_by_state = {}
+    for target_state in STATE_CODE_REF:
+        maternal_deaths = next(item['Deaths'] for item in maternal_deaths_by_state if item['State'] == target_state)
+        births = next(item['Births'] for item in births_by_state if item['State of Residence'] == target_state)
+        computed_mmr = (maternal_deaths / births) * 100000
+        mmr_by_state[STATE_CODE_REF[target_state]] = computed_mmr
+    return mmr_by_state
 
 def build_imr_graph():
     # read state ajacency list and infant mortality jsons
