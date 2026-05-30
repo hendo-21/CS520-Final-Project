@@ -1,6 +1,7 @@
 """ This module runs MST and APSP algorithms on IMR and MMR graphs """
 
 import networkx as nx
+import jenkspy
 import plotly.graph_objects as go
 
 from constants import STATE_CENTROIDS
@@ -70,6 +71,14 @@ def plot_mst(mst: nx.Graph, cut_edges: list) -> None:
 def generate_cut_edges(mst: nx.Graph, weight_break: float) -> list:
     cut_edges = []
     mst_edges = list(mst.edges(data=True))
+
+    rate_weight_list = []
+    for edge in mst_edges:
+        rate_weight_list.append(edge[2]['weight'])
+    breaks = jenkspy.jenks_breaks(rate_weight_list, n_classes=5)
+    breaks = [float(x) for x in breaks]
+
+    # TODO: Cluster edges using Jenks instead of arbitrary weight selection
     for edge in mst_edges:
         if edge[2]["weight"] > weight_break:
             cut_edges.append(edge)
