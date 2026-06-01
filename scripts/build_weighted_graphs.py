@@ -18,18 +18,12 @@ def build_mmr_graph():
     # compute mmr
     mmr_by_state = compute_mmr(births_by_state, maternal_deaths_by_state)
 
-    # make a copy of the adjacency dict and remove Vermont (VT) if present. Does not delete VT from adjacency lists
-    state_adjacency_vt_removed = dict(state_adjacency_list)
-    if 'VT' in state_adjacency_vt_removed:
-        del state_adjacency_vt_removed['VT']
-
     # create the weighted networkx graph for mmr
     G = nx.Graph()
-    for state in state_adjacency_vt_removed:
-        for neighbor in state_adjacency_vt_removed[state]:
-            if neighbor != 'VT':
-                abs_mmr_diff = abs(mmr_by_state[state] - mmr_by_state[neighbor])
-                G.add_edge(state, neighbor, weight=abs_mmr_diff)
+    for state in state_adjacency_list:
+        for neighbor in state_adjacency_list[state]:
+            abs_mmr_diff = abs(mmr_by_state[state] - mmr_by_state[neighbor])
+            G.add_edge(state, neighbor, weight=abs_mmr_diff)
     
     # export mmr graph
     nx.write_graphml(G, 'graphs/mmr_graph.graphml', infer_numeric_types=True)
@@ -51,11 +45,6 @@ def build_imr_graph():
     with open('data/infant_mortality_rate/infant_mortality_by_state.json', 'r') as file:
         infant_mortality_by_state = json.load(file)
 
-    # remove vermont bc Wonder 'unreliable' flag. Does not delete VT as neighbor from adjacency lists
-    state_adjacency_vt_removed = dict(state_adjacency_list)
-    if 'VT' in state_adjacency_vt_removed:
-        del state_adjacency_vt_removed['VT']
-
     # build dift of imr by state code
     imr_by_state = {}
     for target_state in STATE_CODE_REF:
@@ -64,10 +53,9 @@ def build_imr_graph():
 
     # create the weighted networkx graph for imr
     G = nx.Graph()
-    for state in state_adjacency_vt_removed:
-        for neighbor in state_adjacency_vt_removed[state]:
-            if neighbor != 'VT':
-                G.add_edge(state, neighbor, weight=imr_by_state[state])
+    for state in state_adjacency_list:
+        for neighbor in state_adjacency_list[state]:
+            G.add_edge(state, neighbor, weight=imr_by_state[state])
 
     # export the graph
     nx.write_graphml(G, 'graphs/imr_graph.graphml', infer_numeric_types=True)

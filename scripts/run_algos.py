@@ -6,25 +6,24 @@ import plotly.graph_objects as go
 
 from constants import STATE_CENTROIDS
 
-
-fig = go.Figure()
-
-fig.add_trace(go.Choropleth(
-    locationmode='USA-states',
-    locations=list(STATE_CENTROIDS.keys()),
-    z=[1] * len(STATE_CENTROIDS),
-    showscale=False,
-    colorscale=[[0, '#f0f0f0'], [1, '#f0f0f0']],
-    marker_line_color='gray',
-    marker_line_width=0.5,
-))
-
 def generate_mst(graph: nx.Graph) -> nx.Graph:
     """Generate MST for a NetworkX graph loaded from GraphML."""
     mst = nx.minimum_spanning_tree(graph)
     return mst
 
 def plot_mst(mst: nx.Graph, cut_edges: list) -> None:
+    fig = go.Figure()
+
+    fig.add_trace(go.Choropleth(
+        locationmode='USA-states',
+        locations=list(STATE_CENTROIDS.keys()),
+        z=[1] * len(STATE_CENTROIDS),
+        showscale=False,
+        colorscale=[[0, '#f0f0f0'], [1, '#f0f0f0']],
+        marker_line_color='gray',
+        marker_line_width=0.5,
+    ))
+
     # Add MST edges to figure
     mst_lons, mst_lats = [], []
     for u, v in mst.edges():
@@ -40,7 +39,7 @@ def plot_mst(mst: nx.Graph, cut_edges: list) -> None:
 
     # Overlay cut edges
     cut_lons, cut_lats = [], []
-    for u, v, w in cut_edges:
+    for u, v in cut_edges:
         cut_lons.extend([STATE_CENTROIDS[u][1], STATE_CENTROIDS[v][1], None])
         cut_lats.extend([STATE_CENTROIDS[u][0], STATE_CENTROIDS[v][0], None])
 
@@ -77,10 +76,25 @@ def generate_cut_edges(mst: nx.Graph, weight_break: float) -> list:
         rate_weight_list.append(edge[2]['weight'])
     breaks = jenkspy.jenks_breaks(rate_weight_list, n_classes=5)
     breaks = [float(x) for x in breaks]
+    print('breaks:', breaks)
 
-    # TODO: Cluster edges using Jenks instead of arbitrary weight selection
+    # Cluster edges using Jenks instead of arbitrary weight selection
+    bin_of = {}
     for edge in mst_edges:
-        if edge[2]["weight"] > weight_break:
+        if breaks[0] <= edge[2]['weight'] < breaks[1]:
+            bin_of[(edge[0], edge[1])] = 0
+        elif breaks[1] <= edge[2]['weight'] < breaks[2]:
+            bin_of[(edge[0], edge[1])] = 1
+        elif breaks[2] <= edge[2]['weight'] < breaks[3]:
+            bin_of[(edge[0], edge[1])] = 2
+        elif breaks[3] <= edge[2]['weight'] < breaks[4]:
+            bin_of[(edge[0], edge[1])] = 3
+        elif breaks[4] <= edge[2]['weight'] <= breaks[5]:
+            bin_of[(edge[0], edge[1])] = 4
+
+    cut_edges = []
+    for edge in bin_of:
+        if bin_of[edge] >= 3:
             cut_edges.append(edge)
     return cut_edges
 
@@ -113,17 +127,17 @@ def main():
             print(line)
     
     # Generate and print IMR cut edges
-    imr_cut_edges = generate_cut_edges(mst_imr, 6)
-    if imr_cut_edges:
-        print("\nIMR Cut Edges")
-        for line in imr_cut_edges:
-            print(line)
+    # imr_cut_edges = generate_cut_edges(mst_imr, 6)
+    # if imr_cut_edges:
+    #    print("\nIMR Cut Edges")
+    #    for line in imr_cut_edges:
+    #        print(line)
 
     # Plot MMR MST
-    # plot_mst(mst_mmr, mmr_cut_edges)
+    plot_mst(mst_mmr, mmr_cut_edges)
 
     # Plit IMR MST
-    plot_mst(mst_imr, imr_cut_edges)
+    # plot_mst(mst_imr, imr_cut_edges)
 
 
 if __name__ == '__main__':

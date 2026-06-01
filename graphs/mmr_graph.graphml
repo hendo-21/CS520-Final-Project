@@ -26,10 +26,8 @@
     <node id="MA" />
     <node id="NY" />
     <node id="RI" />
-    <node id="DC" />
-    <node id="MD" />
-    <node id="VA" />
     <node id="DE" />
+    <node id="MD" />
     <node id="NJ" />
     <node id="PA" />
     <node id="NC" />
@@ -45,6 +43,7 @@
     <node id="IN" />
     <node id="KY" />
     <node id="OH" />
+    <node id="VA" />
     <node id="WV" />
     <node id="NH" />
     <node id="ME" />
@@ -254,14 +253,14 @@
     <edge source="NY" target="PA">
       <data key="d0">7.665058973763951</data>
     </edge>
-    <edge source="DC" target="MD">
-      <data key="d0">21.233147396320067</data>
-    </edge>
-    <edge source="DC" target="VA">
-      <data key="d0">10.547342354878452</data>
-    </edge>
-    <edge source="MD" target="DE">
+    <edge source="DE" target="MD">
       <data key="d0">9.279325526657313</data>
+    </edge>
+    <edge source="DE" target="NJ">
+      <data key="d0">13.34385191722447</data>
+    </edge>
+    <edge source="DE" target="PA">
+      <data key="d0">3.941400682407089</data>
     </edge>
     <edge source="MD" target="PA">
       <data key="d0">5.3379248442502245</data>
@@ -271,21 +270,6 @@
     </edge>
     <edge source="MD" target="WV">
       <data key="d0">13.513485333429632</data>
-    </edge>
-    <edge source="VA" target="KY">
-      <data key="d0">0.2074935596568821</data>
-    </edge>
-    <edge source="VA" target="NC">
-      <data key="d0">4.236792087099097</data>
-    </edge>
-    <edge source="VA" target="WV">
-      <data key="d0">2.827680291988017</data>
-    </edge>
-    <edge source="DE" target="NJ">
-      <data key="d0">13.34385191722447</data>
-    </edge>
-    <edge source="DE" target="PA">
-      <data key="d0">3.941400682407089</data>
     </edge>
     <edge source="NJ" target="PA">
       <data key="d0">9.40245123481738</data>
@@ -298,6 +282,9 @@
     </edge>
     <edge source="NC" target="SC">
       <data key="d0">2.7159542224247772</data>
+    </edge>
+    <edge source="NC" target="VA">
+      <data key="d0">4.236792087099097</data>
     </edge>
     <edge source="IA" target="IL">
       <data key="d0">1.8447276468036762</data>
@@ -362,6 +349,9 @@
     <edge source="KY" target="OH">
       <data key="d0">8.23021772644718</data>
     </edge>
+    <edge source="KY" target="VA">
+      <data key="d0">0.2074935596568821</data>
+    </edge>
     <edge source="KY" target="WV">
       <data key="d0">2.6201867323311347</data>
     </edge>
@@ -370,6 +360,9 @@
     </edge>
     <edge source="OH" target="WV">
       <data key="d0">10.850404458778314</data>
+    </edge>
+    <edge source="VA" target="WV">
+      <data key="d0">2.827680291988017</data>
     </edge>
     <edge source="NH" target="ME">
       <data key="d0">2.117373694930098</data>
