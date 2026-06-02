@@ -36,6 +36,8 @@ def compute_mmr(births_by_state: dict, maternal_deaths_by_state: dict) -> dict:
         births = next(item['Births'] for item in births_by_state if item['State of Residence'] == target_state)
         computed_mmr = (maternal_deaths / births) * 100000
         mmr_by_state[STATE_CODE_REF[target_state]] = computed_mmr
+    with open('data/mmr_by_state.json', 'w') as f:
+        json.dump(mmr_by_state, f)
     return mmr_by_state
 
 def build_imr_graph():

@@ -3,6 +3,7 @@
 import networkx as nx
 import jenkspy
 import plotly.graph_objects as go
+from plotly.colors import qualitative
 import pandas as pd
 import json
 
@@ -137,12 +138,46 @@ def plot_mst(fig: go.Figure, mst: nx.Graph, cut_edges: list, rate_type: str, bin
 
     fig.show()
 
+def plot_apsp_data(fig: go.Figure, rate_type: str, edges: dict) -> None:
+    path_colors = qualitative.Dark24
+    path_count = len(edges)
+    offset_step = 0.12
 
-def filter_apsp_data(df: pd.DataFrame) -> None:
-    n = 10
+    for index, (path_key, path_edges) in enumerate(edges.items()):
+        path_offset = (index - (path_count - 1) / 2) * offset_step
+        path_lons, path_lats = [], []
+        for u, v in path_edges:
+            path_lons.extend([STATE_CENTROIDS[u][1] + path_offset, STATE_CENTROIDS[v][1] + path_offset, None])
+            path_lats.extend([STATE_CENTROIDS[u][0] + path_offset, STATE_CENTROIDS[v][0] + path_offset, None])
+
+        fig.add_trace(go.Scattergeo(
+            lon=path_lons,
+            lat=path_lats,
+            mode='lines',
+            line=dict(width=2.0, color=path_colors[index % len(path_colors)]),
+            opacity=0.7,
+            name=path_key,
+        ))
+
+    fig.update_geos(scope='usa', projection_type='albers usa')
+    fig.update_layout(title=f'{rate_type} APSP paths', width=1500, height=1000)
+
+    fig.show()
+
+def filter_apsp_data(df: pd.DataFrame) -> dict:
+    n = 5
     # Isolate top 25% highest values in hops column
     hops_75th_percentile = df['hops'].quantile(0.75)
+    print(hops_75th_percentile)
     n_smallest_dist_per_hop = df[(df['distance_per_hop'] > 0.0) & (df['hops'] > hops_75th_percentile)].nsmallest(n, 'distance_per_hop')
+
+    df_n_paths = {}
+    for _, row in n_smallest_dist_per_hop.iterrows():
+        states_in_path = row['states_in_path']
+        path_key = f"{states_in_path[0]}, {states_in_path[-1]}"
+        df_n_paths[path_key] = list(zip(states_in_path[:-1], states_in_path[1:]))
+
+    print('df_n_paths =', df_n_paths)
     print(f'{n} Smallest Dist / Hop - Top 25% of Hops\n', n_smallest_dist_per_hop)
 
     n_largest_dist_per_hop = df.nlargest(n, 'distance_per_hop')
@@ -153,6 +188,7 @@ def filter_apsp_data(df: pd.DataFrame) -> None:
 
     avg_dist_per_hop = df['distance_per_hop'].mean()
     print('\nAvg Dist Per Hop', avg_dist_per_hop)
+    return df_n_paths
 
 def main():
     # Import graphs
@@ -185,7 +221,8 @@ def main():
     plot_mst(build_base_fig(), MST_imr, IMR_cut_edges[1]['cut_edges'], 'IMR', 2) 
     plot_mst(build_base_fig(), MST_imr, IMR_cut_edges[2]['cut_edges'], 'IMR', 1) 
     """
-    filter_apsp_data(df_mmr_apsp)
+    edges = filter_apsp_data(df_mmr_apsp)
+    plot_apsp_data(build_base_fig(), 'MMR', edges)
 
 
 if __name__ == '__main__':
