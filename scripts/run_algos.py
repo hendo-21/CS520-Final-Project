@@ -3,6 +3,7 @@
 import networkx as nx
 import jenkspy
 import plotly.graph_objects as go
+import pandas as pd
 
 from constants import STATE_CENTROIDS
 
@@ -76,7 +77,6 @@ def generate_cut_edges(mst: nx.Graph, weight_break: float) -> list:
         rate_weight_list.append(edge[2]['weight'])
     breaks = jenkspy.jenks_breaks(rate_weight_list, n_classes=5)
     breaks = [float(x) for x in breaks]
-    print('breaks:', breaks)
 
     # Cluster edges using Jenks instead of arbitrary weight selection
     bin_of = {}
@@ -98,6 +98,36 @@ def generate_cut_edges(mst: nx.Graph, weight_break: float) -> list:
             cut_edges.append(edge)
     return cut_edges
 
+def run_floyd_warshall(graph: nx.Graph) -> tuple:
+    apsp = {}
+    apsp = nx.floyd_warshall(graph)
+    apsp_len = dict(nx.all_pairs_shortest_path_length(graph))
+    return apsp, apsp_len
+
+def build_apsp_dataframe(graph: nx.Graph, distances: dict, path_lengths: dict, filename: str) -> pd.DataFrame:
+    apsp_paths, _ = nx.floyd_warshall_predecessor_and_distance(graph)
+    rows_list = []
+    seen_pairs = set()
+    for first_state in distances:
+        for second_state in distances[first_state]:
+            pair_key = frozenset((first_state, second_state))
+            if pair_key in seen_pairs:
+                continue
+            seen_pairs.add(pair_key)
+
+            rows_list.append({
+                'state1': first_state,
+                'state2': second_state,
+                'distance': distances[first_state][second_state],
+                'hops': path_lengths[first_state][second_state],
+                'distance_per_hop': distances[first_state][second_state] / path_lengths[first_state][second_state] if path_lengths[first_state][second_state] else 0,
+                'states_in_path': nx.reconstruct_path(first_state, second_state, apsp_paths)
+            })
+    df = pd.DataFrame(rows_list)
+
+    # Export the dataframe
+    df.to_json(f'data/{filename}.json', orient='records', indent=4)
+    return df
 
 def main():
     G_imr = nx.read_graphml('graphs/imr_graph.graphml')
@@ -127,18 +157,25 @@ def main():
             print(line)
     
     # Generate and print IMR cut edges
-    # imr_cut_edges = generate_cut_edges(mst_imr, 6)
-    # if imr_cut_edges:
-    #    print("\nIMR Cut Edges")
-    #    for line in imr_cut_edges:
-    #        print(line)
+    imr_cut_edges = generate_cut_edges(mst_imr, 6)
+    if imr_cut_edges:
+        print("\nIMR Cut Edges")
+        for line in imr_cut_edges:
+            print(line)
 
     # Plot MMR MST
-    plot_mst(mst_mmr, mmr_cut_edges)
+    # plot_mst(mst_mmr, mmr_cut_edges)
 
     # Plit IMR MST
-    # plot_mst(mst_imr, imr_cut_edges)
+    plot_mst(mst_imr, imr_cut_edges)
 
+    apsp_mmr = run_floyd_warshall(G_mmr)
+    d = build_apsp_dataframe(G_mmr, apsp_mmr[0], apsp_mmr[1], 'mmr_apsp')
+    print(d)
+
+    apsp_imr = run_floyd_warshall(G_imr)
+    d_imr = build_apsp_dataframe(G_imr, apsp_imr[0], apsp_mmr[1], 'imr_apsp')
+    print('\nIMR dataframe\n', d_imr)
 
 if __name__ == '__main__':
     main()

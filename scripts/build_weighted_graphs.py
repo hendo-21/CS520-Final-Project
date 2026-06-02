@@ -55,7 +55,8 @@ def build_imr_graph():
     G = nx.Graph()
     for state in state_adjacency_list:
         for neighbor in state_adjacency_list[state]:
-            G.add_edge(state, neighbor, weight=imr_by_state[state])
+            abs_imr_diff = abs(imr_by_state[state] - imr_by_state[neighbor])
+            G.add_edge(state, neighbor, weight=abs_imr_diff)
 
     # export the graph
     nx.write_graphml(G, 'graphs/imr_graph.graphml', infer_numeric_types=True)

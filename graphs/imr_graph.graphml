@@ -50,322 +50,322 @@
     <node id="MI" />
     <node id="ND" />
     <edge source="AL" target="FL">
-      <data key="d0">6.1</data>
+      <data key="d0">1.54</data>
     </edge>
     <edge source="AL" target="GA">
-      <data key="d0">6.99</data>
+      <data key="d0">0.6499999999999995</data>
     </edge>
     <edge source="AL" target="MS">
-      <data key="d0">8.94</data>
+      <data key="d0">1.2999999999999998</data>
     </edge>
     <edge source="AL" target="TN">
-      <data key="d0">6.48</data>
+      <data key="d0">1.1599999999999993</data>
     </edge>
     <edge source="FL" target="GA">
-      <data key="d0">6.99</data>
+      <data key="d0">0.8900000000000006</data>
     </edge>
     <edge source="GA" target="NC">
-      <data key="d0">6.95</data>
+      <data key="d0">0.040000000000000036</data>
     </edge>
     <edge source="GA" target="SC">
-      <data key="d0">6.96</data>
+      <data key="d0">0.03000000000000025</data>
     </edge>
     <edge source="GA" target="TN">
-      <data key="d0">6.48</data>
+      <data key="d0">0.5099999999999998</data>
     </edge>
     <edge source="MS" target="AR">
-      <data key="d0">8.94</data>
+      <data key="d0">0.7199999999999989</data>
     </edge>
     <edge source="MS" target="LA">
-      <data key="d0">8.94</data>
+      <data key="d0">1.7999999999999998</data>
     </edge>
     <edge source="MS" target="TN">
-      <data key="d0">6.48</data>
+      <data key="d0">2.459999999999999</data>
     </edge>
     <edge source="TN" target="AR">
-      <data key="d0">6.48</data>
+      <data key="d0">1.7400000000000002</data>
     </edge>
     <edge source="TN" target="KY">
-      <data key="d0">6.48</data>
+      <data key="d0">0.09999999999999964</data>
     </edge>
     <edge source="TN" target="MO">
-      <data key="d0">6.48</data>
+      <data key="d0">0.3600000000000003</data>
     </edge>
     <edge source="TN" target="NC">
-      <data key="d0">6.48</data>
+      <data key="d0">0.46999999999999975</data>
     </edge>
     <edge source="TN" target="VA">
-      <data key="d0">5.87</data>
+      <data key="d0">0.6100000000000003</data>
     </edge>
     <edge source="AR" target="LA">
-      <data key="d0">7.14</data>
+      <data key="d0">1.080000000000001</data>
     </edge>
     <edge source="AR" target="MO">
-      <data key="d0">6.12</data>
+      <data key="d0">2.1000000000000005</data>
     </edge>
     <edge source="AR" target="OK">
-      <data key="d0">7.12</data>
+      <data key="d0">1.1000000000000005</data>
     </edge>
     <edge source="AR" target="TX">
-      <data key="d0">5.83</data>
+      <data key="d0">2.3900000000000006</data>
     </edge>
     <edge source="LA" target="TX">
-      <data key="d0">5.83</data>
+      <data key="d0">1.3099999999999996</data>
     </edge>
     <edge source="MO" target="IA">
-      <data key="d0">6.12</data>
+      <data key="d0">1.0200000000000005</data>
     </edge>
     <edge source="MO" target="IL">
-      <data key="d0">6.12</data>
+      <data key="d0">0.20999999999999996</data>
     </edge>
     <edge source="MO" target="IN">
-      <data key="d0">6.51</data>
+      <data key="d0">0.3899999999999997</data>
     </edge>
     <edge source="MO" target="KS">
-      <data key="d0">6.12</data>
+      <data key="d0">0.8899999999999997</data>
     </edge>
     <edge source="MO" target="KY">
-      <data key="d0">6.12</data>
+      <data key="d0">0.45999999999999996</data>
     </edge>
     <edge source="MO" target="NE">
-      <data key="d0">6.39</data>
+      <data key="d0">0.2699999999999996</data>
     </edge>
     <edge source="MO" target="OK">
-      <data key="d0">7.12</data>
+      <data key="d0">1.0</data>
     </edge>
     <edge source="OK" target="CO">
-      <data key="d0">7.12</data>
+      <data key="d0">2.5700000000000003</data>
     </edge>
     <edge source="OK" target="KS">
-      <data key="d0">7.12</data>
+      <data key="d0">1.8899999999999997</data>
     </edge>
     <edge source="OK" target="NM">
-      <data key="d0">7.12</data>
+      <data key="d0">2.7300000000000004</data>
     </edge>
     <edge source="OK" target="TX">
-      <data key="d0">5.83</data>
+      <data key="d0">1.29</data>
     </edge>
     <edge source="TX" target="NM">
-      <data key="d0">5.83</data>
+      <data key="d0">1.4400000000000004</data>
     </edge>
     <edge source="AZ" target="CA">
-      <data key="d0">4.1</data>
+      <data key="d0">1.4400000000000004</data>
     </edge>
     <edge source="AZ" target="CO">
-      <data key="d0">4.55</data>
+      <data key="d0">0.9900000000000002</data>
     </edge>
     <edge source="AZ" target="NM">
-      <data key="d0">4.39</data>
+      <data key="d0">1.1500000000000004</data>
     </edge>
     <edge source="AZ" target="NV">
-      <data key="d0">5.88</data>
+      <data key="d0">0.33999999999999986</data>
     </edge>
     <edge source="AZ" target="UT">
-      <data key="d0">5.22</data>
+      <data key="d0">0.3200000000000003</data>
     </edge>
     <edge source="CA" target="NV">
-      <data key="d0">5.88</data>
+      <data key="d0">1.7800000000000002</data>
     </edge>
     <edge source="CA" target="OR">
-      <data key="d0">4.62</data>
+      <data key="d0">0.5200000000000005</data>
     </edge>
     <edge source="CO" target="KS">
-      <data key="d0">5.23</data>
+      <data key="d0">0.6800000000000006</data>
     </edge>
     <edge source="CO" target="NE">
-      <data key="d0">6.39</data>
+      <data key="d0">1.8399999999999999</data>
     </edge>
     <edge source="CO" target="NM">
-      <data key="d0">4.39</data>
+      <data key="d0">0.16000000000000014</data>
     </edge>
     <edge source="CO" target="UT">
-      <data key="d0">5.22</data>
+      <data key="d0">0.6699999999999999</data>
     </edge>
     <edge source="CO" target="WY">
-      <data key="d0">3.84</data>
+      <data key="d0">0.71</data>
     </edge>
     <edge source="NM" target="UT">
-      <data key="d0">5.22</data>
+      <data key="d0">0.8300000000000001</data>
     </edge>
     <edge source="NV" target="ID">
-      <data key="d0">5.88</data>
+      <data key="d0">1.5</data>
     </edge>
     <edge source="NV" target="OR">
-      <data key="d0">4.62</data>
+      <data key="d0">1.2599999999999998</data>
     </edge>
     <edge source="NV" target="UT">
-      <data key="d0">5.22</data>
+      <data key="d0">0.6600000000000001</data>
     </edge>
     <edge source="UT" target="ID">
-      <data key="d0">5.22</data>
+      <data key="d0">0.8399999999999999</data>
     </edge>
     <edge source="UT" target="WY">
-      <data key="d0">3.84</data>
+      <data key="d0">1.38</data>
     </edge>
     <edge source="OR" target="ID">
-      <data key="d0">4.62</data>
+      <data key="d0">0.2400000000000002</data>
     </edge>
     <edge source="OR" target="WA">
-      <data key="d0">5.04</data>
+      <data key="d0">0.41999999999999993</data>
     </edge>
     <edge source="KS" target="NE">
-      <data key="d0">6.39</data>
+      <data key="d0">1.1599999999999993</data>
     </edge>
     <edge source="NE" target="IA">
-      <data key="d0">6.39</data>
+      <data key="d0">1.29</data>
     </edge>
     <edge source="NE" target="SD">
-      <data key="d0">6.34</data>
+      <data key="d0">0.04999999999999982</data>
     </edge>
     <edge source="NE" target="WY">
-      <data key="d0">3.84</data>
+      <data key="d0">2.55</data>
     </edge>
     <edge source="WY" target="ID">
-      <data key="d0">3.84</data>
+      <data key="d0">0.54</data>
     </edge>
     <edge source="WY" target="MT">
-      <data key="d0">3.84</data>
+      <data key="d0">1.67</data>
     </edge>
     <edge source="WY" target="SD">
-      <data key="d0">3.84</data>
+      <data key="d0">2.5</data>
     </edge>
     <edge source="CT" target="MA">
-      <data key="d0">3.28</data>
+      <data key="d0">1.2100000000000004</data>
     </edge>
     <edge source="CT" target="NY">
-      <data key="d0">4.03</data>
+      <data key="d0">0.45999999999999996</data>
     </edge>
     <edge source="CT" target="RI">
-      <data key="d0">4.79</data>
+      <data key="d0">0.2999999999999998</data>
     </edge>
     <edge source="MA" target="NH">
-      <data key="d0">2.93</data>
+      <data key="d0">0.34999999999999964</data>
     </edge>
     <edge source="MA" target="NY">
-      <data key="d0">4.03</data>
+      <data key="d0">0.7500000000000004</data>
     </edge>
     <edge source="MA" target="RI">
-      <data key="d0">4.79</data>
+      <data key="d0">1.5100000000000002</data>
     </edge>
     <edge source="NY" target="NJ">
-      <data key="d0">4.03</data>
+      <data key="d0">0.3400000000000003</data>
     </edge>
     <edge source="NY" target="PA">
-      <data key="d0">5.57</data>
+      <data key="d0">1.54</data>
     </edge>
     <edge source="DE" target="MD">
-      <data key="d0">5.61</data>
+      <data key="d0">0.5299999999999994</data>
     </edge>
     <edge source="DE" target="NJ">
-      <data key="d0">3.69</data>
+      <data key="d0">2.4499999999999997</data>
     </edge>
     <edge source="DE" target="PA">
-      <data key="d0">5.57</data>
+      <data key="d0">0.5699999999999994</data>
     </edge>
     <edge source="MD" target="PA">
-      <data key="d0">5.57</data>
+      <data key="d0">0.040000000000000036</data>
     </edge>
     <edge source="MD" target="VA">
-      <data key="d0">5.87</data>
+      <data key="d0">0.2599999999999998</data>
     </edge>
     <edge source="MD" target="WV">
-      <data key="d0">5.6</data>
+      <data key="d0">0.010000000000000675</data>
     </edge>
     <edge source="NJ" target="PA">
-      <data key="d0">5.57</data>
+      <data key="d0">1.8800000000000003</data>
     </edge>
     <edge source="PA" target="OH">
-      <data key="d0">5.57</data>
+      <data key="d0">1.5899999999999999</data>
     </edge>
     <edge source="PA" target="WV">
-      <data key="d0">5.6</data>
+      <data key="d0">0.02999999999999936</data>
     </edge>
     <edge source="NC" target="SC">
-      <data key="d0">6.96</data>
+      <data key="d0">0.009999999999999787</data>
     </edge>
     <edge source="NC" target="VA">
-      <data key="d0">5.87</data>
+      <data key="d0">1.08</data>
     </edge>
     <edge source="IA" target="IL">
-      <data key="d0">5.91</data>
+      <data key="d0">0.8100000000000005</data>
     </edge>
     <edge source="IA" target="MN">
-      <data key="d0">4.73</data>
+      <data key="d0">0.3699999999999992</data>
     </edge>
     <edge source="IA" target="SD">
-      <data key="d0">6.34</data>
+      <data key="d0">1.2400000000000002</data>
     </edge>
     <edge source="IA" target="WI">
-      <data key="d0">5.77</data>
+      <data key="d0">0.6699999999999999</data>
     </edge>
     <edge source="IL" target="IN">
-      <data key="d0">6.51</data>
+      <data key="d0">0.5999999999999996</data>
     </edge>
     <edge source="IL" target="KY">
-      <data key="d0">6.58</data>
+      <data key="d0">0.6699999999999999</data>
     </edge>
     <edge source="IL" target="WI">
-      <data key="d0">5.77</data>
+      <data key="d0">0.14000000000000057</data>
     </edge>
     <edge source="MN" target="ND">
-      <data key="d0">4.87</data>
+      <data key="d0">0.13999999999999968</data>
     </edge>
     <edge source="MN" target="SD">
-      <data key="d0">6.34</data>
+      <data key="d0">1.6099999999999994</data>
     </edge>
     <edge source="MN" target="WI">
-      <data key="d0">5.77</data>
+      <data key="d0">1.0399999999999991</data>
     </edge>
     <edge source="SD" target="MT">
-      <data key="d0">6.34</data>
+      <data key="d0">0.8300000000000001</data>
     </edge>
     <edge source="SD" target="ND">
-      <data key="d0">6.34</data>
+      <data key="d0">1.4699999999999998</data>
     </edge>
     <edge source="WI" target="IN">
-      <data key="d0">6.51</data>
+      <data key="d0">0.7400000000000002</data>
     </edge>
     <edge source="WI" target="MI">
-      <data key="d0">5.77</data>
+      <data key="d0">0.3200000000000003</data>
     </edge>
     <edge source="ID" target="MT">
-      <data key="d0">5.51</data>
+      <data key="d0">1.13</data>
     </edge>
     <edge source="ID" target="WA">
-      <data key="d0">5.04</data>
+      <data key="d0">0.6600000000000001</data>
     </edge>
     <edge source="MT" target="ND">
-      <data key="d0">4.87</data>
+      <data key="d0">0.6399999999999997</data>
     </edge>
     <edge source="IN" target="KY">
-      <data key="d0">6.58</data>
+      <data key="d0">0.07000000000000028</data>
     </edge>
     <edge source="IN" target="MI">
-      <data key="d0">6.09</data>
+      <data key="d0">0.41999999999999993</data>
     </edge>
     <edge source="IN" target="OH">
-      <data key="d0">7.16</data>
+      <data key="d0">0.6500000000000004</data>
     </edge>
     <edge source="KY" target="OH">
-      <data key="d0">7.16</data>
+      <data key="d0">0.5800000000000001</data>
     </edge>
     <edge source="KY" target="VA">
-      <data key="d0">5.87</data>
+      <data key="d0">0.71</data>
     </edge>
     <edge source="KY" target="WV">
-      <data key="d0">5.6</data>
+      <data key="d0">0.9800000000000004</data>
     </edge>
     <edge source="OH" target="MI">
-      <data key="d0">7.16</data>
+      <data key="d0">1.0700000000000003</data>
     </edge>
     <edge source="OH" target="WV">
-      <data key="d0">5.6</data>
+      <data key="d0">1.5600000000000005</data>
     </edge>
     <edge source="VA" target="WV">
-      <data key="d0">5.6</data>
+      <data key="d0">0.27000000000000046</data>
     </edge>
     <edge source="NH" target="ME">
-      <data key="d0">2.93</data>
+      <data key="d0">2.7499999999999996</data>
     </edge>
   </graph>
 </graphml>
