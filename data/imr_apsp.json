@@ -1,16 +1,6 @@
 [
     {
         "state1":"AL",
-        "state2":"AL",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
-        ]
-    },
-    {
-        "state1":"AL",
         "state2":"FL",
         "distance":1.54,
         "hops":1,
@@ -106,8 +96,8 @@
         "state1":"AL",
         "state2":"TX",
         "distance":3.81,
-        "hops":3,
-        "distance_per_hop":1.27,
+        "hops":4,
+        "distance_per_hop":0.9525,
         "states_in_path":[
             "AL",
             "TN",
@@ -135,8 +125,8 @@
         "state1":"AL",
         "state2":"CA",
         "distance":4.56,
-        "hops":6,
-        "distance_per_hop":0.76,
+        "hops":8,
+        "distance_per_hop":0.57,
         "states_in_path":[
             "AL",
             "TN",
@@ -167,8 +157,8 @@
         "state1":"AL",
         "state2":"NM",
         "distance":3.25,
-        "hops":4,
-        "distance_per_hop":0.8125,
+        "hops":5,
+        "distance_per_hop":0.65,
         "states_in_path":[
             "AL",
             "TN",
@@ -213,8 +203,8 @@
         "state1":"AL",
         "state2":"OR",
         "distance":4.04,
-        "hops":6,
-        "distance_per_hop":0.6733333333,
+        "hops":7,
+        "distance_per_hop":0.5771428571,
         "states_in_path":[
             "AL",
             "TN",
@@ -256,8 +246,8 @@
         "state1":"AL",
         "state2":"WY",
         "distance":3.8,
-        "hops":4,
-        "distance_per_hop":0.95,
+        "hops":5,
+        "distance_per_hop":0.76,
         "states_in_path":[
             "AL",
             "TN",
@@ -483,8 +473,8 @@
         "state1":"AL",
         "state2":"ID",
         "distance":3.8,
-        "hops":5,
-        "distance_per_hop":0.76,
+        "hops":6,
+        "distance_per_hop":0.6333333333,
         "states_in_path":[
             "AL",
             "TN",
@@ -514,8 +504,8 @@
         "state1":"AL",
         "state2":"WA",
         "distance":4.46,
-        "hops":6,
-        "distance_per_hop":0.7433333333,
+        "hops":7,
+        "distance_per_hop":0.6371428571,
         "states_in_path":[
             "AL",
             "TN",
@@ -656,16 +646,6 @@
     },
     {
         "state1":"FL",
-        "state2":"FL",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
-        ]
-    },
-    {
-        "state1":"FL",
         "state2":"GA",
         "distance":0.89,
         "hops":1,
@@ -716,8 +696,8 @@
         "state1":"FL",
         "state2":"LA",
         "distance":4.22,
-        "hops":3,
-        "distance_per_hop":1.4066666667,
+        "hops":4,
+        "distance_per_hop":1.055,
         "states_in_path":[
             "FL",
             "GA",
@@ -757,8 +737,8 @@
         "state1":"FL",
         "state2":"TX",
         "distance":4.05,
-        "hops":4,
-        "distance_per_hop":1.0125,
+        "hops":5,
+        "distance_per_hop":0.81,
         "states_in_path":[
             "FL",
             "GA",
@@ -788,8 +768,8 @@
         "state1":"FL",
         "state2":"CA",
         "distance":4.8,
-        "hops":7,
-        "distance_per_hop":0.6857142857,
+        "hops":9,
+        "distance_per_hop":0.5333333333,
         "states_in_path":[
             "FL",
             "GA",
@@ -822,8 +802,8 @@
         "state1":"FL",
         "state2":"NM",
         "distance":3.49,
-        "hops":5,
-        "distance_per_hop":0.698,
+        "hops":6,
+        "distance_per_hop":0.5816666667,
         "states_in_path":[
             "FL",
             "GA",
@@ -871,8 +851,8 @@
         "state1":"FL",
         "state2":"OR",
         "distance":4.28,
-        "hops":7,
-        "distance_per_hop":0.6114285714,
+        "hops":8,
+        "distance_per_hop":0.535,
         "states_in_path":[
             "FL",
             "GA",
@@ -917,8 +897,8 @@
         "state1":"FL",
         "state2":"WY",
         "distance":4.04,
-        "hops":5,
-        "distance_per_hop":0.808,
+        "hops":6,
+        "distance_per_hop":0.6733333333,
         "states_in_path":[
             "FL",
             "GA",
@@ -1158,8 +1138,8 @@
         "state1":"FL",
         "state2":"ID",
         "distance":4.04,
-        "hops":6,
-        "distance_per_hop":0.6733333333,
+        "hops":7,
+        "distance_per_hop":0.5771428571,
         "states_in_path":[
             "FL",
             "GA",
@@ -1191,8 +1171,8 @@
         "state1":"FL",
         "state2":"WA",
         "distance":4.7,
-        "hops":7,
-        "distance_per_hop":0.6714285714,
+        "hops":8,
+        "distance_per_hop":0.5875,
         "states_in_path":[
             "FL",
             "GA",
@@ -1343,16 +1323,6 @@
     },
     {
         "state1":"GA",
-        "state2":"GA",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
-        ]
-    },
-    {
-        "state1":"GA",
         "state2":"NC",
         "distance":0.04,
         "hops":1,
@@ -1450,8 +1420,8 @@
         "state1":"GA",
         "state2":"TX",
         "distance":3.16,
-        "hops":3,
-        "distance_per_hop":1.0533333333,
+        "hops":4,
+        "distance_per_hop":0.79,
         "states_in_path":[
             "GA",
             "TN",
@@ -1479,8 +1449,8 @@
         "state1":"GA",
         "state2":"CA",
         "distance":3.91,
-        "hops":6,
-        "distance_per_hop":0.6516666667,
+        "hops":8,
+        "distance_per_hop":0.48875,
         "states_in_path":[
             "GA",
             "TN",
@@ -1511,8 +1481,8 @@
         "state1":"GA",
         "state2":"NM",
         "distance":2.6,
-        "hops":4,
-        "distance_per_hop":0.65,
+        "hops":5,
+        "distance_per_hop":0.52,
         "states_in_path":[
             "GA",
             "TN",
@@ -1557,8 +1527,8 @@
         "state1":"GA",
         "state2":"OR",
         "distance":3.39,
-        "hops":6,
-        "distance_per_hop":0.565,
+        "hops":7,
+        "distance_per_hop":0.4842857143,
         "states_in_path":[
             "GA",
             "TN",
@@ -1600,8 +1570,8 @@
         "state1":"GA",
         "state2":"WY",
         "distance":3.15,
-        "hops":4,
-        "distance_per_hop":0.7875,
+        "hops":5,
+        "distance_per_hop":0.63,
         "states_in_path":[
             "GA",
             "TN",
@@ -1803,8 +1773,8 @@
         "state1":"GA",
         "state2":"ID",
         "distance":3.15,
-        "hops":5,
-        "distance_per_hop":0.63,
+        "hops":6,
+        "distance_per_hop":0.525,
         "states_in_path":[
             "GA",
             "TN",
@@ -1834,8 +1804,8 @@
         "state1":"GA",
         "state2":"WA",
         "distance":3.81,
-        "hops":6,
-        "distance_per_hop":0.635,
+        "hops":7,
+        "distance_per_hop":0.5442857143,
         "states_in_path":[
             "GA",
             "TN",
@@ -1976,16 +1946,6 @@
     },
     {
         "state1":"MS",
-        "state2":"MS",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
-        ]
-    },
-    {
-        "state1":"MS",
         "state2":"AR",
         "distance":0.72,
         "hops":1,
@@ -2071,8 +2031,8 @@
         "state1":"MS",
         "state2":"CA",
         "distance":5.86,
-        "hops":5,
-        "distance_per_hop":1.172,
+        "hops":8,
+        "distance_per_hop":0.7325,
         "states_in_path":[
             "MS",
             "TN",
@@ -2144,8 +2104,8 @@
         "state1":"MS",
         "state2":"OR",
         "distance":5.34,
-        "hops":6,
-        "distance_per_hop":0.89,
+        "hops":7,
+        "distance_per_hop":0.7628571429,
         "states_in_path":[
             "MS",
             "TN",
@@ -2321,8 +2281,8 @@
         "state1":"MS",
         "state2":"NC",
         "distance":1.99,
-        "hops":2,
-        "distance_per_hop":0.995,
+        "hops":3,
+        "distance_per_hop":0.6633333333,
         "states_in_path":[
             "MS",
             "AL",
@@ -2415,8 +2375,8 @@
         "state1":"MS",
         "state2":"ID",
         "distance":5.1,
-        "hops":5,
-        "distance_per_hop":1.02,
+        "hops":6,
+        "distance_per_hop":0.85,
         "states_in_path":[
             "MS",
             "TN",
@@ -2446,8 +2406,8 @@
         "state1":"MS",
         "state2":"WA",
         "distance":5.76,
-        "hops":6,
-        "distance_per_hop":0.96,
+        "hops":7,
+        "distance_per_hop":0.8228571429,
         "states_in_path":[
             "MS",
             "TN",
@@ -2588,16 +2548,6 @@
     },
     {
         "state1":"TN",
-        "state2":"TN",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
-        ]
-    },
-    {
-        "state1":"TN",
         "state2":"AR",
         "distance":1.74,
         "hops":1,
@@ -2679,8 +2629,8 @@
         "state1":"TN",
         "state2":"TX",
         "distance":2.65,
-        "hops":2,
-        "distance_per_hop":1.325,
+        "hops":3,
+        "distance_per_hop":0.8833333333,
         "states_in_path":[
             "TN",
             "MO",
@@ -2706,8 +2656,8 @@
         "state1":"TN",
         "state2":"CA",
         "distance":3.4,
-        "hops":5,
-        "distance_per_hop":0.68,
+        "hops":7,
+        "distance_per_hop":0.4857142857,
         "states_in_path":[
             "TN",
             "MO",
@@ -2736,8 +2686,8 @@
         "state1":"TN",
         "state2":"NM",
         "distance":2.09,
-        "hops":3,
-        "distance_per_hop":0.6966666667,
+        "hops":4,
+        "distance_per_hop":0.5225,
         "states_in_path":[
             "TN",
             "MO",
@@ -2779,8 +2729,8 @@
         "state1":"TN",
         "state2":"OR",
         "distance":2.88,
-        "hops":5,
-        "distance_per_hop":0.576,
+        "hops":6,
+        "distance_per_hop":0.48,
         "states_in_path":[
             "TN",
             "MO",
@@ -2819,8 +2769,8 @@
         "state1":"TN",
         "state2":"WY",
         "distance":2.64,
-        "hops":3,
-        "distance_per_hop":0.88,
+        "hops":4,
+        "distance_per_hop":0.66,
         "states_in_path":[
             "TN",
             "MO",
@@ -3020,8 +2970,8 @@
         "state1":"TN",
         "state2":"ID",
         "distance":2.64,
-        "hops":4,
-        "distance_per_hop":0.66,
+        "hops":5,
+        "distance_per_hop":0.528,
         "states_in_path":[
             "TN",
             "MO",
@@ -3049,8 +2999,8 @@
         "state1":"TN",
         "state2":"WA",
         "distance":3.3,
-        "hops":5,
-        "distance_per_hop":0.66,
+        "hops":6,
+        "distance_per_hop":0.55,
         "states_in_path":[
             "TN",
             "MO",
@@ -3159,16 +3109,6 @@
     },
     {
         "state1":"AR",
-        "state2":"AR",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
-        ]
-    },
-    {
-        "state1":"AR",
         "state2":"LA",
         "distance":1.08,
         "hops":1,
@@ -3228,8 +3168,8 @@
         "state1":"AR",
         "state2":"CA",
         "distance":5.14,
-        "hops":4,
-        "distance_per_hop":1.285,
+        "hops":7,
+        "distance_per_hop":0.7342857143,
         "states_in_path":[
             "AR",
             "MO",
@@ -3296,8 +3236,8 @@
         "state1":"AR",
         "state2":"OR",
         "distance":4.62,
-        "hops":5,
-        "distance_per_hop":0.924,
+        "hops":6,
+        "distance_per_hop":0.77,
         "states_in_path":[
             "AR",
             "MO",
@@ -3557,8 +3497,8 @@
         "state1":"AR",
         "state2":"ID",
         "distance":4.38,
-        "hops":4,
-        "distance_per_hop":1.095,
+        "hops":5,
+        "distance_per_hop":0.876,
         "states_in_path":[
             "AR",
             "MO",
@@ -3586,8 +3526,8 @@
         "state1":"AR",
         "state2":"WA",
         "distance":5.04,
-        "hops":5,
-        "distance_per_hop":1.008,
+        "hops":6,
+        "distance_per_hop":0.84,
         "states_in_path":[
             "AR",
             "MO",
@@ -3726,16 +3666,6 @@
     },
     {
         "state1":"LA",
-        "state2":"LA",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
-        ]
-    },
-    {
-        "state1":"LA",
         "state2":"TX",
         "distance":1.31,
         "hops":1,
@@ -3786,8 +3716,8 @@
         "state1":"LA",
         "state2":"CA",
         "distance":4.92,
-        "hops":4,
-        "distance_per_hop":1.23,
+        "hops":7,
+        "distance_per_hop":0.7028571429,
         "states_in_path":[
             "LA",
             "TX",
@@ -3855,8 +3785,8 @@
         "state1":"LA",
         "state2":"OR",
         "distance":4.4,
-        "hops":5,
-        "distance_per_hop":0.88,
+        "hops":6,
+        "distance_per_hop":0.7333333333,
         "states_in_path":[
             "LA",
             "TX",
@@ -3871,8 +3801,8 @@
         "state1":"LA",
         "state2":"KS",
         "distance":3.59,
-        "hops":3,
-        "distance_per_hop":1.1966666667,
+        "hops":4,
+        "distance_per_hop":0.8975,
         "states_in_path":[
             "LA",
             "TX",
@@ -4135,8 +4065,8 @@
         "state1":"LA",
         "state2":"ID",
         "distance":4.16,
-        "hops":4,
-        "distance_per_hop":1.04,
+        "hops":5,
+        "distance_per_hop":0.832,
         "states_in_path":[
             "LA",
             "TX",
@@ -4165,8 +4095,8 @@
         "state1":"LA",
         "state2":"WA",
         "distance":4.82,
-        "hops":5,
-        "distance_per_hop":0.964,
+        "hops":6,
+        "distance_per_hop":0.8033333333,
         "states_in_path":[
             "LA",
             "TX",
@@ -4314,16 +4244,6 @@
     },
     {
         "state1":"MO",
-        "state2":"MO",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
-        ]
-    },
-    {
-        "state1":"MO",
         "state2":"IA",
         "distance":1.02,
         "hops":1,
@@ -4417,8 +4337,8 @@
         "state1":"MO",
         "state2":"CA",
         "distance":3.04,
-        "hops":4,
-        "distance_per_hop":0.76,
+        "hops":6,
+        "distance_per_hop":0.5066666667,
         "states_in_path":[
             "MO",
             "NE",
@@ -4445,8 +4365,8 @@
         "state1":"MO",
         "state2":"NM",
         "distance":1.73,
-        "hops":2,
-        "distance_per_hop":0.865,
+        "hops":3,
+        "distance_per_hop":0.5766666667,
         "states_in_path":[
             "MO",
             "KS",
@@ -4485,8 +4405,8 @@
         "state1":"MO",
         "state2":"OR",
         "distance":2.52,
-        "hops":4,
-        "distance_per_hop":0.63,
+        "hops":5,
+        "distance_per_hop":0.504,
         "states_in_path":[
             "MO",
             "NE",
@@ -4500,8 +4420,8 @@
         "state1":"MO",
         "state2":"WY",
         "distance":2.28,
-        "hops":2,
-        "distance_per_hop":1.14,
+        "hops":3,
+        "distance_per_hop":0.76,
         "states_in_path":[
             "MO",
             "KS",
@@ -4513,8 +4433,8 @@
         "state1":"MO",
         "state2":"CT",
         "distance":3.27,
-        "hops":5,
-        "distance_per_hop":0.654,
+        "hops":6,
+        "distance_per_hop":0.545,
         "states_in_path":[
             "MO",
             "TN",
@@ -4529,8 +4449,8 @@
         "state1":"MO",
         "state2":"MA",
         "distance":3.56,
-        "hops":5,
-        "distance_per_hop":0.712,
+        "hops":6,
+        "distance_per_hop":0.5933333333,
         "states_in_path":[
             "MO",
             "TN",
@@ -4545,8 +4465,8 @@
         "state1":"MO",
         "state2":"NY",
         "distance":2.81,
-        "hops":4,
-        "distance_per_hop":0.7025,
+        "hops":5,
+        "distance_per_hop":0.562,
         "states_in_path":[
             "MO",
             "TN",
@@ -4560,8 +4480,8 @@
         "state1":"MO",
         "state2":"RI",
         "distance":3.57,
-        "hops":6,
-        "distance_per_hop":0.595,
+        "hops":7,
+        "distance_per_hop":0.51,
         "states_in_path":[
             "MO",
             "TN",
@@ -4604,8 +4524,8 @@
         "state1":"MO",
         "state2":"NJ",
         "distance":3.15,
-        "hops":4,
-        "distance_per_hop":0.7875,
+        "hops":5,
+        "distance_per_hop":0.63,
         "states_in_path":[
             "MO",
             "TN",
@@ -4619,8 +4539,8 @@
         "state1":"MO",
         "state2":"PA",
         "distance":1.27,
-        "hops":3,
-        "distance_per_hop":0.4233333333,
+        "hops":4,
+        "distance_per_hop":0.3175,
         "states_in_path":[
             "MO",
             "TN",
@@ -4694,8 +4614,8 @@
         "state1":"MO",
         "state2":"ID",
         "distance":2.28,
-        "hops":3,
-        "distance_per_hop":0.76,
+        "hops":4,
+        "distance_per_hop":0.57,
         "states_in_path":[
             "MO",
             "NE",
@@ -4721,8 +4641,8 @@
         "state1":"MO",
         "state2":"WA",
         "distance":2.94,
-        "hops":4,
-        "distance_per_hop":0.735,
+        "hops":5,
+        "distance_per_hop":0.588,
         "states_in_path":[
             "MO",
             "NE",
@@ -4785,8 +4705,8 @@
         "state1":"MO",
         "state2":"WV",
         "distance":1.24,
-        "hops":2,
-        "distance_per_hop":0.62,
+        "hops":3,
+        "distance_per_hop":0.4133333333,
         "states_in_path":[
             "MO",
             "TN",
@@ -4798,8 +4718,8 @@
         "state1":"MO",
         "state2":"NH",
         "distance":3.91,
-        "hops":6,
-        "distance_per_hop":0.6516666667,
+        "hops":7,
+        "distance_per_hop":0.5585714286,
         "states_in_path":[
             "MO",
             "TN",
@@ -4815,8 +4735,8 @@
         "state1":"MO",
         "state2":"ME",
         "distance":6.66,
-        "hops":7,
-        "distance_per_hop":0.9514285714,
+        "hops":8,
+        "distance_per_hop":0.8325,
         "states_in_path":[
             "MO",
             "TN",
@@ -4840,16 +4760,6 @@
             "IA",
             "MN",
             "ND"
-        ]
-    },
-    {
-        "state1":"OK",
-        "state2":"OK",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
         ]
     },
     {
@@ -4912,8 +4822,8 @@
         "state1":"OK",
         "state2":"CA",
         "distance":4.04,
-        "hops":3,
-        "distance_per_hop":1.3466666667,
+        "hops":7,
+        "distance_per_hop":0.5771428571,
         "states_in_path":[
             "OK",
             "MO",
@@ -4954,8 +4864,8 @@
         "state1":"OK",
         "state2":"OR",
         "distance":3.52,
-        "hops":4,
-        "distance_per_hop":0.88,
+        "hops":6,
+        "distance_per_hop":0.5866666667,
         "states_in_path":[
             "OK",
             "MO",
@@ -4994,8 +4904,8 @@
         "state1":"OK",
         "state2":"CT",
         "distance":4.27,
-        "hops":6,
-        "distance_per_hop":0.7116666667,
+        "hops":7,
+        "distance_per_hop":0.61,
         "states_in_path":[
             "OK",
             "MO",
@@ -5011,8 +4921,8 @@
         "state1":"OK",
         "state2":"MA",
         "distance":4.56,
-        "hops":6,
-        "distance_per_hop":0.76,
+        "hops":7,
+        "distance_per_hop":0.6514285714,
         "states_in_path":[
             "OK",
             "MO",
@@ -5028,8 +4938,8 @@
         "state1":"OK",
         "state2":"NY",
         "distance":3.81,
-        "hops":5,
-        "distance_per_hop":0.762,
+        "hops":6,
+        "distance_per_hop":0.635,
         "states_in_path":[
             "OK",
             "MO",
@@ -5044,8 +4954,8 @@
         "state1":"OK",
         "state2":"RI",
         "distance":4.57,
-        "hops":7,
-        "distance_per_hop":0.6528571429,
+        "hops":8,
+        "distance_per_hop":0.57125,
         "states_in_path":[
             "OK",
             "MO",
@@ -5091,8 +5001,8 @@
         "state1":"OK",
         "state2":"NJ",
         "distance":4.15,
-        "hops":5,
-        "distance_per_hop":0.83,
+        "hops":6,
+        "distance_per_hop":0.6916666667,
         "states_in_path":[
             "OK",
             "MO",
@@ -5107,8 +5017,8 @@
         "state1":"OK",
         "state2":"PA",
         "distance":2.27,
-        "hops":4,
-        "distance_per_hop":0.5675,
+        "hops":5,
+        "distance_per_hop":0.454,
         "states_in_path":[
             "OK",
             "MO",
@@ -5212,8 +5122,8 @@
         "state1":"OK",
         "state2":"ID",
         "distance":3.28,
-        "hops":3,
-        "distance_per_hop":1.0933333333,
+        "hops":5,
+        "distance_per_hop":0.656,
         "states_in_path":[
             "OK",
             "MO",
@@ -5227,8 +5137,8 @@
         "state1":"OK",
         "state2":"MT",
         "distance":2.15,
-        "hops":3,
-        "distance_per_hop":0.7166666667,
+        "hops":4,
+        "distance_per_hop":0.5375,
         "states_in_path":[
             "OK",
             "MO",
@@ -5241,8 +5151,8 @@
         "state1":"OK",
         "state2":"WA",
         "distance":3.94,
-        "hops":4,
-        "distance_per_hop":0.985,
+        "hops":6,
+        "distance_per_hop":0.6566666667,
         "states_in_path":[
             "OK",
             "MO",
@@ -5322,8 +5232,8 @@
         "state1":"OK",
         "state2":"WV",
         "distance":2.24,
-        "hops":3,
-        "distance_per_hop":0.7466666667,
+        "hops":4,
+        "distance_per_hop":0.56,
         "states_in_path":[
             "OK",
             "MO",
@@ -5336,8 +5246,8 @@
         "state1":"OK",
         "state2":"NH",
         "distance":4.91,
-        "hops":7,
-        "distance_per_hop":0.7014285714,
+        "hops":8,
+        "distance_per_hop":0.61375,
         "states_in_path":[
             "OK",
             "MO",
@@ -5354,8 +5264,8 @@
         "state1":"OK",
         "state2":"ME",
         "distance":7.66,
-        "hops":8,
-        "distance_per_hop":0.9575,
+        "hops":9,
+        "distance_per_hop":0.8511111111,
         "states_in_path":[
             "OK",
             "MO",
@@ -5385,16 +5295,6 @@
     },
     {
         "state1":"TX",
-        "state2":"TX",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
-        ]
-    },
-    {
-        "state1":"TX",
         "state2":"NM",
         "distance":1.44,
         "hops":1,
@@ -5420,8 +5320,8 @@
         "state1":"TX",
         "state2":"CA",
         "distance":3.61,
-        "hops":3,
-        "distance_per_hop":1.2033333333,
+        "hops":6,
+        "distance_per_hop":0.6016666667,
         "states_in_path":[
             "TX",
             "NM",
@@ -5473,8 +5373,8 @@
         "state1":"TX",
         "state2":"OR",
         "distance":3.09,
-        "hops":4,
-        "distance_per_hop":0.7725,
+        "hops":5,
+        "distance_per_hop":0.618,
         "states_in_path":[
             "TX",
             "NM",
@@ -5488,8 +5388,8 @@
         "state1":"TX",
         "state2":"KS",
         "distance":2.28,
-        "hops":2,
-        "distance_per_hop":1.14,
+        "hops":3,
+        "distance_per_hop":0.76,
         "states_in_path":[
             "TX",
             "NM",
@@ -5527,8 +5427,8 @@
         "state1":"TX",
         "state2":"CT",
         "distance":5.56,
-        "hops":7,
-        "distance_per_hop":0.7942857143,
+        "hops":8,
+        "distance_per_hop":0.695,
         "states_in_path":[
             "TX",
             "OK",
@@ -5545,8 +5445,8 @@
         "state1":"TX",
         "state2":"MA",
         "distance":5.85,
-        "hops":7,
-        "distance_per_hop":0.8357142857,
+        "hops":8,
+        "distance_per_hop":0.73125,
         "states_in_path":[
             "TX",
             "OK",
@@ -5563,8 +5463,8 @@
         "state1":"TX",
         "state2":"NY",
         "distance":5.1,
-        "hops":6,
-        "distance_per_hop":0.85,
+        "hops":7,
+        "distance_per_hop":0.7285714286,
         "states_in_path":[
             "TX",
             "OK",
@@ -5580,8 +5480,8 @@
         "state1":"TX",
         "state2":"RI",
         "distance":5.86,
-        "hops":8,
-        "distance_per_hop":0.7325,
+        "hops":9,
+        "distance_per_hop":0.6511111111,
         "states_in_path":[
             "TX",
             "OK",
@@ -5599,8 +5499,8 @@
         "state1":"TX",
         "state2":"DE",
         "distance":4.05,
-        "hops":5,
-        "distance_per_hop":0.81,
+        "hops":6,
+        "distance_per_hop":0.675,
         "states_in_path":[
             "TX",
             "OK",
@@ -5615,8 +5515,8 @@
         "state1":"TX",
         "state2":"MD",
         "distance":3.52,
-        "hops":4,
-        "distance_per_hop":0.88,
+        "hops":5,
+        "distance_per_hop":0.704,
         "states_in_path":[
             "TX",
             "OK",
@@ -5630,8 +5530,8 @@
         "state1":"TX",
         "state2":"NJ",
         "distance":5.44,
-        "hops":6,
-        "distance_per_hop":0.9066666667,
+        "hops":7,
+        "distance_per_hop":0.7771428571,
         "states_in_path":[
             "TX",
             "OK",
@@ -5647,8 +5547,8 @@
         "state1":"TX",
         "state2":"PA",
         "distance":3.56,
-        "hops":5,
-        "distance_per_hop":0.712,
+        "hops":6,
+        "distance_per_hop":0.5933333333,
         "states_in_path":[
             "TX",
             "OK",
@@ -5663,8 +5563,8 @@
         "state1":"TX",
         "state2":"NC",
         "distance":3.12,
-        "hops":3,
-        "distance_per_hop":1.04,
+        "hops":4,
+        "distance_per_hop":0.78,
         "states_in_path":[
             "TX",
             "OK",
@@ -5677,8 +5577,8 @@
         "state1":"TX",
         "state2":"SC",
         "distance":3.13,
-        "hops":4,
-        "distance_per_hop":0.7825,
+        "hops":5,
+        "distance_per_hop":0.626,
         "states_in_path":[
             "TX",
             "OK",
@@ -5760,8 +5660,8 @@
         "state1":"TX",
         "state2":"ID",
         "distance":2.85,
-        "hops":3,
-        "distance_per_hop":0.95,
+        "hops":4,
+        "distance_per_hop":0.7125,
         "states_in_path":[
             "TX",
             "NM",
@@ -5774,8 +5674,8 @@
         "state1":"TX",
         "state2":"MT",
         "distance":3.44,
-        "hops":4,
-        "distance_per_hop":0.86,
+        "hops":5,
+        "distance_per_hop":0.688,
         "states_in_path":[
             "TX",
             "OK",
@@ -5789,8 +5689,8 @@
         "state1":"TX",
         "state2":"WA",
         "distance":3.51,
-        "hops":4,
-        "distance_per_hop":0.8775,
+        "hops":5,
+        "distance_per_hop":0.702,
         "states_in_path":[
             "TX",
             "NM",
@@ -5860,8 +5760,8 @@
         "state1":"TX",
         "state2":"VA",
         "distance":3.26,
-        "hops":3,
-        "distance_per_hop":1.0866666667,
+        "hops":4,
+        "distance_per_hop":0.815,
         "states_in_path":[
             "TX",
             "OK",
@@ -5874,8 +5774,8 @@
         "state1":"TX",
         "state2":"WV",
         "distance":3.53,
-        "hops":4,
-        "distance_per_hop":0.8825,
+        "hops":5,
+        "distance_per_hop":0.706,
         "states_in_path":[
             "TX",
             "OK",
@@ -5889,8 +5789,8 @@
         "state1":"TX",
         "state2":"NH",
         "distance":6.2,
-        "hops":8,
-        "distance_per_hop":0.775,
+        "hops":9,
+        "distance_per_hop":0.6888888889,
         "states_in_path":[
             "TX",
             "OK",
@@ -5908,8 +5808,8 @@
         "state1":"TX",
         "state2":"ME",
         "distance":8.95,
-        "hops":9,
-        "distance_per_hop":0.9944444444,
+        "hops":10,
+        "distance_per_hop":0.895,
         "states_in_path":[
             "TX",
             "OK",
@@ -5937,16 +5837,6 @@
             "IA",
             "MN",
             "ND"
-        ]
-    },
-    {
-        "state1":"AZ",
-        "state2":"AZ",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
         ]
     },
     {
@@ -6008,8 +5898,8 @@
         "state1":"AZ",
         "state2":"OR",
         "distance":1.4,
-        "hops":2,
-        "distance_per_hop":0.7,
+        "hops":3,
+        "distance_per_hop":0.4666666667,
         "states_in_path":[
             "AZ",
             "UT",
@@ -6057,8 +5947,8 @@
         "state1":"AZ",
         "state2":"CT",
         "distance":5.83,
-        "hops":8,
-        "distance_per_hop":0.72875,
+        "hops":9,
+        "distance_per_hop":0.6477777778,
         "states_in_path":[
             "AZ",
             "CO",
@@ -6076,8 +5966,8 @@
         "state1":"AZ",
         "state2":"MA",
         "distance":6.12,
-        "hops":8,
-        "distance_per_hop":0.765,
+        "hops":9,
+        "distance_per_hop":0.68,
         "states_in_path":[
             "AZ",
             "CO",
@@ -6095,8 +5985,8 @@
         "state1":"AZ",
         "state2":"NY",
         "distance":5.37,
-        "hops":7,
-        "distance_per_hop":0.7671428571,
+        "hops":8,
+        "distance_per_hop":0.67125,
         "states_in_path":[
             "AZ",
             "CO",
@@ -6113,8 +6003,8 @@
         "state1":"AZ",
         "state2":"RI",
         "distance":6.13,
-        "hops":9,
-        "distance_per_hop":0.6811111111,
+        "hops":10,
+        "distance_per_hop":0.613,
         "states_in_path":[
             "AZ",
             "CO",
@@ -6166,8 +6056,8 @@
         "state1":"AZ",
         "state2":"NJ",
         "distance":5.71,
-        "hops":7,
-        "distance_per_hop":0.8157142857,
+        "hops":8,
+        "distance_per_hop":0.71375,
         "states_in_path":[
             "AZ",
             "CO",
@@ -6184,8 +6074,8 @@
         "state1":"AZ",
         "state2":"PA",
         "distance":3.83,
-        "hops":6,
-        "distance_per_hop":0.6383333333,
+        "hops":7,
+        "distance_per_hop":0.5471428571,
         "states_in_path":[
             "AZ",
             "CO",
@@ -6232,8 +6122,8 @@
         "state1":"AZ",
         "state2":"IA",
         "distance":3.44,
-        "hops":3,
-        "distance_per_hop":1.1466666667,
+        "hops":6,
+        "distance_per_hop":0.5733333333,
         "states_in_path":[
             "AZ",
             "UT",
@@ -6262,8 +6152,8 @@
         "state1":"AZ",
         "state2":"MN",
         "distance":3.07,
-        "hops":4,
-        "distance_per_hop":0.7675,
+        "hops":5,
+        "distance_per_hop":0.614,
         "states_in_path":[
             "AZ",
             "UT",
@@ -6290,8 +6180,8 @@
         "state1":"AZ",
         "state2":"WI",
         "distance":2.91,
-        "hops":4,
-        "distance_per_hop":0.7275,
+        "hops":5,
+        "distance_per_hop":0.582,
         "states_in_path":[
             "AZ",
             "CO",
@@ -6372,8 +6262,8 @@
         "state1":"AZ",
         "state2":"MI",
         "distance":3.23,
-        "hops":5,
-        "distance_per_hop":0.646,
+        "hops":6,
+        "distance_per_hop":0.5383333333,
         "states_in_path":[
             "AZ",
             "CO",
@@ -6418,8 +6308,8 @@
         "state1":"AZ",
         "state2":"WV",
         "distance":3.8,
-        "hops":5,
-        "distance_per_hop":0.76,
+        "hops":6,
+        "distance_per_hop":0.6333333333,
         "states_in_path":[
             "AZ",
             "CO",
@@ -6434,8 +6324,8 @@
         "state1":"AZ",
         "state2":"NH",
         "distance":6.47,
-        "hops":9,
-        "distance_per_hop":0.7188888889,
+        "hops":10,
+        "distance_per_hop":0.647,
         "states_in_path":[
             "AZ",
             "CO",
@@ -6454,8 +6344,8 @@
         "state1":"AZ",
         "state2":"ME",
         "distance":9.22,
-        "hops":10,
-        "distance_per_hop":0.922,
+        "hops":11,
+        "distance_per_hop":0.8381818182,
         "states_in_path":[
             "AZ",
             "CO",
@@ -6487,16 +6377,6 @@
     },
     {
         "state1":"CA",
-        "state2":"CA",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
-        ]
-    },
-    {
-        "state1":"CA",
         "state2":"NV",
         "distance":1.78,
         "hops":1,
@@ -6521,8 +6401,8 @@
         "state1":"CA",
         "state2":"CO",
         "distance":2.01,
-        "hops":2,
-        "distance_per_hop":1.005,
+        "hops":4,
+        "distance_per_hop":0.5025,
         "states_in_path":[
             "CA",
             "OR",
@@ -6535,8 +6415,8 @@
         "state1":"CA",
         "state2":"NM",
         "distance":2.17,
-        "hops":2,
-        "distance_per_hop":1.085,
+        "hops":5,
+        "distance_per_hop":0.434,
         "states_in_path":[
             "CA",
             "OR",
@@ -6550,8 +6430,8 @@
         "state1":"CA",
         "state2":"UT",
         "distance":1.6,
-        "hops":2,
-        "distance_per_hop":0.8,
+        "hops":3,
+        "distance_per_hop":0.5333333333,
         "states_in_path":[
             "CA",
             "OR",
@@ -6563,8 +6443,8 @@
         "state1":"CA",
         "state2":"KS",
         "distance":2.69,
-        "hops":3,
-        "distance_per_hop":0.8966666667,
+        "hops":5,
+        "distance_per_hop":0.538,
         "states_in_path":[
             "CA",
             "OR",
@@ -6578,8 +6458,8 @@
         "state1":"CA",
         "state2":"NE",
         "distance":2.77,
-        "hops":3,
-        "distance_per_hop":0.9233333333,
+        "hops":5,
+        "distance_per_hop":0.554,
         "states_in_path":[
             "CA",
             "OR",
@@ -6606,8 +6486,8 @@
         "state1":"CA",
         "state2":"CT",
         "distance":6.31,
-        "hops":9,
-        "distance_per_hop":0.7011111111,
+        "hops":12,
+        "distance_per_hop":0.5258333333,
         "states_in_path":[
             "CA",
             "OR",
@@ -6628,8 +6508,8 @@
         "state1":"CA",
         "state2":"MA",
         "distance":6.6,
-        "hops":9,
-        "distance_per_hop":0.7333333333,
+        "hops":12,
+        "distance_per_hop":0.55,
         "states_in_path":[
             "CA",
             "OR",
@@ -6650,8 +6530,8 @@
         "state1":"CA",
         "state2":"NY",
         "distance":5.85,
-        "hops":8,
-        "distance_per_hop":0.73125,
+        "hops":11,
+        "distance_per_hop":0.5318181818,
         "states_in_path":[
             "CA",
             "OR",
@@ -6671,8 +6551,8 @@
         "state1":"CA",
         "state2":"RI",
         "distance":6.61,
-        "hops":10,
-        "distance_per_hop":0.661,
+        "hops":13,
+        "distance_per_hop":0.5084615385,
         "states_in_path":[
             "CA",
             "OR",
@@ -6694,8 +6574,8 @@
         "state1":"CA",
         "state2":"DE",
         "distance":4.8,
-        "hops":8,
-        "distance_per_hop":0.6,
+        "hops":10,
+        "distance_per_hop":0.48,
         "states_in_path":[
             "CA",
             "OR",
@@ -6714,8 +6594,8 @@
         "state1":"CA",
         "state2":"MD",
         "distance":4.27,
-        "hops":7,
-        "distance_per_hop":0.61,
+        "hops":9,
+        "distance_per_hop":0.4744444444,
         "states_in_path":[
             "CA",
             "OR",
@@ -6733,8 +6613,8 @@
         "state1":"CA",
         "state2":"NJ",
         "distance":6.19,
-        "hops":8,
-        "distance_per_hop":0.77375,
+        "hops":11,
+        "distance_per_hop":0.5627272727,
         "states_in_path":[
             "CA",
             "OR",
@@ -6754,8 +6634,8 @@
         "state1":"CA",
         "state2":"PA",
         "distance":4.31,
-        "hops":7,
-        "distance_per_hop":0.6157142857,
+        "hops":10,
+        "distance_per_hop":0.431,
         "states_in_path":[
             "CA",
             "OR",
@@ -6774,8 +6654,8 @@
         "state1":"CA",
         "state2":"NC",
         "distance":3.87,
-        "hops":6,
-        "distance_per_hop":0.645,
+        "hops":8,
+        "distance_per_hop":0.48375,
         "states_in_path":[
             "CA",
             "OR",
@@ -6792,8 +6672,8 @@
         "state1":"CA",
         "state2":"SC",
         "distance":3.88,
-        "hops":7,
-        "distance_per_hop":0.5542857143,
+        "hops":9,
+        "distance_per_hop":0.4311111111,
         "states_in_path":[
             "CA",
             "OR",
@@ -6811,8 +6691,8 @@
         "state1":"CA",
         "state2":"IA",
         "distance":3.04,
-        "hops":4,
-        "distance_per_hop":0.76,
+        "hops":6,
+        "distance_per_hop":0.5066666667,
         "states_in_path":[
             "CA",
             "OR",
@@ -6827,8 +6707,8 @@
         "state1":"CA",
         "state2":"IL",
         "distance":3.25,
-        "hops":5,
-        "distance_per_hop":0.65,
+        "hops":7,
+        "distance_per_hop":0.4642857143,
         "states_in_path":[
             "CA",
             "OR",
@@ -6873,8 +6753,8 @@
         "state1":"CA",
         "state2":"WI",
         "distance":3.39,
-        "hops":5,
-        "distance_per_hop":0.678,
+        "hops":8,
+        "distance_per_hop":0.42375,
         "states_in_path":[
             "CA",
             "OR",
@@ -6928,8 +6808,8 @@
         "state1":"CA",
         "state2":"IN",
         "distance":3.57,
-        "hops":6,
-        "distance_per_hop":0.595,
+        "hops":8,
+        "distance_per_hop":0.44625,
         "states_in_path":[
             "CA",
             "OR",
@@ -6946,8 +6826,8 @@
         "state1":"CA",
         "state2":"KY",
         "distance":3.5,
-        "hops":5,
-        "distance_per_hop":0.7,
+        "hops":7,
+        "distance_per_hop":0.5,
         "states_in_path":[
             "CA",
             "OR",
@@ -6963,8 +6843,8 @@
         "state1":"CA",
         "state2":"MI",
         "distance":3.71,
-        "hops":6,
-        "distance_per_hop":0.6183333333,
+        "hops":9,
+        "distance_per_hop":0.4122222222,
         "states_in_path":[
             "CA",
             "OR",
@@ -6982,8 +6862,8 @@
         "state1":"CA",
         "state2":"OH",
         "distance":4.08,
-        "hops":6,
-        "distance_per_hop":0.68,
+        "hops":8,
+        "distance_per_hop":0.51,
         "states_in_path":[
             "CA",
             "OR",
@@ -7000,8 +6880,8 @@
         "state1":"CA",
         "state2":"VA",
         "distance":4.01,
-        "hops":6,
-        "distance_per_hop":0.6683333333,
+        "hops":8,
+        "distance_per_hop":0.50125,
         "states_in_path":[
             "CA",
             "OR",
@@ -7018,8 +6898,8 @@
         "state1":"CA",
         "state2":"WV",
         "distance":4.28,
-        "hops":6,
-        "distance_per_hop":0.7133333333,
+        "hops":9,
+        "distance_per_hop":0.4755555556,
         "states_in_path":[
             "CA",
             "OR",
@@ -7037,8 +6917,8 @@
         "state1":"CA",
         "state2":"NH",
         "distance":6.95,
-        "hops":10,
-        "distance_per_hop":0.695,
+        "hops":13,
+        "distance_per_hop":0.5346153846,
         "states_in_path":[
             "CA",
             "OR",
@@ -7060,8 +6940,8 @@
         "state1":"CA",
         "state2":"ME",
         "distance":9.7,
-        "hops":11,
-        "distance_per_hop":0.8818181818,
+        "hops":14,
+        "distance_per_hop":0.6928571429,
         "states_in_path":[
             "CA",
             "OR",
@@ -7092,16 +6972,6 @@
             "ID",
             "MT",
             "ND"
-        ]
-    },
-    {
-        "state1":"CO",
-        "state2":"CO",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
         ]
     },
     {
@@ -7188,8 +7058,8 @@
         "state1":"CO",
         "state2":"CT",
         "distance":4.84,
-        "hops":7,
-        "distance_per_hop":0.6914285714,
+        "hops":8,
+        "distance_per_hop":0.605,
         "states_in_path":[
             "CO",
             "KS",
@@ -7206,8 +7076,8 @@
         "state1":"CO",
         "state2":"MA",
         "distance":5.13,
-        "hops":7,
-        "distance_per_hop":0.7328571429,
+        "hops":8,
+        "distance_per_hop":0.64125,
         "states_in_path":[
             "CO",
             "KS",
@@ -7224,8 +7094,8 @@
         "state1":"CO",
         "state2":"NY",
         "distance":4.38,
-        "hops":6,
-        "distance_per_hop":0.73,
+        "hops":7,
+        "distance_per_hop":0.6257142857,
         "states_in_path":[
             "CO",
             "KS",
@@ -7241,8 +7111,8 @@
         "state1":"CO",
         "state2":"RI",
         "distance":5.14,
-        "hops":8,
-        "distance_per_hop":0.6425,
+        "hops":9,
+        "distance_per_hop":0.5711111111,
         "states_in_path":[
             "CO",
             "KS",
@@ -7291,8 +7161,8 @@
         "state1":"CO",
         "state2":"NJ",
         "distance":4.72,
-        "hops":6,
-        "distance_per_hop":0.7866666667,
+        "hops":7,
+        "distance_per_hop":0.6742857143,
         "states_in_path":[
             "CO",
             "KS",
@@ -7308,8 +7178,8 @@
         "state1":"CO",
         "state2":"PA",
         "distance":2.84,
-        "hops":5,
-        "distance_per_hop":0.568,
+        "hops":6,
+        "distance_per_hop":0.4733333333,
         "states_in_path":[
             "CO",
             "KS",
@@ -7353,8 +7223,8 @@
         "state1":"CO",
         "state2":"IA",
         "distance":2.59,
-        "hops":2,
-        "distance_per_hop":1.295,
+        "hops":3,
+        "distance_per_hop":0.8633333333,
         "states_in_path":[
             "CO",
             "KS",
@@ -7379,8 +7249,8 @@
         "state1":"CO",
         "state2":"MN",
         "distance":2.96,
-        "hops":3,
-        "distance_per_hop":0.9866666667,
+        "hops":4,
+        "distance_per_hop":0.74,
         "states_in_path":[
             "CO",
             "KS",
@@ -7405,8 +7275,8 @@
         "state1":"CO",
         "state2":"WI",
         "distance":1.92,
-        "hops":3,
-        "distance_per_hop":0.64,
+        "hops":4,
+        "distance_per_hop":0.48,
         "states_in_path":[
             "CO",
             "KS",
@@ -7483,8 +7353,8 @@
         "state1":"CO",
         "state2":"MI",
         "distance":2.24,
-        "hops":4,
-        "distance_per_hop":0.56,
+        "hops":5,
+        "distance_per_hop":0.448,
         "states_in_path":[
             "CO",
             "KS",
@@ -7526,8 +7396,8 @@
         "state1":"CO",
         "state2":"WV",
         "distance":2.81,
-        "hops":4,
-        "distance_per_hop":0.7025,
+        "hops":5,
+        "distance_per_hop":0.562,
         "states_in_path":[
             "CO",
             "KS",
@@ -7541,8 +7411,8 @@
         "state1":"CO",
         "state2":"NH",
         "distance":5.48,
-        "hops":8,
-        "distance_per_hop":0.685,
+        "hops":9,
+        "distance_per_hop":0.6088888889,
         "states_in_path":[
             "CO",
             "KS",
@@ -7560,8 +7430,8 @@
         "state1":"CO",
         "state2":"ME",
         "distance":8.23,
-        "hops":9,
-        "distance_per_hop":0.9144444444,
+        "hops":10,
+        "distance_per_hop":0.823,
         "states_in_path":[
             "CO",
             "KS",
@@ -7591,16 +7461,6 @@
     },
     {
         "state1":"NM",
-        "state2":"NM",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
-        ]
-    },
-    {
-        "state1":"NM",
         "state2":"UT",
         "distance":0.83,
         "hops":1,
@@ -7626,8 +7486,8 @@
         "state1":"NM",
         "state2":"OR",
         "distance":1.65,
-        "hops":3,
-        "distance_per_hop":0.55,
+        "hops":4,
+        "distance_per_hop":0.4125,
         "states_in_path":[
             "NM",
             "CO",
@@ -7676,8 +7536,8 @@
         "state1":"NM",
         "state2":"CT",
         "distance":5.0,
-        "hops":7,
-        "distance_per_hop":0.7142857143,
+        "hops":9,
+        "distance_per_hop":0.5555555556,
         "states_in_path":[
             "NM",
             "CO",
@@ -7695,8 +7555,8 @@
         "state1":"NM",
         "state2":"MA",
         "distance":5.29,
-        "hops":7,
-        "distance_per_hop":0.7557142857,
+        "hops":9,
+        "distance_per_hop":0.5877777778,
         "states_in_path":[
             "NM",
             "CO",
@@ -7714,8 +7574,8 @@
         "state1":"NM",
         "state2":"NY",
         "distance":4.54,
-        "hops":6,
-        "distance_per_hop":0.7566666667,
+        "hops":8,
+        "distance_per_hop":0.5675,
         "states_in_path":[
             "NM",
             "CO",
@@ -7732,8 +7592,8 @@
         "state1":"NM",
         "state2":"RI",
         "distance":5.3,
-        "hops":8,
-        "distance_per_hop":0.6625,
+        "hops":10,
+        "distance_per_hop":0.53,
         "states_in_path":[
             "NM",
             "CO",
@@ -7752,8 +7612,8 @@
         "state1":"NM",
         "state2":"DE",
         "distance":3.49,
-        "hops":6,
-        "distance_per_hop":0.5816666667,
+        "hops":7,
+        "distance_per_hop":0.4985714286,
         "states_in_path":[
             "NM",
             "CO",
@@ -7769,8 +7629,8 @@
         "state1":"NM",
         "state2":"MD",
         "distance":2.96,
-        "hops":5,
-        "distance_per_hop":0.592,
+        "hops":6,
+        "distance_per_hop":0.4933333333,
         "states_in_path":[
             "NM",
             "CO",
@@ -7785,8 +7645,8 @@
         "state1":"NM",
         "state2":"NJ",
         "distance":4.88,
-        "hops":6,
-        "distance_per_hop":0.8133333333,
+        "hops":8,
+        "distance_per_hop":0.61,
         "states_in_path":[
             "NM",
             "CO",
@@ -7803,8 +7663,8 @@
         "state1":"NM",
         "state2":"PA",
         "distance":3.0,
-        "hops":5,
-        "distance_per_hop":0.6,
+        "hops":7,
+        "distance_per_hop":0.4285714286,
         "states_in_path":[
             "NM",
             "CO",
@@ -7820,8 +7680,8 @@
         "state1":"NM",
         "state2":"NC",
         "distance":2.56,
-        "hops":4,
-        "distance_per_hop":0.64,
+        "hops":5,
+        "distance_per_hop":0.512,
         "states_in_path":[
             "NM",
             "CO",
@@ -7835,8 +7695,8 @@
         "state1":"NM",
         "state2":"SC",
         "distance":2.57,
-        "hops":5,
-        "distance_per_hop":0.514,
+        "hops":6,
+        "distance_per_hop":0.4283333333,
         "states_in_path":[
             "NM",
             "CO",
@@ -7851,8 +7711,8 @@
         "state1":"NM",
         "state2":"IA",
         "distance":2.75,
-        "hops":3,
-        "distance_per_hop":0.9166666667,
+        "hops":4,
+        "distance_per_hop":0.6875,
         "states_in_path":[
             "NM",
             "CO",
@@ -7865,8 +7725,8 @@
         "state1":"NM",
         "state2":"IL",
         "distance":1.94,
-        "hops":3,
-        "distance_per_hop":0.6466666667,
+        "hops":4,
+        "distance_per_hop":0.485,
         "states_in_path":[
             "NM",
             "CO",
@@ -7879,8 +7739,8 @@
         "state1":"NM",
         "state2":"MN",
         "distance":3.12,
-        "hops":4,
-        "distance_per_hop":0.78,
+        "hops":5,
+        "distance_per_hop":0.624,
         "states_in_path":[
             "NM",
             "CO",
@@ -7907,8 +7767,8 @@
         "state1":"NM",
         "state2":"WI",
         "distance":2.08,
-        "hops":4,
-        "distance_per_hop":0.52,
+        "hops":5,
+        "distance_per_hop":0.416,
         "states_in_path":[
             "NM",
             "CO",
@@ -7922,8 +7782,8 @@
         "state1":"NM",
         "state2":"ID",
         "distance":1.41,
-        "hops":2,
-        "distance_per_hop":0.705,
+        "hops":3,
+        "distance_per_hop":0.47,
         "states_in_path":[
             "NM",
             "CO",
@@ -7948,8 +7808,8 @@
         "state1":"NM",
         "state2":"WA",
         "distance":2.07,
-        "hops":3,
-        "distance_per_hop":0.69,
+        "hops":4,
+        "distance_per_hop":0.5175,
         "states_in_path":[
             "NM",
             "CO",
@@ -7962,8 +7822,8 @@
         "state1":"NM",
         "state2":"IN",
         "distance":2.26,
-        "hops":4,
-        "distance_per_hop":0.565,
+        "hops":5,
+        "distance_per_hop":0.452,
         "states_in_path":[
             "NM",
             "CO",
@@ -7977,8 +7837,8 @@
         "state1":"NM",
         "state2":"KY",
         "distance":2.19,
-        "hops":3,
-        "distance_per_hop":0.73,
+        "hops":4,
+        "distance_per_hop":0.5475,
         "states_in_path":[
             "NM",
             "CO",
@@ -7991,8 +7851,8 @@
         "state1":"NM",
         "state2":"MI",
         "distance":2.4,
-        "hops":5,
-        "distance_per_hop":0.48,
+        "hops":6,
+        "distance_per_hop":0.4,
         "states_in_path":[
             "NM",
             "CO",
@@ -8007,8 +7867,8 @@
         "state1":"NM",
         "state2":"OH",
         "distance":2.77,
-        "hops":4,
-        "distance_per_hop":0.6925,
+        "hops":5,
+        "distance_per_hop":0.554,
         "states_in_path":[
             "NM",
             "CO",
@@ -8022,8 +7882,8 @@
         "state1":"NM",
         "state2":"VA",
         "distance":2.7,
-        "hops":4,
-        "distance_per_hop":0.675,
+        "hops":5,
+        "distance_per_hop":0.54,
         "states_in_path":[
             "NM",
             "CO",
@@ -8037,8 +7897,8 @@
         "state1":"NM",
         "state2":"WV",
         "distance":2.97,
-        "hops":4,
-        "distance_per_hop":0.7425,
+        "hops":6,
+        "distance_per_hop":0.495,
         "states_in_path":[
             "NM",
             "CO",
@@ -8053,8 +7913,8 @@
         "state1":"NM",
         "state2":"NH",
         "distance":5.64,
-        "hops":8,
-        "distance_per_hop":0.705,
+        "hops":10,
+        "distance_per_hop":0.564,
         "states_in_path":[
             "NM",
             "CO",
@@ -8073,8 +7933,8 @@
         "state1":"NM",
         "state2":"ME",
         "distance":8.39,
-        "hops":9,
-        "distance_per_hop":0.9322222222,
+        "hops":11,
+        "distance_per_hop":0.7627272727,
         "states_in_path":[
             "NM",
             "CO",
@@ -8102,16 +7962,6 @@
             "WY",
             "MT",
             "ND"
-        ]
-    },
-    {
-        "state1":"NV",
-        "state2":"NV",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
         ]
     },
     {
@@ -8177,8 +8027,8 @@
         "state1":"NV",
         "state2":"WY",
         "distance":2.04,
-        "hops":2,
-        "distance_per_hop":1.02,
+        "hops":3,
+        "distance_per_hop":0.68,
         "states_in_path":[
             "NV",
             "AZ",
@@ -8190,8 +8040,8 @@
         "state1":"NV",
         "state2":"CT",
         "distance":6.17,
-        "hops":9,
-        "distance_per_hop":0.6855555556,
+        "hops":10,
+        "distance_per_hop":0.617,
         "states_in_path":[
             "NV",
             "AZ",
@@ -8210,8 +8060,8 @@
         "state1":"NV",
         "state2":"MA",
         "distance":6.46,
-        "hops":9,
-        "distance_per_hop":0.7177777778,
+        "hops":10,
+        "distance_per_hop":0.646,
         "states_in_path":[
             "NV",
             "AZ",
@@ -8230,8 +8080,8 @@
         "state1":"NV",
         "state2":"NY",
         "distance":5.71,
-        "hops":8,
-        "distance_per_hop":0.71375,
+        "hops":9,
+        "distance_per_hop":0.6344444444,
         "states_in_path":[
             "NV",
             "AZ",
@@ -8249,8 +8099,8 @@
         "state1":"NV",
         "state2":"RI",
         "distance":6.47,
-        "hops":10,
-        "distance_per_hop":0.647,
+        "hops":11,
+        "distance_per_hop":0.5881818182,
         "states_in_path":[
             "NV",
             "AZ",
@@ -8305,8 +8155,8 @@
         "state1":"NV",
         "state2":"NJ",
         "distance":6.05,
-        "hops":8,
-        "distance_per_hop":0.75625,
+        "hops":9,
+        "distance_per_hop":0.6722222222,
         "states_in_path":[
             "NV",
             "AZ",
@@ -8324,8 +8174,8 @@
         "state1":"NV",
         "state2":"PA",
         "distance":4.17,
-        "hops":7,
-        "distance_per_hop":0.5957142857,
+        "hops":8,
+        "distance_per_hop":0.52125,
         "states_in_path":[
             "NV",
             "AZ",
@@ -8375,8 +8225,8 @@
         "state1":"NV",
         "state2":"IA",
         "distance":3.78,
-        "hops":4,
-        "distance_per_hop":0.945,
+        "hops":5,
+        "distance_per_hop":0.756,
         "states_in_path":[
             "NV",
             "ID",
@@ -8419,8 +8269,8 @@
         "state1":"NV",
         "state2":"SD",
         "distance":3.22,
-        "hops":3,
-        "distance_per_hop":1.0733333333,
+        "hops":4,
+        "distance_per_hop":0.805,
         "states_in_path":[
             "NV",
             "AZ",
@@ -8433,8 +8283,8 @@
         "state1":"NV",
         "state2":"WI",
         "distance":3.25,
-        "hops":5,
-        "distance_per_hop":0.65,
+        "hops":6,
+        "distance_per_hop":0.5416666667,
         "states_in_path":[
             "NV",
             "AZ",
@@ -8504,8 +8354,8 @@
         "state1":"NV",
         "state2":"MI",
         "distance":3.57,
-        "hops":6,
-        "distance_per_hop":0.595,
+        "hops":7,
+        "distance_per_hop":0.51,
         "states_in_path":[
             "NV",
             "AZ",
@@ -8553,8 +8403,8 @@
         "state1":"NV",
         "state2":"WV",
         "distance":4.14,
-        "hops":6,
-        "distance_per_hop":0.69,
+        "hops":7,
+        "distance_per_hop":0.5914285714,
         "states_in_path":[
             "NV",
             "AZ",
@@ -8570,8 +8420,8 @@
         "state1":"NV",
         "state2":"NH",
         "distance":6.81,
-        "hops":10,
-        "distance_per_hop":0.681,
+        "hops":11,
+        "distance_per_hop":0.6190909091,
         "states_in_path":[
             "NV",
             "AZ",
@@ -8591,8 +8441,8 @@
         "state1":"NV",
         "state2":"ME",
         "distance":9.56,
-        "hops":11,
-        "distance_per_hop":0.8690909091,
+        "hops":12,
+        "distance_per_hop":0.7966666667,
         "states_in_path":[
             "NV",
             "AZ",
@@ -8620,16 +8470,6 @@
             "ID",
             "MT",
             "ND"
-        ]
-    },
-    {
-        "state1":"UT",
-        "state2":"UT",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
         ]
     },
     {
@@ -8694,8 +8534,8 @@
         "state1":"UT",
         "state2":"CT",
         "distance":5.51,
-        "hops":8,
-        "distance_per_hop":0.68875,
+        "hops":9,
+        "distance_per_hop":0.6122222222,
         "states_in_path":[
             "UT",
             "CO",
@@ -8713,8 +8553,8 @@
         "state1":"UT",
         "state2":"MA",
         "distance":5.8,
-        "hops":8,
-        "distance_per_hop":0.725,
+        "hops":9,
+        "distance_per_hop":0.6444444444,
         "states_in_path":[
             "UT",
             "CO",
@@ -8732,8 +8572,8 @@
         "state1":"UT",
         "state2":"NY",
         "distance":5.05,
-        "hops":7,
-        "distance_per_hop":0.7214285714,
+        "hops":8,
+        "distance_per_hop":0.63125,
         "states_in_path":[
             "UT",
             "CO",
@@ -8750,8 +8590,8 @@
         "state1":"UT",
         "state2":"RI",
         "distance":5.81,
-        "hops":9,
-        "distance_per_hop":0.6455555556,
+        "hops":10,
+        "distance_per_hop":0.581,
         "states_in_path":[
             "UT",
             "CO",
@@ -8803,8 +8643,8 @@
         "state1":"UT",
         "state2":"NJ",
         "distance":5.39,
-        "hops":7,
-        "distance_per_hop":0.77,
+        "hops":8,
+        "distance_per_hop":0.67375,
         "states_in_path":[
             "UT",
             "CO",
@@ -8821,8 +8661,8 @@
         "state1":"UT",
         "state2":"PA",
         "distance":3.51,
-        "hops":6,
-        "distance_per_hop":0.585,
+        "hops":7,
+        "distance_per_hop":0.5014285714,
         "states_in_path":[
             "UT",
             "CO",
@@ -8869,8 +8709,8 @@
         "state1":"UT",
         "state2":"IA",
         "distance":3.12,
-        "hops":3,
-        "distance_per_hop":1.04,
+        "hops":5,
+        "distance_per_hop":0.624,
         "states_in_path":[
             "UT",
             "ID",
@@ -8898,8 +8738,8 @@
         "state1":"UT",
         "state2":"MN",
         "distance":2.75,
-        "hops":3,
-        "distance_per_hop":0.9166666667,
+        "hops":4,
+        "distance_per_hop":0.6875,
         "states_in_path":[
             "UT",
             "ID",
@@ -8912,8 +8752,8 @@
         "state1":"UT",
         "state2":"SD",
         "distance":2.56,
-        "hops":2,
-        "distance_per_hop":1.28,
+        "hops":3,
+        "distance_per_hop":0.8533333333,
         "states_in_path":[
             "UT",
             "CO",
@@ -8925,8 +8765,8 @@
         "state1":"UT",
         "state2":"WI",
         "distance":2.59,
-        "hops":4,
-        "distance_per_hop":0.6475,
+        "hops":5,
+        "distance_per_hop":0.518,
         "states_in_path":[
             "UT",
             "CO",
@@ -8993,8 +8833,8 @@
         "state1":"UT",
         "state2":"MI",
         "distance":2.91,
-        "hops":5,
-        "distance_per_hop":0.582,
+        "hops":6,
+        "distance_per_hop":0.485,
         "states_in_path":[
             "UT",
             "CO",
@@ -9039,8 +8879,8 @@
         "state1":"UT",
         "state2":"WV",
         "distance":3.48,
-        "hops":5,
-        "distance_per_hop":0.696,
+        "hops":6,
+        "distance_per_hop":0.58,
         "states_in_path":[
             "UT",
             "CO",
@@ -9055,8 +8895,8 @@
         "state1":"UT",
         "state2":"NH",
         "distance":6.15,
-        "hops":9,
-        "distance_per_hop":0.6833333333,
+        "hops":10,
+        "distance_per_hop":0.615,
         "states_in_path":[
             "UT",
             "CO",
@@ -9075,8 +8915,8 @@
         "state1":"UT",
         "state2":"ME",
         "distance":8.9,
-        "hops":10,
-        "distance_per_hop":0.89,
+        "hops":11,
+        "distance_per_hop":0.8090909091,
         "states_in_path":[
             "UT",
             "CO",
@@ -9103,16 +8943,6 @@
             "ID",
             "MT",
             "ND"
-        ]
-    },
-    {
-        "state1":"OR",
-        "state2":"OR",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
         ]
     },
     {
@@ -9155,8 +8985,8 @@
         "state1":"OR",
         "state2":"NE",
         "distance":2.25,
-        "hops":3,
-        "distance_per_hop":0.75,
+        "hops":4,
+        "distance_per_hop":0.5625,
         "states_in_path":[
             "OR",
             "ID",
@@ -9181,8 +9011,8 @@
         "state1":"OR",
         "state2":"CT",
         "distance":5.79,
-        "hops":9,
-        "distance_per_hop":0.6433333333,
+        "hops":11,
+        "distance_per_hop":0.5263636364,
         "states_in_path":[
             "OR",
             "ID",
@@ -9202,8 +9032,8 @@
         "state1":"OR",
         "state2":"MA",
         "distance":6.08,
-        "hops":9,
-        "distance_per_hop":0.6755555556,
+        "hops":11,
+        "distance_per_hop":0.5527272727,
         "states_in_path":[
             "OR",
             "ID",
@@ -9223,8 +9053,8 @@
         "state1":"OR",
         "state2":"NY",
         "distance":5.33,
-        "hops":8,
-        "distance_per_hop":0.66625,
+        "hops":10,
+        "distance_per_hop":0.533,
         "states_in_path":[
             "OR",
             "ID",
@@ -9243,8 +9073,8 @@
         "state1":"OR",
         "state2":"RI",
         "distance":6.09,
-        "hops":10,
-        "distance_per_hop":0.609,
+        "hops":12,
+        "distance_per_hop":0.5075,
         "states_in_path":[
             "OR",
             "ID",
@@ -9265,8 +9095,8 @@
         "state1":"OR",
         "state2":"DE",
         "distance":4.28,
-        "hops":8,
-        "distance_per_hop":0.535,
+        "hops":9,
+        "distance_per_hop":0.4755555556,
         "states_in_path":[
             "OR",
             "ID",
@@ -9284,8 +9114,8 @@
         "state1":"OR",
         "state2":"MD",
         "distance":3.75,
-        "hops":7,
-        "distance_per_hop":0.5357142857,
+        "hops":8,
+        "distance_per_hop":0.46875,
         "states_in_path":[
             "OR",
             "ID",
@@ -9302,8 +9132,8 @@
         "state1":"OR",
         "state2":"NJ",
         "distance":5.67,
-        "hops":8,
-        "distance_per_hop":0.70875,
+        "hops":10,
+        "distance_per_hop":0.567,
         "states_in_path":[
             "OR",
             "ID",
@@ -9322,8 +9152,8 @@
         "state1":"OR",
         "state2":"PA",
         "distance":3.79,
-        "hops":7,
-        "distance_per_hop":0.5414285714,
+        "hops":9,
+        "distance_per_hop":0.4211111111,
         "states_in_path":[
             "OR",
             "ID",
@@ -9341,8 +9171,8 @@
         "state1":"OR",
         "state2":"NC",
         "distance":3.35,
-        "hops":6,
-        "distance_per_hop":0.5583333333,
+        "hops":7,
+        "distance_per_hop":0.4785714286,
         "states_in_path":[
             "OR",
             "ID",
@@ -9358,8 +9188,8 @@
         "state1":"OR",
         "state2":"SC",
         "distance":3.36,
-        "hops":7,
-        "distance_per_hop":0.48,
+        "hops":8,
+        "distance_per_hop":0.42,
         "states_in_path":[
             "OR",
             "ID",
@@ -9376,8 +9206,8 @@
         "state1":"OR",
         "state2":"IA",
         "distance":2.52,
-        "hops":4,
-        "distance_per_hop":0.63,
+        "hops":5,
+        "distance_per_hop":0.504,
         "states_in_path":[
             "OR",
             "ID",
@@ -9391,8 +9221,8 @@
         "state1":"OR",
         "state2":"IL",
         "distance":2.73,
-        "hops":5,
-        "distance_per_hop":0.546,
+        "hops":6,
+        "distance_per_hop":0.455,
         "states_in_path":[
             "OR",
             "ID",
@@ -9434,8 +9264,8 @@
         "state1":"OR",
         "state2":"WI",
         "distance":2.87,
-        "hops":5,
-        "distance_per_hop":0.574,
+        "hops":7,
+        "distance_per_hop":0.41,
         "states_in_path":[
             "OR",
             "ID",
@@ -9463,8 +9293,8 @@
         "state1":"OR",
         "state2":"IN",
         "distance":3.05,
-        "hops":6,
-        "distance_per_hop":0.5083333333,
+        "hops":7,
+        "distance_per_hop":0.4357142857,
         "states_in_path":[
             "OR",
             "ID",
@@ -9480,8 +9310,8 @@
         "state1":"OR",
         "state2":"KY",
         "distance":2.98,
-        "hops":5,
-        "distance_per_hop":0.596,
+        "hops":6,
+        "distance_per_hop":0.4966666667,
         "states_in_path":[
             "OR",
             "ID",
@@ -9496,8 +9326,8 @@
         "state1":"OR",
         "state2":"MI",
         "distance":3.19,
-        "hops":6,
-        "distance_per_hop":0.5316666667,
+        "hops":8,
+        "distance_per_hop":0.39875,
         "states_in_path":[
             "OR",
             "ID",
@@ -9514,8 +9344,8 @@
         "state1":"OR",
         "state2":"OH",
         "distance":3.56,
-        "hops":6,
-        "distance_per_hop":0.5933333333,
+        "hops":7,
+        "distance_per_hop":0.5085714286,
         "states_in_path":[
             "OR",
             "ID",
@@ -9531,8 +9361,8 @@
         "state1":"OR",
         "state2":"VA",
         "distance":3.49,
-        "hops":6,
-        "distance_per_hop":0.5816666667,
+        "hops":7,
+        "distance_per_hop":0.4985714286,
         "states_in_path":[
             "OR",
             "ID",
@@ -9548,8 +9378,8 @@
         "state1":"OR",
         "state2":"WV",
         "distance":3.76,
-        "hops":6,
-        "distance_per_hop":0.6266666667,
+        "hops":8,
+        "distance_per_hop":0.47,
         "states_in_path":[
             "OR",
             "ID",
@@ -9566,8 +9396,8 @@
         "state1":"OR",
         "state2":"NH",
         "distance":6.43,
-        "hops":10,
-        "distance_per_hop":0.643,
+        "hops":12,
+        "distance_per_hop":0.5358333333,
         "states_in_path":[
             "OR",
             "ID",
@@ -9588,8 +9418,8 @@
         "state1":"OR",
         "state2":"ME",
         "distance":9.18,
-        "hops":11,
-        "distance_per_hop":0.8345454545,
+        "hops":13,
+        "distance_per_hop":0.7061538462,
         "states_in_path":[
             "OR",
             "ID",
@@ -9622,16 +9452,6 @@
     },
     {
         "state1":"KS",
-        "state2":"KS",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
-        ]
-    },
-    {
-        "state1":"KS",
         "state2":"NE",
         "distance":1.16,
         "hops":1,
@@ -9657,8 +9477,8 @@
         "state1":"KS",
         "state2":"CT",
         "distance":4.16,
-        "hops":6,
-        "distance_per_hop":0.6933333333,
+        "hops":7,
+        "distance_per_hop":0.5942857143,
         "states_in_path":[
             "KS",
             "MO",
@@ -9674,8 +9494,8 @@
         "state1":"KS",
         "state2":"MA",
         "distance":4.45,
-        "hops":6,
-        "distance_per_hop":0.7416666667,
+        "hops":7,
+        "distance_per_hop":0.6357142857,
         "states_in_path":[
             "KS",
             "MO",
@@ -9691,8 +9511,8 @@
         "state1":"KS",
         "state2":"NY",
         "distance":3.7,
-        "hops":5,
-        "distance_per_hop":0.74,
+        "hops":6,
+        "distance_per_hop":0.6166666667,
         "states_in_path":[
             "KS",
             "MO",
@@ -9707,8 +9527,8 @@
         "state1":"KS",
         "state2":"RI",
         "distance":4.46,
-        "hops":7,
-        "distance_per_hop":0.6371428571,
+        "hops":8,
+        "distance_per_hop":0.5575,
         "states_in_path":[
             "KS",
             "MO",
@@ -9754,8 +9574,8 @@
         "state1":"KS",
         "state2":"NJ",
         "distance":4.04,
-        "hops":5,
-        "distance_per_hop":0.808,
+        "hops":6,
+        "distance_per_hop":0.6733333333,
         "states_in_path":[
             "KS",
             "MO",
@@ -9770,8 +9590,8 @@
         "state1":"KS",
         "state2":"PA",
         "distance":2.16,
-        "hops":4,
-        "distance_per_hop":0.54,
+        "hops":5,
+        "distance_per_hop":0.432,
         "states_in_path":[
             "KS",
             "MO",
@@ -9979,8 +9799,8 @@
         "state1":"KS",
         "state2":"WV",
         "distance":2.13,
-        "hops":3,
-        "distance_per_hop":0.71,
+        "hops":4,
+        "distance_per_hop":0.5325,
         "states_in_path":[
             "KS",
             "MO",
@@ -9993,8 +9813,8 @@
         "state1":"KS",
         "state2":"NH",
         "distance":4.8,
-        "hops":7,
-        "distance_per_hop":0.6857142857,
+        "hops":8,
+        "distance_per_hop":0.6,
         "states_in_path":[
             "KS",
             "MO",
@@ -10011,8 +9831,8 @@
         "state1":"KS",
         "state2":"ME",
         "distance":7.55,
-        "hops":8,
-        "distance_per_hop":0.94375,
+        "hops":9,
+        "distance_per_hop":0.8388888889,
         "states_in_path":[
             "KS",
             "MO",
@@ -10030,24 +9850,14 @@
         "state1":"KS",
         "state2":"ND",
         "distance":2.42,
-        "hops":3,
-        "distance_per_hop":0.8066666667,
+        "hops":4,
+        "distance_per_hop":0.605,
         "states_in_path":[
             "KS",
             "MO",
             "IA",
             "MN",
             "ND"
-        ]
-    },
-    {
-        "state1":"NE",
-        "state2":"NE",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
         ]
     },
     {
@@ -10087,8 +9897,8 @@
         "state1":"NE",
         "state2":"CT",
         "distance":3.54,
-        "hops":6,
-        "distance_per_hop":0.59,
+        "hops":7,
+        "distance_per_hop":0.5057142857,
         "states_in_path":[
             "NE",
             "MO",
@@ -10104,8 +9914,8 @@
         "state1":"NE",
         "state2":"MA",
         "distance":3.83,
-        "hops":6,
-        "distance_per_hop":0.6383333333,
+        "hops":7,
+        "distance_per_hop":0.5471428571,
         "states_in_path":[
             "NE",
             "MO",
@@ -10121,8 +9931,8 @@
         "state1":"NE",
         "state2":"NY",
         "distance":3.08,
-        "hops":5,
-        "distance_per_hop":0.616,
+        "hops":6,
+        "distance_per_hop":0.5133333333,
         "states_in_path":[
             "NE",
             "MO",
@@ -10137,8 +9947,8 @@
         "state1":"NE",
         "state2":"RI",
         "distance":3.84,
-        "hops":7,
-        "distance_per_hop":0.5485714286,
+        "hops":8,
+        "distance_per_hop":0.48,
         "states_in_path":[
             "NE",
             "MO",
@@ -10184,8 +9994,8 @@
         "state1":"NE",
         "state2":"NJ",
         "distance":3.42,
-        "hops":5,
-        "distance_per_hop":0.684,
+        "hops":6,
+        "distance_per_hop":0.57,
         "states_in_path":[
             "NE",
             "MO",
@@ -10200,8 +10010,8 @@
         "state1":"NE",
         "state2":"PA",
         "distance":1.54,
-        "hops":4,
-        "distance_per_hop":0.385,
+        "hops":5,
+        "distance_per_hop":0.308,
         "states_in_path":[
             "NE",
             "MO",
@@ -10266,8 +10076,8 @@
         "state1":"NE",
         "state2":"WI",
         "distance":0.62,
-        "hops":2,
-        "distance_per_hop":0.31,
+        "hops":3,
+        "distance_per_hop":0.2066666667,
         "states_in_path":[
             "NE",
             "MO",
@@ -10279,8 +10089,8 @@
         "state1":"NE",
         "state2":"ID",
         "distance":2.01,
-        "hops":2,
-        "distance_per_hop":1.005,
+        "hops":3,
+        "distance_per_hop":0.67,
         "states_in_path":[
             "NE",
             "SD",
@@ -10304,8 +10114,8 @@
         "state1":"NE",
         "state2":"WA",
         "distance":2.67,
-        "hops":3,
-        "distance_per_hop":0.89,
+        "hops":4,
+        "distance_per_hop":0.6675,
         "states_in_path":[
             "NE",
             "SD",
@@ -10343,8 +10153,8 @@
         "state1":"NE",
         "state2":"MI",
         "distance":0.94,
-        "hops":3,
-        "distance_per_hop":0.3133333333,
+        "hops":4,
+        "distance_per_hop":0.235,
         "states_in_path":[
             "NE",
             "MO",
@@ -10383,8 +10193,8 @@
         "state1":"NE",
         "state2":"WV",
         "distance":1.51,
-        "hops":3,
-        "distance_per_hop":0.5033333333,
+        "hops":4,
+        "distance_per_hop":0.3775,
         "states_in_path":[
             "NE",
             "MO",
@@ -10397,8 +10207,8 @@
         "state1":"NE",
         "state2":"NH",
         "distance":4.18,
-        "hops":7,
-        "distance_per_hop":0.5971428571,
+        "hops":8,
+        "distance_per_hop":0.5225,
         "states_in_path":[
             "NE",
             "MO",
@@ -10415,8 +10225,8 @@
         "state1":"NE",
         "state2":"ME",
         "distance":6.93,
-        "hops":8,
-        "distance_per_hop":0.86625,
+        "hops":9,
+        "distance_per_hop":0.77,
         "states_in_path":[
             "NE",
             "MO",
@@ -10440,16 +10250,6 @@
             "NE",
             "SD",
             "ND"
-        ]
-    },
-    {
-        "state1":"WY",
-        "state2":"WY",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
         ]
     },
     {
@@ -10489,8 +10289,8 @@
         "state1":"WY",
         "state2":"CT",
         "distance":5.55,
-        "hops":7,
-        "distance_per_hop":0.7928571429,
+        "hops":9,
+        "distance_per_hop":0.6166666667,
         "states_in_path":[
             "WY",
             "CO",
@@ -10508,8 +10308,8 @@
         "state1":"WY",
         "state2":"MA",
         "distance":5.84,
-        "hops":7,
-        "distance_per_hop":0.8342857143,
+        "hops":9,
+        "distance_per_hop":0.6488888889,
         "states_in_path":[
             "WY",
             "CO",
@@ -10527,8 +10327,8 @@
         "state1":"WY",
         "state2":"NY",
         "distance":5.09,
-        "hops":6,
-        "distance_per_hop":0.8483333333,
+        "hops":8,
+        "distance_per_hop":0.63625,
         "states_in_path":[
             "WY",
             "CO",
@@ -10545,8 +10345,8 @@
         "state1":"WY",
         "state2":"RI",
         "distance":5.85,
-        "hops":8,
-        "distance_per_hop":0.73125,
+        "hops":10,
+        "distance_per_hop":0.585,
         "states_in_path":[
             "WY",
             "CO",
@@ -10565,8 +10365,8 @@
         "state1":"WY",
         "state2":"DE",
         "distance":4.04,
-        "hops":6,
-        "distance_per_hop":0.6733333333,
+        "hops":7,
+        "distance_per_hop":0.5771428571,
         "states_in_path":[
             "WY",
             "CO",
@@ -10582,8 +10382,8 @@
         "state1":"WY",
         "state2":"MD",
         "distance":3.51,
-        "hops":5,
-        "distance_per_hop":0.702,
+        "hops":6,
+        "distance_per_hop":0.585,
         "states_in_path":[
             "WY",
             "CO",
@@ -10598,8 +10398,8 @@
         "state1":"WY",
         "state2":"NJ",
         "distance":5.43,
-        "hops":6,
-        "distance_per_hop":0.905,
+        "hops":8,
+        "distance_per_hop":0.67875,
         "states_in_path":[
             "WY",
             "CO",
@@ -10616,8 +10416,8 @@
         "state1":"WY",
         "state2":"PA",
         "distance":3.55,
-        "hops":5,
-        "distance_per_hop":0.71,
+        "hops":7,
+        "distance_per_hop":0.5071428571,
         "states_in_path":[
             "WY",
             "CO",
@@ -10633,8 +10433,8 @@
         "state1":"WY",
         "state2":"NC",
         "distance":3.11,
-        "hops":4,
-        "distance_per_hop":0.7775,
+        "hops":5,
+        "distance_per_hop":0.622,
         "states_in_path":[
             "WY",
             "CO",
@@ -10648,8 +10448,8 @@
         "state1":"WY",
         "state2":"SC",
         "distance":3.12,
-        "hops":5,
-        "distance_per_hop":0.624,
+        "hops":6,
+        "distance_per_hop":0.52,
         "states_in_path":[
             "WY",
             "CO",
@@ -10664,8 +10464,8 @@
         "state1":"WY",
         "state2":"IA",
         "distance":2.82,
-        "hops":2,
-        "distance_per_hop":1.41,
+        "hops":4,
+        "distance_per_hop":0.705,
         "states_in_path":[
             "WY",
             "MT",
@@ -10678,8 +10478,8 @@
         "state1":"WY",
         "state2":"IL",
         "distance":2.49,
-        "hops":3,
-        "distance_per_hop":0.83,
+        "hops":4,
+        "distance_per_hop":0.6225,
         "states_in_path":[
             "WY",
             "CO",
@@ -10692,8 +10492,8 @@
         "state1":"WY",
         "state2":"MN",
         "distance":2.45,
-        "hops":2,
-        "distance_per_hop":1.225,
+        "hops":3,
+        "distance_per_hop":0.8166666667,
         "states_in_path":[
             "WY",
             "MT",
@@ -10705,8 +10505,8 @@
         "state1":"WY",
         "state2":"WI",
         "distance":2.63,
-        "hops":3,
-        "distance_per_hop":0.8766666667,
+        "hops":5,
+        "distance_per_hop":0.526,
         "states_in_path":[
             "WY",
             "CO",
@@ -10732,8 +10532,8 @@
         "state1":"WY",
         "state2":"IN",
         "distance":2.81,
-        "hops":4,
-        "distance_per_hop":0.7025,
+        "hops":5,
+        "distance_per_hop":0.562,
         "states_in_path":[
             "WY",
             "CO",
@@ -10747,8 +10547,8 @@
         "state1":"WY",
         "state2":"KY",
         "distance":2.74,
-        "hops":3,
-        "distance_per_hop":0.9133333333,
+        "hops":4,
+        "distance_per_hop":0.685,
         "states_in_path":[
             "WY",
             "CO",
@@ -10761,8 +10561,8 @@
         "state1":"WY",
         "state2":"MI",
         "distance":2.95,
-        "hops":4,
-        "distance_per_hop":0.7375,
+        "hops":6,
+        "distance_per_hop":0.4916666667,
         "states_in_path":[
             "WY",
             "CO",
@@ -10777,8 +10577,8 @@
         "state1":"WY",
         "state2":"OH",
         "distance":3.32,
-        "hops":4,
-        "distance_per_hop":0.83,
+        "hops":5,
+        "distance_per_hop":0.664,
         "states_in_path":[
             "WY",
             "CO",
@@ -10792,8 +10592,8 @@
         "state1":"WY",
         "state2":"VA",
         "distance":3.25,
-        "hops":4,
-        "distance_per_hop":0.8125,
+        "hops":5,
+        "distance_per_hop":0.65,
         "states_in_path":[
             "WY",
             "CO",
@@ -10807,8 +10607,8 @@
         "state1":"WY",
         "state2":"WV",
         "distance":3.52,
-        "hops":4,
-        "distance_per_hop":0.88,
+        "hops":6,
+        "distance_per_hop":0.5866666667,
         "states_in_path":[
             "WY",
             "CO",
@@ -10823,8 +10623,8 @@
         "state1":"WY",
         "state2":"NH",
         "distance":6.19,
-        "hops":8,
-        "distance_per_hop":0.77375,
+        "hops":10,
+        "distance_per_hop":0.619,
         "states_in_path":[
             "WY",
             "CO",
@@ -10843,8 +10643,8 @@
         "state1":"WY",
         "state2":"ME",
         "distance":8.94,
-        "hops":9,
-        "distance_per_hop":0.9933333333,
+        "hops":11,
+        "distance_per_hop":0.8127272727,
         "states_in_path":[
             "WY",
             "CO",
@@ -10870,16 +10670,6 @@
             "WY",
             "MT",
             "ND"
-        ]
-    },
-    {
-        "state1":"CT",
-        "state2":"CT",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
         ]
     },
     {
@@ -11000,8 +10790,8 @@
         "state1":"CT",
         "state2":"IA",
         "distance":4.29,
-        "hops":6,
-        "distance_per_hop":0.715,
+        "hops":7,
+        "distance_per_hop":0.6128571429,
         "states_in_path":[
             "CT",
             "NY",
@@ -11017,8 +10807,8 @@
         "state1":"CT",
         "state2":"IL",
         "distance":3.48,
-        "hops":5,
-        "distance_per_hop":0.696,
+        "hops":7,
+        "distance_per_hop":0.4971428571,
         "states_in_path":[
             "CT",
             "NY",
@@ -11034,8 +10824,8 @@
         "state1":"CT",
         "state2":"MN",
         "distance":4.66,
-        "hops":6,
-        "distance_per_hop":0.7766666667,
+        "hops":8,
+        "distance_per_hop":0.5825,
         "states_in_path":[
             "CT",
             "NY",
@@ -11052,8 +10842,8 @@
         "state1":"CT",
         "state2":"SD",
         "distance":3.59,
-        "hops":7,
-        "distance_per_hop":0.5128571429,
+        "hops":8,
+        "distance_per_hop":0.44875,
         "states_in_path":[
             "CT",
             "NY",
@@ -11070,8 +10860,8 @@
         "state1":"CT",
         "state2":"WI",
         "distance":3.62,
-        "hops":5,
-        "distance_per_hop":0.724,
+        "hops":8,
+        "distance_per_hop":0.4525,
         "states_in_path":[
             "CT",
             "NY",
@@ -11088,8 +10878,8 @@
         "state1":"CT",
         "state2":"ID",
         "distance":5.55,
-        "hops":8,
-        "distance_per_hop":0.69375,
+        "hops":10,
+        "distance_per_hop":0.555,
         "states_in_path":[
             "CT",
             "NY",
@@ -11108,8 +10898,8 @@
         "state1":"CT",
         "state2":"MT",
         "distance":4.42,
-        "hops":8,
-        "distance_per_hop":0.5525,
+        "hops":9,
+        "distance_per_hop":0.4911111111,
         "states_in_path":[
             "CT",
             "NY",
@@ -11127,8 +10917,8 @@
         "state1":"CT",
         "state2":"WA",
         "distance":6.21,
-        "hops":9,
-        "distance_per_hop":0.69,
+        "hops":11,
+        "distance_per_hop":0.5645454545,
         "states_in_path":[
             "CT",
             "NY",
@@ -11148,8 +10938,8 @@
         "state1":"CT",
         "state2":"IN",
         "distance":3.08,
-        "hops":4,
-        "distance_per_hop":0.77,
+        "hops":6,
+        "distance_per_hop":0.5133333333,
         "states_in_path":[
             "CT",
             "NY",
@@ -11164,8 +10954,8 @@
         "state1":"CT",
         "state2":"KY",
         "distance":3.01,
-        "hops":4,
-        "distance_per_hop":0.7525,
+        "hops":5,
+        "distance_per_hop":0.602,
         "states_in_path":[
             "CT",
             "NY",
@@ -11179,8 +10969,8 @@
         "state1":"CT",
         "state2":"MI",
         "distance":3.5,
-        "hops":4,
-        "distance_per_hop":0.875,
+        "hops":7,
+        "distance_per_hop":0.5,
         "states_in_path":[
             "CT",
             "NY",
@@ -11261,8 +11051,8 @@
         "state1":"CT",
         "state2":"ND",
         "distance":4.8,
-        "hops":7,
-        "distance_per_hop":0.6857142857,
+        "hops":9,
+        "distance_per_hop":0.5333333333,
         "states_in_path":[
             "CT",
             "NY",
@@ -11274,16 +11064,6 @@
             "IA",
             "MN",
             "ND"
-        ]
-    },
-    {
-        "state1":"MA",
-        "state2":"MA",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
         ]
     },
     {
@@ -11404,8 +11184,8 @@
         "state1":"MA",
         "state2":"IA",
         "distance":4.58,
-        "hops":6,
-        "distance_per_hop":0.7633333333,
+        "hops":7,
+        "distance_per_hop":0.6542857143,
         "states_in_path":[
             "MA",
             "NY",
@@ -11421,8 +11201,8 @@
         "state1":"MA",
         "state2":"IL",
         "distance":3.77,
-        "hops":5,
-        "distance_per_hop":0.754,
+        "hops":7,
+        "distance_per_hop":0.5385714286,
         "states_in_path":[
             "MA",
             "NY",
@@ -11438,8 +11218,8 @@
         "state1":"MA",
         "state2":"MN",
         "distance":4.95,
-        "hops":6,
-        "distance_per_hop":0.825,
+        "hops":8,
+        "distance_per_hop":0.61875,
         "states_in_path":[
             "MA",
             "NY",
@@ -11456,8 +11236,8 @@
         "state1":"MA",
         "state2":"SD",
         "distance":3.88,
-        "hops":7,
-        "distance_per_hop":0.5542857143,
+        "hops":8,
+        "distance_per_hop":0.485,
         "states_in_path":[
             "MA",
             "NY",
@@ -11474,8 +11254,8 @@
         "state1":"MA",
         "state2":"WI",
         "distance":3.91,
-        "hops":5,
-        "distance_per_hop":0.782,
+        "hops":8,
+        "distance_per_hop":0.48875,
         "states_in_path":[
             "MA",
             "NY",
@@ -11492,8 +11272,8 @@
         "state1":"MA",
         "state2":"ID",
         "distance":5.84,
-        "hops":8,
-        "distance_per_hop":0.73,
+        "hops":10,
+        "distance_per_hop":0.584,
         "states_in_path":[
             "MA",
             "NY",
@@ -11512,8 +11292,8 @@
         "state1":"MA",
         "state2":"MT",
         "distance":4.71,
-        "hops":8,
-        "distance_per_hop":0.58875,
+        "hops":9,
+        "distance_per_hop":0.5233333333,
         "states_in_path":[
             "MA",
             "NY",
@@ -11531,8 +11311,8 @@
         "state1":"MA",
         "state2":"WA",
         "distance":6.5,
-        "hops":9,
-        "distance_per_hop":0.7222222222,
+        "hops":11,
+        "distance_per_hop":0.5909090909,
         "states_in_path":[
             "MA",
             "NY",
@@ -11552,8 +11332,8 @@
         "state1":"MA",
         "state2":"IN",
         "distance":3.37,
-        "hops":4,
-        "distance_per_hop":0.8425,
+        "hops":6,
+        "distance_per_hop":0.5616666667,
         "states_in_path":[
             "MA",
             "NY",
@@ -11568,8 +11348,8 @@
         "state1":"MA",
         "state2":"KY",
         "distance":3.3,
-        "hops":4,
-        "distance_per_hop":0.825,
+        "hops":5,
+        "distance_per_hop":0.66,
         "states_in_path":[
             "MA",
             "NY",
@@ -11583,8 +11363,8 @@
         "state1":"MA",
         "state2":"MI",
         "distance":3.79,
-        "hops":4,
-        "distance_per_hop":0.9475,
+        "hops":7,
+        "distance_per_hop":0.5414285714,
         "states_in_path":[
             "MA",
             "NY",
@@ -11652,8 +11432,8 @@
         "state1":"MA",
         "state2":"ND",
         "distance":5.09,
-        "hops":7,
-        "distance_per_hop":0.7271428571,
+        "hops":9,
+        "distance_per_hop":0.5655555556,
         "states_in_path":[
             "MA",
             "NY",
@@ -11665,16 +11445,6 @@
             "IA",
             "MN",
             "ND"
-        ]
-    },
-    {
-        "state1":"NY",
-        "state2":"NY",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
         ]
     },
     {
@@ -11768,8 +11538,8 @@
         "state1":"NY",
         "state2":"IA",
         "distance":3.83,
-        "hops":5,
-        "distance_per_hop":0.766,
+        "hops":6,
+        "distance_per_hop":0.6383333333,
         "states_in_path":[
             "NY",
             "PA",
@@ -11784,8 +11554,8 @@
         "state1":"NY",
         "state2":"IL",
         "distance":3.02,
-        "hops":4,
-        "distance_per_hop":0.755,
+        "hops":6,
+        "distance_per_hop":0.5033333333,
         "states_in_path":[
             "NY",
             "PA",
@@ -11800,8 +11570,8 @@
         "state1":"NY",
         "state2":"MN",
         "distance":4.2,
-        "hops":5,
-        "distance_per_hop":0.84,
+        "hops":7,
+        "distance_per_hop":0.6,
         "states_in_path":[
             "NY",
             "PA",
@@ -11817,8 +11587,8 @@
         "state1":"NY",
         "state2":"SD",
         "distance":3.13,
-        "hops":6,
-        "distance_per_hop":0.5216666667,
+        "hops":7,
+        "distance_per_hop":0.4471428571,
         "states_in_path":[
             "NY",
             "PA",
@@ -11834,8 +11604,8 @@
         "state1":"NY",
         "state2":"WI",
         "distance":3.16,
-        "hops":4,
-        "distance_per_hop":0.79,
+        "hops":7,
+        "distance_per_hop":0.4514285714,
         "states_in_path":[
             "NY",
             "PA",
@@ -11851,8 +11621,8 @@
         "state1":"NY",
         "state2":"ID",
         "distance":5.09,
-        "hops":7,
-        "distance_per_hop":0.7271428571,
+        "hops":9,
+        "distance_per_hop":0.5655555556,
         "states_in_path":[
             "NY",
             "PA",
@@ -11870,8 +11640,8 @@
         "state1":"NY",
         "state2":"MT",
         "distance":3.96,
-        "hops":7,
-        "distance_per_hop":0.5657142857,
+        "hops":8,
+        "distance_per_hop":0.495,
         "states_in_path":[
             "NY",
             "PA",
@@ -11888,8 +11658,8 @@
         "state1":"NY",
         "state2":"WA",
         "distance":5.75,
-        "hops":8,
-        "distance_per_hop":0.71875,
+        "hops":10,
+        "distance_per_hop":0.575,
         "states_in_path":[
             "NY",
             "PA",
@@ -11908,8 +11678,8 @@
         "state1":"NY",
         "state2":"IN",
         "distance":2.62,
-        "hops":3,
-        "distance_per_hop":0.8733333333,
+        "hops":5,
+        "distance_per_hop":0.524,
         "states_in_path":[
             "NY",
             "PA",
@@ -11923,8 +11693,8 @@
         "state1":"NY",
         "state2":"KY",
         "distance":2.55,
-        "hops":3,
-        "distance_per_hop":0.85,
+        "hops":4,
+        "distance_per_hop":0.6375,
         "states_in_path":[
             "NY",
             "PA",
@@ -11937,8 +11707,8 @@
         "state1":"NY",
         "state2":"MI",
         "distance":3.04,
-        "hops":3,
-        "distance_per_hop":1.0133333333,
+        "hops":6,
+        "distance_per_hop":0.5066666667,
         "states_in_path":[
             "NY",
             "PA",
@@ -12015,8 +11785,8 @@
         "state1":"NY",
         "state2":"ND",
         "distance":4.34,
-        "hops":6,
-        "distance_per_hop":0.7233333333,
+        "hops":8,
+        "distance_per_hop":0.5425,
         "states_in_path":[
             "NY",
             "PA",
@@ -12027,16 +11797,6 @@
             "IA",
             "MN",
             "ND"
-        ]
-    },
-    {
-        "state1":"RI",
-        "state2":"RI",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
         ]
     },
     {
@@ -12130,8 +11890,8 @@
         "state1":"RI",
         "state2":"IA",
         "distance":4.59,
-        "hops":7,
-        "distance_per_hop":0.6557142857,
+        "hops":8,
+        "distance_per_hop":0.57375,
         "states_in_path":[
             "RI",
             "CT",
@@ -12148,8 +11908,8 @@
         "state1":"RI",
         "state2":"IL",
         "distance":3.78,
-        "hops":6,
-        "distance_per_hop":0.63,
+        "hops":8,
+        "distance_per_hop":0.4725,
         "states_in_path":[
             "RI",
             "CT",
@@ -12166,8 +11926,8 @@
         "state1":"RI",
         "state2":"MN",
         "distance":4.96,
-        "hops":7,
-        "distance_per_hop":0.7085714286,
+        "hops":9,
+        "distance_per_hop":0.5511111111,
         "states_in_path":[
             "RI",
             "CT",
@@ -12185,8 +11945,8 @@
         "state1":"RI",
         "state2":"SD",
         "distance":3.89,
-        "hops":8,
-        "distance_per_hop":0.48625,
+        "hops":9,
+        "distance_per_hop":0.4322222222,
         "states_in_path":[
             "RI",
             "CT",
@@ -12204,8 +11964,8 @@
         "state1":"RI",
         "state2":"WI",
         "distance":3.92,
-        "hops":6,
-        "distance_per_hop":0.6533333333,
+        "hops":9,
+        "distance_per_hop":0.4355555556,
         "states_in_path":[
             "RI",
             "CT",
@@ -12223,8 +11983,8 @@
         "state1":"RI",
         "state2":"ID",
         "distance":5.85,
-        "hops":9,
-        "distance_per_hop":0.65,
+        "hops":11,
+        "distance_per_hop":0.5318181818,
         "states_in_path":[
             "RI",
             "CT",
@@ -12244,8 +12004,8 @@
         "state1":"RI",
         "state2":"MT",
         "distance":4.72,
-        "hops":9,
-        "distance_per_hop":0.5244444444,
+        "hops":10,
+        "distance_per_hop":0.472,
         "states_in_path":[
             "RI",
             "CT",
@@ -12264,8 +12024,8 @@
         "state1":"RI",
         "state2":"WA",
         "distance":6.51,
-        "hops":10,
-        "distance_per_hop":0.651,
+        "hops":12,
+        "distance_per_hop":0.5425,
         "states_in_path":[
             "RI",
             "CT",
@@ -12286,8 +12046,8 @@
         "state1":"RI",
         "state2":"IN",
         "distance":3.38,
-        "hops":5,
-        "distance_per_hop":0.676,
+        "hops":7,
+        "distance_per_hop":0.4828571429,
         "states_in_path":[
             "RI",
             "CT",
@@ -12303,8 +12063,8 @@
         "state1":"RI",
         "state2":"KY",
         "distance":3.31,
-        "hops":5,
-        "distance_per_hop":0.662,
+        "hops":6,
+        "distance_per_hop":0.5516666667,
         "states_in_path":[
             "RI",
             "CT",
@@ -12319,8 +12079,8 @@
         "state1":"RI",
         "state2":"MI",
         "distance":3.8,
-        "hops":5,
-        "distance_per_hop":0.76,
+        "hops":8,
+        "distance_per_hop":0.475,
         "states_in_path":[
             "RI",
             "CT",
@@ -12405,8 +12165,8 @@
         "state1":"RI",
         "state2":"ND",
         "distance":5.1,
-        "hops":8,
-        "distance_per_hop":0.6375,
+        "hops":10,
+        "distance_per_hop":0.51,
         "states_in_path":[
             "RI",
             "CT",
@@ -12419,16 +12179,6 @@
             "IA",
             "MN",
             "ND"
-        ]
-    },
-    {
-        "state1":"DE",
-        "state2":"DE",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
         ]
     },
     {
@@ -12510,8 +12260,8 @@
         "state1":"DE",
         "state2":"IL",
         "distance":1.97,
-        "hops":4,
-        "distance_per_hop":0.4925,
+        "hops":5,
+        "distance_per_hop":0.394,
         "states_in_path":[
             "DE",
             "MD",
@@ -12525,8 +12275,8 @@
         "state1":"DE",
         "state2":"MN",
         "distance":3.15,
-        "hops":5,
-        "distance_per_hop":0.63,
+        "hops":6,
+        "distance_per_hop":0.525,
         "states_in_path":[
             "DE",
             "MD",
@@ -12557,8 +12307,8 @@
         "state1":"DE",
         "state2":"WI",
         "distance":2.11,
-        "hops":4,
-        "distance_per_hop":0.5275,
+        "hops":6,
+        "distance_per_hop":0.3516666667,
         "states_in_path":[
             "DE",
             "MD",
@@ -12573,8 +12323,8 @@
         "state1":"DE",
         "state2":"ID",
         "distance":4.04,
-        "hops":7,
-        "distance_per_hop":0.5771428571,
+        "hops":8,
+        "distance_per_hop":0.505,
         "states_in_path":[
             "DE",
             "MD",
@@ -12608,8 +12358,8 @@
         "state1":"DE",
         "state2":"WA",
         "distance":4.7,
-        "hops":8,
-        "distance_per_hop":0.5875,
+        "hops":9,
+        "distance_per_hop":0.5222222222,
         "states_in_path":[
             "DE",
             "MD",
@@ -12627,8 +12377,8 @@
         "state1":"DE",
         "state2":"IN",
         "distance":1.57,
-        "hops":3,
-        "distance_per_hop":0.5233333333,
+        "hops":4,
+        "distance_per_hop":0.3925,
         "states_in_path":[
             "DE",
             "MD",
@@ -12654,8 +12404,8 @@
         "state1":"DE",
         "state2":"MI",
         "distance":1.99,
-        "hops":3,
-        "distance_per_hop":0.6633333333,
+        "hops":5,
+        "distance_per_hop":0.398,
         "states_in_path":[
             "DE",
             "MD",
@@ -12669,8 +12419,8 @@
         "state1":"DE",
         "state2":"OH",
         "distance":2.08,
-        "hops":2,
-        "distance_per_hop":1.04,
+        "hops":4,
+        "distance_per_hop":0.52,
         "states_in_path":[
             "DE",
             "MD",
@@ -12736,8 +12486,8 @@
         "state1":"DE",
         "state2":"ND",
         "distance":3.29,
-        "hops":6,
-        "distance_per_hop":0.5483333333,
+        "hops":7,
+        "distance_per_hop":0.47,
         "states_in_path":[
             "DE",
             "MD",
@@ -12747,16 +12497,6 @@
             "IA",
             "MN",
             "ND"
-        ]
-    },
-    {
-        "state1":"MD",
-        "state2":"MD",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
         ]
     },
     {
@@ -12847,8 +12587,8 @@
         "state1":"MD",
         "state2":"IL",
         "distance":1.44,
-        "hops":3,
-        "distance_per_hop":0.48,
+        "hops":4,
+        "distance_per_hop":0.36,
         "states_in_path":[
             "MD",
             "VA",
@@ -12891,8 +12631,8 @@
         "state1":"MD",
         "state2":"WI",
         "distance":1.58,
-        "hops":4,
-        "distance_per_hop":0.395,
+        "hops":5,
+        "distance_per_hop":0.316,
         "states_in_path":[
             "MD",
             "VA",
@@ -12906,8 +12646,8 @@
         "state1":"MD",
         "state2":"ID",
         "distance":3.51,
-        "hops":6,
-        "distance_per_hop":0.585,
+        "hops":7,
+        "distance_per_hop":0.5014285714,
         "states_in_path":[
             "MD",
             "VA",
@@ -12939,8 +12679,8 @@
         "state1":"MD",
         "state2":"WA",
         "distance":4.17,
-        "hops":7,
-        "distance_per_hop":0.5957142857,
+        "hops":8,
+        "distance_per_hop":0.52125,
         "states_in_path":[
             "MD",
             "VA",
@@ -12982,8 +12722,8 @@
         "state1":"MD",
         "state2":"MI",
         "distance":1.46,
-        "hops":3,
-        "distance_per_hop":0.4866666667,
+        "hops":4,
+        "distance_per_hop":0.365,
         "states_in_path":[
             "MD",
             "VA",
@@ -12996,8 +12736,8 @@
         "state1":"MD",
         "state2":"OH",
         "distance":1.55,
-        "hops":2,
-        "distance_per_hop":0.775,
+        "hops":3,
+        "distance_per_hop":0.5166666667,
         "states_in_path":[
             "MD",
             "VA",
@@ -13052,16 +12792,6 @@
     },
     {
         "state1":"NJ",
-        "state2":"NJ",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
-        ]
-    },
-    {
-        "state1":"NJ",
         "state2":"PA",
         "distance":1.88,
         "hops":1,
@@ -13104,8 +12834,8 @@
         "state1":"NJ",
         "state2":"IA",
         "distance":4.17,
-        "hops":5,
-        "distance_per_hop":0.834,
+        "hops":6,
+        "distance_per_hop":0.695,
         "states_in_path":[
             "NJ",
             "PA",
@@ -13120,8 +12850,8 @@
         "state1":"NJ",
         "state2":"IL",
         "distance":3.36,
-        "hops":4,
-        "distance_per_hop":0.84,
+        "hops":6,
+        "distance_per_hop":0.56,
         "states_in_path":[
             "NJ",
             "PA",
@@ -13136,8 +12866,8 @@
         "state1":"NJ",
         "state2":"MN",
         "distance":4.54,
-        "hops":5,
-        "distance_per_hop":0.908,
+        "hops":7,
+        "distance_per_hop":0.6485714286,
         "states_in_path":[
             "NJ",
             "PA",
@@ -13153,8 +12883,8 @@
         "state1":"NJ",
         "state2":"SD",
         "distance":3.47,
-        "hops":6,
-        "distance_per_hop":0.5783333333,
+        "hops":7,
+        "distance_per_hop":0.4957142857,
         "states_in_path":[
             "NJ",
             "PA",
@@ -13170,8 +12900,8 @@
         "state1":"NJ",
         "state2":"WI",
         "distance":3.5,
-        "hops":4,
-        "distance_per_hop":0.875,
+        "hops":7,
+        "distance_per_hop":0.5,
         "states_in_path":[
             "NJ",
             "PA",
@@ -13187,8 +12917,8 @@
         "state1":"NJ",
         "state2":"ID",
         "distance":5.43,
-        "hops":7,
-        "distance_per_hop":0.7757142857,
+        "hops":9,
+        "distance_per_hop":0.6033333333,
         "states_in_path":[
             "NJ",
             "PA",
@@ -13206,8 +12936,8 @@
         "state1":"NJ",
         "state2":"MT",
         "distance":4.3,
-        "hops":7,
-        "distance_per_hop":0.6142857143,
+        "hops":8,
+        "distance_per_hop":0.5375,
         "states_in_path":[
             "NJ",
             "PA",
@@ -13224,8 +12954,8 @@
         "state1":"NJ",
         "state2":"WA",
         "distance":6.09,
-        "hops":8,
-        "distance_per_hop":0.76125,
+        "hops":10,
+        "distance_per_hop":0.609,
         "states_in_path":[
             "NJ",
             "PA",
@@ -13244,8 +12974,8 @@
         "state1":"NJ",
         "state2":"IN",
         "distance":2.96,
-        "hops":3,
-        "distance_per_hop":0.9866666667,
+        "hops":5,
+        "distance_per_hop":0.592,
         "states_in_path":[
             "NJ",
             "PA",
@@ -13259,8 +12989,8 @@
         "state1":"NJ",
         "state2":"KY",
         "distance":2.89,
-        "hops":3,
-        "distance_per_hop":0.9633333333,
+        "hops":4,
+        "distance_per_hop":0.7225,
         "states_in_path":[
             "NJ",
             "PA",
@@ -13273,8 +13003,8 @@
         "state1":"NJ",
         "state2":"MI",
         "distance":3.38,
-        "hops":3,
-        "distance_per_hop":1.1266666667,
+        "hops":6,
+        "distance_per_hop":0.5633333333,
         "states_in_path":[
             "NJ",
             "PA",
@@ -13353,8 +13083,8 @@
         "state1":"NJ",
         "state2":"ND",
         "distance":4.68,
-        "hops":6,
-        "distance_per_hop":0.78,
+        "hops":8,
+        "distance_per_hop":0.585,
         "states_in_path":[
             "NJ",
             "PA",
@@ -13365,16 +13095,6 @@
             "IA",
             "MN",
             "ND"
-        ]
-    },
-    {
-        "state1":"PA",
-        "state2":"PA",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
         ]
     },
     {
@@ -13430,8 +13150,8 @@
         "state1":"PA",
         "state2":"IA",
         "distance":2.29,
-        "hops":4,
-        "distance_per_hop":0.5725,
+        "hops":5,
+        "distance_per_hop":0.458,
         "states_in_path":[
             "PA",
             "MD",
@@ -13445,8 +13165,8 @@
         "state1":"PA",
         "state2":"IL",
         "distance":1.48,
-        "hops":3,
-        "distance_per_hop":0.4933333333,
+        "hops":5,
+        "distance_per_hop":0.296,
         "states_in_path":[
             "PA",
             "MD",
@@ -13460,8 +13180,8 @@
         "state1":"PA",
         "state2":"MN",
         "distance":2.66,
-        "hops":4,
-        "distance_per_hop":0.665,
+        "hops":6,
+        "distance_per_hop":0.4433333333,
         "states_in_path":[
             "PA",
             "MD",
@@ -13476,8 +13196,8 @@
         "state1":"PA",
         "state2":"SD",
         "distance":1.59,
-        "hops":5,
-        "distance_per_hop":0.318,
+        "hops":6,
+        "distance_per_hop":0.265,
         "states_in_path":[
             "PA",
             "MD",
@@ -13492,8 +13212,8 @@
         "state1":"PA",
         "state2":"WI",
         "distance":1.62,
-        "hops":3,
-        "distance_per_hop":0.54,
+        "hops":6,
+        "distance_per_hop":0.27,
         "states_in_path":[
             "PA",
             "MD",
@@ -13508,8 +13228,8 @@
         "state1":"PA",
         "state2":"ID",
         "distance":3.55,
-        "hops":6,
-        "distance_per_hop":0.5916666667,
+        "hops":8,
+        "distance_per_hop":0.44375,
         "states_in_path":[
             "PA",
             "MD",
@@ -13526,8 +13246,8 @@
         "state1":"PA",
         "state2":"MT",
         "distance":2.42,
-        "hops":6,
-        "distance_per_hop":0.4033333333,
+        "hops":7,
+        "distance_per_hop":0.3457142857,
         "states_in_path":[
             "PA",
             "MD",
@@ -13543,8 +13263,8 @@
         "state1":"PA",
         "state2":"WA",
         "distance":4.21,
-        "hops":7,
-        "distance_per_hop":0.6014285714,
+        "hops":9,
+        "distance_per_hop":0.4677777778,
         "states_in_path":[
             "PA",
             "MD",
@@ -13562,8 +13282,8 @@
         "state1":"PA",
         "state2":"IN",
         "distance":1.08,
-        "hops":2,
-        "distance_per_hop":0.54,
+        "hops":4,
+        "distance_per_hop":0.27,
         "states_in_path":[
             "PA",
             "MD",
@@ -13576,8 +13296,8 @@
         "state1":"PA",
         "state2":"KY",
         "distance":1.01,
-        "hops":2,
-        "distance_per_hop":0.505,
+        "hops":3,
+        "distance_per_hop":0.3366666667,
         "states_in_path":[
             "PA",
             "MD",
@@ -13589,8 +13309,8 @@
         "state1":"PA",
         "state2":"MI",
         "distance":1.5,
-        "hops":2,
-        "distance_per_hop":0.75,
+        "hops":5,
+        "distance_per_hop":0.3,
         "states_in_path":[
             "PA",
             "MD",
@@ -13643,8 +13363,8 @@
         "state1":"PA",
         "state2":"ND",
         "distance":2.8,
-        "hops":5,
-        "distance_per_hop":0.56,
+        "hops":7,
+        "distance_per_hop":0.4,
         "states_in_path":[
             "PA",
             "MD",
@@ -13654,16 +13374,6 @@
             "IA",
             "MN",
             "ND"
-        ]
-    },
-    {
-        "state1":"NC",
-        "state2":"NC",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
         ]
     },
     {
@@ -13760,8 +13470,8 @@
         "state1":"NC",
         "state2":"ID",
         "distance":3.11,
-        "hops":5,
-        "distance_per_hop":0.622,
+        "hops":6,
+        "distance_per_hop":0.5183333333,
         "states_in_path":[
             "NC",
             "TN",
@@ -13791,8 +13501,8 @@
         "state1":"NC",
         "state2":"WA",
         "distance":3.77,
-        "hops":6,
-        "distance_per_hop":0.6283333333,
+        "hops":7,
+        "distance_per_hop":0.5385714286,
         "states_in_path":[
             "NC",
             "TN",
@@ -13918,16 +13628,6 @@
     },
     {
         "state1":"SC",
-        "state2":"SC",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
-        ]
-    },
-    {
-        "state1":"SC",
         "state2":"IA",
         "distance":1.86,
         "hops":4,
@@ -14003,8 +13703,8 @@
         "state1":"SC",
         "state2":"ID",
         "distance":3.12,
-        "hops":6,
-        "distance_per_hop":0.52,
+        "hops":7,
+        "distance_per_hop":0.4457142857,
         "states_in_path":[
             "SC",
             "NC",
@@ -14036,8 +13736,8 @@
         "state1":"SC",
         "state2":"WA",
         "distance":3.78,
-        "hops":7,
-        "distance_per_hop":0.54,
+        "hops":8,
+        "distance_per_hop":0.4725,
         "states_in_path":[
             "SC",
             "NC",
@@ -14184,16 +13884,6 @@
     },
     {
         "state1":"IA",
-        "state2":"IA",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
-        ]
-    },
-    {
-        "state1":"IA",
         "state2":"IL",
         "distance":0.81,
         "hops":1,
@@ -14240,8 +13930,8 @@
         "state1":"IA",
         "state2":"ID",
         "distance":2.28,
-        "hops":3,
-        "distance_per_hop":0.76,
+        "hops":4,
+        "distance_per_hop":0.57,
         "states_in_path":[
             "IA",
             "MN",
@@ -14254,8 +13944,8 @@
         "state1":"IA",
         "state2":"MT",
         "distance":1.15,
-        "hops":2,
-        "distance_per_hop":0.575,
+        "hops":3,
+        "distance_per_hop":0.3833333333,
         "states_in_path":[
             "IA",
             "MN",
@@ -14267,8 +13957,8 @@
         "state1":"IA",
         "state2":"WA",
         "distance":2.94,
-        "hops":4,
-        "distance_per_hop":0.735,
+        "hops":5,
+        "distance_per_hop":0.588,
         "states_in_path":[
             "IA",
             "MN",
@@ -14344,8 +14034,8 @@
         "state1":"IA",
         "state2":"WV",
         "distance":2.26,
-        "hops":3,
-        "distance_per_hop":0.7533333333,
+        "hops":4,
+        "distance_per_hop":0.565,
         "states_in_path":[
             "IA",
             "MO",
@@ -14358,8 +14048,8 @@
         "state1":"IA",
         "state2":"NH",
         "distance":4.93,
-        "hops":7,
-        "distance_per_hop":0.7042857143,
+        "hops":8,
+        "distance_per_hop":0.61625,
         "states_in_path":[
             "IA",
             "MO",
@@ -14376,8 +14066,8 @@
         "state1":"IA",
         "state2":"ME",
         "distance":7.68,
-        "hops":8,
-        "distance_per_hop":0.96,
+        "hops":9,
+        "distance_per_hop":0.8533333333,
         "states_in_path":[
             "IA",
             "MO",
@@ -14401,16 +14091,6 @@
             "IA",
             "MN",
             "ND"
-        ]
-    },
-    {
-        "state1":"IL",
-        "state2":"IL",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
         ]
     },
     {
@@ -14462,8 +14142,8 @@
         "state1":"IL",
         "state2":"SD",
         "distance":0.53,
-        "hops":2,
-        "distance_per_hop":0.265,
+        "hops":3,
+        "distance_per_hop":0.1766666667,
         "states_in_path":[
             "IL",
             "MO",
@@ -14475,8 +14155,8 @@
         "state1":"IL",
         "state2":"ID",
         "distance":2.49,
-        "hops":4,
-        "distance_per_hop":0.6225,
+        "hops":5,
+        "distance_per_hop":0.498,
         "states_in_path":[
             "IL",
             "MO",
@@ -14490,8 +14170,8 @@
         "state1":"IL",
         "state2":"MT",
         "distance":1.36,
-        "hops":3,
-        "distance_per_hop":0.4533333333,
+        "hops":4,
+        "distance_per_hop":0.34,
         "states_in_path":[
             "IL",
             "MO",
@@ -14504,8 +14184,8 @@
         "state1":"IL",
         "state2":"WA",
         "distance":3.15,
-        "hops":5,
-        "distance_per_hop":0.63,
+        "hops":6,
+        "distance_per_hop":0.525,
         "states_in_path":[
             "IL",
             "MO",
@@ -14544,8 +14224,8 @@
         "state1":"IL",
         "state2":"VA",
         "distance":1.18,
-        "hops":2,
-        "distance_per_hop":0.59,
+        "hops":3,
+        "distance_per_hop":0.3933333333,
         "states_in_path":[
             "IL",
             "MO",
@@ -14557,8 +14237,8 @@
         "state1":"IL",
         "state2":"WV",
         "distance":1.45,
-        "hops":2,
-        "distance_per_hop":0.725,
+        "hops":4,
+        "distance_per_hop":0.3625,
         "states_in_path":[
             "IL",
             "MO",
@@ -14571,8 +14251,8 @@
         "state1":"IL",
         "state2":"NH",
         "distance":4.12,
-        "hops":6,
-        "distance_per_hop":0.6866666667,
+        "hops":8,
+        "distance_per_hop":0.515,
         "states_in_path":[
             "IL",
             "MO",
@@ -14589,8 +14269,8 @@
         "state1":"IL",
         "state2":"ME",
         "distance":6.87,
-        "hops":7,
-        "distance_per_hop":0.9814285714,
+        "hops":9,
+        "distance_per_hop":0.7633333333,
         "states_in_path":[
             "IL",
             "MO",
@@ -14615,16 +14295,6 @@
             "IA",
             "MN",
             "ND"
-        ]
-    },
-    {
-        "state1":"MN",
-        "state2":"MN",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
         ]
     },
     {
@@ -14741,8 +14411,8 @@
         "state1":"MN",
         "state2":"OH",
         "distance":2.43,
-        "hops":3,
-        "distance_per_hop":0.81,
+        "hops":4,
+        "distance_per_hop":0.6075,
         "states_in_path":[
             "MN",
             "IA",
@@ -14769,8 +14439,8 @@
         "state1":"MN",
         "state2":"WV",
         "distance":2.63,
-        "hops":4,
-        "distance_per_hop":0.6575,
+        "hops":5,
+        "distance_per_hop":0.526,
         "states_in_path":[
             "MN",
             "IA",
@@ -14784,8 +14454,8 @@
         "state1":"MN",
         "state2":"NH",
         "distance":5.3,
-        "hops":7,
-        "distance_per_hop":0.7571428571,
+        "hops":9,
+        "distance_per_hop":0.5888888889,
         "states_in_path":[
             "MN",
             "IA",
@@ -14803,8 +14473,8 @@
         "state1":"MN",
         "state2":"ME",
         "distance":8.05,
-        "hops":8,
-        "distance_per_hop":1.00625,
+        "hops":10,
+        "distance_per_hop":0.805,
         "states_in_path":[
             "MN",
             "IA",
@@ -14817,16 +14487,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"SD",
-        "state2":"SD",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
         ]
     },
     {
@@ -14855,8 +14515,8 @@
         "state1":"SD",
         "state2":"WI",
         "distance":0.67,
-        "hops":2,
-        "distance_per_hop":0.335,
+        "hops":4,
+        "distance_per_hop":0.1675,
         "states_in_path":[
             "SD",
             "NE",
@@ -14894,8 +14554,8 @@
         "state1":"SD",
         "state2":"IN",
         "distance":0.85,
-        "hops":3,
-        "distance_per_hop":0.2833333333,
+        "hops":4,
+        "distance_per_hop":0.2125,
         "states_in_path":[
             "SD",
             "NE",
@@ -14921,8 +14581,8 @@
         "state1":"SD",
         "state2":"MI",
         "distance":0.99,
-        "hops":3,
-        "distance_per_hop":0.33,
+        "hops":5,
+        "distance_per_hop":0.198,
         "states_in_path":[
             "SD",
             "NE",
@@ -14964,8 +14624,8 @@
         "state1":"SD",
         "state2":"WV",
         "distance":1.56,
-        "hops":4,
-        "distance_per_hop":0.39,
+        "hops":5,
+        "distance_per_hop":0.312,
         "states_in_path":[
             "SD",
             "NE",
@@ -14979,8 +14639,8 @@
         "state1":"SD",
         "state2":"NH",
         "distance":4.23,
-        "hops":8,
-        "distance_per_hop":0.52875,
+        "hops":9,
+        "distance_per_hop":0.47,
         "states_in_path":[
             "SD",
             "NE",
@@ -14998,8 +14658,8 @@
         "state1":"SD",
         "state2":"ME",
         "distance":6.98,
-        "hops":9,
-        "distance_per_hop":0.7755555556,
+        "hops":10,
+        "distance_per_hop":0.698,
         "states_in_path":[
             "SD",
             "NE",
@@ -15012,16 +14672,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"WI",
-        "state2":"WI",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
         ]
     },
     {
@@ -15039,8 +14689,8 @@
         "state1":"WI",
         "state2":"ID",
         "distance":2.63,
-        "hops":4,
-        "distance_per_hop":0.6575,
+        "hops":6,
+        "distance_per_hop":0.4383333333,
         "states_in_path":[
             "WI",
             "IL",
@@ -15055,8 +14705,8 @@
         "state1":"WI",
         "state2":"MT",
         "distance":1.5,
-        "hops":3,
-        "distance_per_hop":0.5,
+        "hops":5,
+        "distance_per_hop":0.3,
         "states_in_path":[
             "WI",
             "IL",
@@ -15070,8 +14720,8 @@
         "state1":"WI",
         "state2":"WA",
         "distance":3.29,
-        "hops":5,
-        "distance_per_hop":0.658,
+        "hops":7,
+        "distance_per_hop":0.47,
         "states_in_path":[
             "WI",
             "IL",
@@ -15111,8 +14761,8 @@
         "state1":"WI",
         "state2":"OH",
         "distance":1.39,
-        "hops":2,
-        "distance_per_hop":0.695,
+        "hops":3,
+        "distance_per_hop":0.4633333333,
         "states_in_path":[
             "WI",
             "IL",
@@ -15124,8 +14774,8 @@
         "state1":"WI",
         "state2":"VA",
         "distance":1.32,
-        "hops":3,
-        "distance_per_hop":0.44,
+        "hops":4,
+        "distance_per_hop":0.33,
         "states_in_path":[
             "WI",
             "IL",
@@ -15138,8 +14788,8 @@
         "state1":"WI",
         "state2":"WV",
         "distance":1.59,
-        "hops":3,
-        "distance_per_hop":0.53,
+        "hops":5,
+        "distance_per_hop":0.318,
         "states_in_path":[
             "WI",
             "IL",
@@ -15153,8 +14803,8 @@
         "state1":"WI",
         "state2":"NH",
         "distance":4.26,
-        "hops":6,
-        "distance_per_hop":0.71,
+        "hops":9,
+        "distance_per_hop":0.4733333333,
         "states_in_path":[
             "WI",
             "IL",
@@ -15172,8 +14822,8 @@
         "state1":"WI",
         "state2":"ME",
         "distance":7.01,
-        "hops":7,
-        "distance_per_hop":1.0014285714,
+        "hops":10,
+        "distance_per_hop":0.701,
         "states_in_path":[
             "WI",
             "IL",
@@ -15202,16 +14852,6 @@
     },
     {
         "state1":"ID",
-        "state2":"ID",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
-        ]
-    },
-    {
-        "state1":"ID",
         "state2":"MT",
         "distance":1.13,
         "hops":1,
@@ -15236,8 +14876,8 @@
         "state1":"ID",
         "state2":"IN",
         "distance":2.81,
-        "hops":5,
-        "distance_per_hop":0.562,
+        "hops":6,
+        "distance_per_hop":0.4683333333,
         "states_in_path":[
             "ID",
             "MT",
@@ -15252,8 +14892,8 @@
         "state1":"ID",
         "state2":"KY",
         "distance":2.74,
-        "hops":4,
-        "distance_per_hop":0.685,
+        "hops":5,
+        "distance_per_hop":0.548,
         "states_in_path":[
             "ID",
             "MT",
@@ -15267,8 +14907,8 @@
         "state1":"ID",
         "state2":"MI",
         "distance":2.95,
-        "hops":5,
-        "distance_per_hop":0.59,
+        "hops":7,
+        "distance_per_hop":0.4214285714,
         "states_in_path":[
             "ID",
             "MT",
@@ -15284,8 +14924,8 @@
         "state1":"ID",
         "state2":"OH",
         "distance":3.32,
-        "hops":5,
-        "distance_per_hop":0.664,
+        "hops":6,
+        "distance_per_hop":0.5533333333,
         "states_in_path":[
             "ID",
             "MT",
@@ -15300,8 +14940,8 @@
         "state1":"ID",
         "state2":"VA",
         "distance":3.25,
-        "hops":5,
-        "distance_per_hop":0.65,
+        "hops":6,
+        "distance_per_hop":0.5416666667,
         "states_in_path":[
             "ID",
             "MT",
@@ -15316,8 +14956,8 @@
         "state1":"ID",
         "state2":"WV",
         "distance":3.52,
-        "hops":5,
-        "distance_per_hop":0.704,
+        "hops":7,
+        "distance_per_hop":0.5028571429,
         "states_in_path":[
             "ID",
             "MT",
@@ -15333,8 +14973,8 @@
         "state1":"ID",
         "state2":"NH",
         "distance":6.19,
-        "hops":9,
-        "distance_per_hop":0.6877777778,
+        "hops":11,
+        "distance_per_hop":0.5627272727,
         "states_in_path":[
             "ID",
             "MT",
@@ -15354,8 +14994,8 @@
         "state1":"ID",
         "state2":"ME",
         "distance":8.94,
-        "hops":10,
-        "distance_per_hop":0.894,
+        "hops":12,
+        "distance_per_hop":0.745,
         "states_in_path":[
             "ID",
             "MT",
@@ -15386,16 +15026,6 @@
     },
     {
         "state1":"MT",
-        "state2":"MT",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
-        ]
-    },
-    {
-        "state1":"MT",
         "state2":"ND",
         "distance":0.64,
         "hops":1,
@@ -15421,8 +15051,8 @@
         "state1":"MT",
         "state2":"IN",
         "distance":1.68,
-        "hops":4,
-        "distance_per_hop":0.42,
+        "hops":5,
+        "distance_per_hop":0.336,
         "states_in_path":[
             "MT",
             "SD",
@@ -15450,8 +15080,8 @@
         "state1":"MT",
         "state2":"MI",
         "distance":1.82,
-        "hops":4,
-        "distance_per_hop":0.455,
+        "hops":6,
+        "distance_per_hop":0.3033333333,
         "states_in_path":[
             "MT",
             "SD",
@@ -15496,8 +15126,8 @@
         "state1":"MT",
         "state2":"WV",
         "distance":2.39,
-        "hops":5,
-        "distance_per_hop":0.478,
+        "hops":6,
+        "distance_per_hop":0.3983333333,
         "states_in_path":[
             "MT",
             "SD",
@@ -15512,8 +15142,8 @@
         "state1":"MT",
         "state2":"NH",
         "distance":5.06,
-        "hops":9,
-        "distance_per_hop":0.5622222222,
+        "hops":10,
+        "distance_per_hop":0.506,
         "states_in_path":[
             "MT",
             "SD",
@@ -15532,8 +15162,8 @@
         "state1":"MT",
         "state2":"ME",
         "distance":7.81,
-        "hops":10,
-        "distance_per_hop":0.781,
+        "hops":11,
+        "distance_per_hop":0.71,
         "states_in_path":[
             "MT",
             "SD",
@@ -15551,20 +15181,10 @@
     },
     {
         "state1":"WA",
-        "state2":"WA",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
-        ]
-    },
-    {
-        "state1":"WA",
         "state2":"IN",
         "distance":3.47,
-        "hops":6,
-        "distance_per_hop":0.5783333333,
+        "hops":7,
+        "distance_per_hop":0.4957142857,
         "states_in_path":[
             "WA",
             "ID",
@@ -15580,8 +15200,8 @@
         "state1":"WA",
         "state2":"KY",
         "distance":3.4,
-        "hops":5,
-        "distance_per_hop":0.68,
+        "hops":6,
+        "distance_per_hop":0.5666666667,
         "states_in_path":[
             "WA",
             "ID",
@@ -15596,8 +15216,8 @@
         "state1":"WA",
         "state2":"MI",
         "distance":3.61,
-        "hops":6,
-        "distance_per_hop":0.6016666667,
+        "hops":8,
+        "distance_per_hop":0.45125,
         "states_in_path":[
             "WA",
             "ID",
@@ -15614,8 +15234,8 @@
         "state1":"WA",
         "state2":"OH",
         "distance":3.98,
-        "hops":6,
-        "distance_per_hop":0.6633333333,
+        "hops":7,
+        "distance_per_hop":0.5685714286,
         "states_in_path":[
             "WA",
             "ID",
@@ -15631,8 +15251,8 @@
         "state1":"WA",
         "state2":"VA",
         "distance":3.91,
-        "hops":6,
-        "distance_per_hop":0.6516666667,
+        "hops":7,
+        "distance_per_hop":0.5585714286,
         "states_in_path":[
             "WA",
             "ID",
@@ -15648,8 +15268,8 @@
         "state1":"WA",
         "state2":"WV",
         "distance":4.18,
-        "hops":6,
-        "distance_per_hop":0.6966666667,
+        "hops":8,
+        "distance_per_hop":0.5225,
         "states_in_path":[
             "WA",
             "ID",
@@ -15666,8 +15286,8 @@
         "state1":"WA",
         "state2":"NH",
         "distance":6.85,
-        "hops":10,
-        "distance_per_hop":0.685,
+        "hops":12,
+        "distance_per_hop":0.5708333333,
         "states_in_path":[
             "WA",
             "ID",
@@ -15688,8 +15308,8 @@
         "state1":"WA",
         "state2":"ME",
         "distance":9.6,
-        "hops":11,
-        "distance_per_hop":0.8727272727,
+        "hops":13,
+        "distance_per_hop":0.7384615385,
         "states_in_path":[
             "WA",
             "ID",
@@ -15718,16 +15338,6 @@
             "ID",
             "MT",
             "ND"
-        ]
-    },
-    {
-        "state1":"IN",
-        "state2":"IN",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
         ]
     },
     {
@@ -15791,8 +15401,8 @@
         "state1":"IN",
         "state2":"NH",
         "distance":3.72,
-        "hops":5,
-        "distance_per_hop":0.744,
+        "hops":7,
+        "distance_per_hop":0.5314285714,
         "states_in_path":[
             "IN",
             "KY",
@@ -15808,8 +15418,8 @@
         "state1":"IN",
         "state2":"ME",
         "distance":6.47,
-        "hops":6,
-        "distance_per_hop":1.0783333333,
+        "hops":8,
+        "distance_per_hop":0.80875,
         "states_in_path":[
             "IN",
             "KY",
@@ -15834,16 +15444,6 @@
             "IA",
             "MN",
             "ND"
-        ]
-    },
-    {
-        "state1":"KY",
-        "state2":"KY",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
         ]
     },
     {
@@ -15895,8 +15495,8 @@
         "state1":"KY",
         "state2":"NH",
         "distance":3.65,
-        "hops":5,
-        "distance_per_hop":0.73,
+        "hops":6,
+        "distance_per_hop":0.6083333333,
         "states_in_path":[
             "KY",
             "VA",
@@ -15911,8 +15511,8 @@
         "state1":"KY",
         "state2":"ME",
         "distance":6.4,
-        "hops":6,
-        "distance_per_hop":1.0666666667,
+        "hops":7,
+        "distance_per_hop":0.9142857143,
         "states_in_path":[
             "KY",
             "VA",
@@ -15936,16 +15536,6 @@
             "IA",
             "MN",
             "ND"
-        ]
-    },
-    {
-        "state1":"MI",
-        "state2":"MI",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
         ]
     },
     {
@@ -15976,8 +15566,8 @@
         "state1":"MI",
         "state2":"WV",
         "distance":1.47,
-        "hops":2,
-        "distance_per_hop":0.735,
+        "hops":3,
+        "distance_per_hop":0.49,
         "states_in_path":[
             "MI",
             "IN",
@@ -15989,8 +15579,8 @@
         "state1":"MI",
         "state2":"NH",
         "distance":4.14,
-        "hops":5,
-        "distance_per_hop":0.828,
+        "hops":8,
+        "distance_per_hop":0.5175,
         "states_in_path":[
             "MI",
             "IN",
@@ -16007,8 +15597,8 @@
         "state1":"MI",
         "state2":"ME",
         "distance":6.89,
-        "hops":6,
-        "distance_per_hop":1.1483333333,
+        "hops":9,
+        "distance_per_hop":0.7655555556,
         "states_in_path":[
             "MI",
             "IN",
@@ -16033,16 +15623,6 @@
             "WI",
             "MN",
             "ND"
-        ]
-    },
-    {
-        "state1":"OH",
-        "state2":"OH",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
         ]
     },
     {
@@ -16101,8 +15681,8 @@
         "state1":"OH",
         "state2":"ND",
         "distance":2.57,
-        "hops":4,
-        "distance_per_hop":0.6425,
+        "hops":5,
+        "distance_per_hop":0.514,
         "states_in_path":[
             "OH",
             "IN",
@@ -16110,16 +15690,6 @@
             "IA",
             "MN",
             "ND"
-        ]
-    },
-    {
-        "state1":"VA",
-        "state2":"VA",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
         ]
     },
     {
@@ -16181,16 +15751,6 @@
     },
     {
         "state1":"WV",
-        "state2":"WV",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
-        ]
-    },
-    {
-        "state1":"WV",
         "state2":"NH",
         "distance":2.67,
         "hops":4,
@@ -16222,8 +15782,8 @@
         "state1":"WV",
         "state2":"ND",
         "distance":2.77,
-        "hops":5,
-        "distance_per_hop":0.554,
+        "hops":6,
+        "distance_per_hop":0.4616666667,
         "states_in_path":[
             "WV",
             "VA",
@@ -16232,16 +15792,6 @@
             "IA",
             "MN",
             "ND"
-        ]
-    },
-    {
-        "state1":"NH",
-        "state2":"NH",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
         ]
     },
     {
@@ -16259,8 +15809,8 @@
         "state1":"NH",
         "state2":"ND",
         "distance":5.44,
-        "hops":8,
-        "distance_per_hop":0.68,
+        "hops":10,
+        "distance_per_hop":0.544,
         "states_in_path":[
             "NH",
             "MA",
@@ -16277,20 +15827,10 @@
     },
     {
         "state1":"ME",
-        "state2":"ME",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
-        ]
-    },
-    {
-        "state1":"ME",
         "state2":"ND",
         "distance":8.19,
-        "hops":9,
-        "distance_per_hop":0.91,
+        "hops":11,
+        "distance_per_hop":0.7445454545,
         "states_in_path":[
             "ME",
             "NH",
@@ -16304,16 +15844,6 @@
             "IA",
             "MN",
             "ND"
-        ]
-    },
-    {
-        "state1":"ND",
-        "state2":"ND",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
         ]
     }
 ]

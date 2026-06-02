@@ -143,14 +143,13 @@ def filter_apsp_data(df: pd.DataFrame) -> None:
     # Isolate top 25% highest values in hops column
     hops_75th_percentile = df['hops'].quantile(0.75)
     n_smallest_dist_per_hop = df[(df['distance_per_hop'] > 0.0) & (df['hops'] > hops_75th_percentile)].nsmallest(n, 'distance_per_hop')
-    print(type(n_smallest_dist_per_hop))
-    print(f'{n} Smallest Dist / Hop\n', n_smallest_dist_per_hop)    
+    print(f'{n} Smallest Dist / Hop - Top 25% of Hops\n', n_smallest_dist_per_hop)
 
     n_largest_dist_per_hop = df.nlargest(n, 'distance_per_hop')
     print(f'\n{n} Largest Dist / Hop\n', n_largest_dist_per_hop)
 
     n_largest_dist_per_hop = df[df['hops'] > hops_75th_percentile].nlargest(n, 'distance_per_hop')
-    print(f'\n{n} Largest Dist / Hop\n', n_largest_dist_per_hop)
+    print(f'\n{n} Largest Dist / Hop - Top 25% of Hops\n', n_largest_dist_per_hop)
 
     avg_dist_per_hop = df['distance_per_hop'].mean()
     print('\nAvg Dist Per Hop', avg_dist_per_hop)

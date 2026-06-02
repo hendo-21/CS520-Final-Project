@@ -99,34 +99,38 @@ def generate_cut_edges(mst: nx.Graph, threshold: int) -> list:
             cut_edges.append(edge)
     return cut_edges
 
-def run_floyd_warshall(graph: nx.Graph) -> tuple:
+def run_floyd_warshall(graph: nx.Graph) -> dict:
     apsp = {}
     apsp = nx.floyd_warshall(graph)
-    apsp_len = dict(nx.all_pairs_shortest_path_length(graph))
-    return apsp, apsp_len
+    return apsp
 
-def build_apsp_dataframe(graph: nx.Graph, distances: dict, path_lengths: dict, filename: str) -> pd.DataFrame:
+def build_apsp_dataframe(graph: nx.Graph, distances: dict, filename: str) -> pd.DataFrame:
     apsp_paths, _ = nx.floyd_warshall_predecessor_and_distance(graph)
     rows_list = []
     seen_pairs = set()
     for first_state in distances:
         for second_state in distances[first_state]:
+            if first_state == second_state:
+                continue
             pair_key = frozenset((first_state, second_state))
             if pair_key in seen_pairs:
                 continue
             seen_pairs.add(pair_key)
-
+            
+            path = nx.reconstruct_path(first_state, second_state, apsp_paths)
+            hops = len(path) - 1
+            distance = distances[first_state][second_state]
+            
             rows_list.append({
                 'state1': first_state,
                 'state2': second_state,
-                'distance': distances[first_state][second_state],
-                'hops': path_lengths[first_state][second_state],
-                'distance_per_hop': distances[first_state][second_state] / path_lengths[first_state][second_state] if path_lengths[first_state][second_state] else 0,
-                'states_in_path': nx.reconstruct_path(first_state, second_state, apsp_paths)
+                'distance': distance,
+                'hops': hops,
+                'distance_per_hop': distance / hops if hops > 0 else 0,
+                'states_in_path': path,
             })
+    
     df = pd.DataFrame(rows_list)
-
-    # Export the dataframe
     df.to_json(f'data/{filename}.json', orient='records', indent=4)
     return df
 
@@ -168,10 +172,10 @@ def main():
         json.dump(imr_cut_edges, f)
 
     apsp_mmr = run_floyd_warshall(G_mmr)
-    d = build_apsp_dataframe(G_mmr, apsp_mmr[0], apsp_mmr[1], 'mmr_apsp')
+    d = build_apsp_dataframe(G_mmr, apsp_mmr, 'mmr_apsp')
 
     apsp_imr = run_floyd_warshall(G_imr)
-    d_imr = build_apsp_dataframe(G_imr, apsp_imr[0], apsp_mmr[1], 'imr_apsp')
+    d_imr = build_apsp_dataframe(G_imr, apsp_imr, 'imr_apsp')
 
 if __name__ == '__main__':
     main()
