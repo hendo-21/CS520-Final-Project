@@ -4,6 +4,7 @@ import networkx as nx
 import jenkspy
 import plotly.graph_objects as go
 import pandas as pd
+import json
 
 from constants import STATE_CENTROIDS
 
@@ -68,7 +69,7 @@ def plot_mst(mst: nx.Graph, cut_edges: list) -> None:
     fig.update_layout(title='MMR MST with cut edges', width=900, height=600)
     fig.show()
 
-def generate_cut_edges(mst: nx.Graph, weight_break: float) -> list:
+def generate_cut_edges(mst: nx.Graph, threshold: int) -> list:
     cut_edges = []
     mst_edges = list(mst.edges(data=True))
 
@@ -94,7 +95,7 @@ def generate_cut_edges(mst: nx.Graph, weight_break: float) -> list:
 
     cut_edges = []
     for edge in bin_of:
-        if bin_of[edge] >= 3:
+        if bin_of[edge] >= threshold:
             cut_edges.append(edge)
     return cut_edges
 
@@ -133,49 +134,44 @@ def main():
     G_imr = nx.read_graphml('graphs/imr_graph.graphml')
     G_mmr = nx.read_graphml('graphs/mmr_graph.graphml')
 
-    # Generate and print IMR MST
+    # Generate and export MST
     mst_imr = generate_mst(G_imr)
-    if mst_imr:
-        print("\nIMR Edge Weights:")
-        sorted_edges = sorted(mst_imr.edges(data=True), key=lambda x:x[2].get("weight", 1))
-        for line in sorted_edges:
-            print(line)
+    nx.write_graphml(mst_imr, 'graphs/imr_mst.graphml', infer_numeric_types=True)
 
-    # Generate and print MMR MST
+
+    # Generate and export MST
     mst_mmr = generate_mst(G_mmr)
-    if mst_mmr:
-        print("\nMMR Edge Weights:")
-        sorted_edges = sorted(mst_mmr.edges(data=True), key=lambda x:x[2].get("weight", 1))
-        for line in sorted_edges:
-            print(line)
+    nx.write_graphml(mst_mmr, 'graphs/mmr_mst.graphml', infer_numeric_types=True)
 
-    # Generate and print MMR cut edges
-    mmr_cut_edges = generate_cut_edges(mst_mmr, 4)
-    if mmr_cut_edges:
-        print("\nMMR Cut Edges")
-        for line in mmr_cut_edges:
-            print(line)
+    # Generate and export cut edges for cutting edges in top 3 bins
+    mmr_cut_edges_top_3 = generate_cut_edges(mst_mmr, 2)
+    mmr_cut_edges_top_2 = generate_cut_edges(mst_mmr, 3)
+    mmr_cut_edges_top_1 = generate_cut_edges(mst_mmr, 4)
+    mmr_cut_edges = [
+        {'threshold': 2, 'cut_edges': mmr_cut_edges_top_3},
+        {'threshold': 3, 'cut_edges': mmr_cut_edges_top_2},
+        {'threshold': 4, 'cut_edges': mmr_cut_edges_top_1},
+    ]
+    with open('data/mmr_cut_edges.json', 'w') as f:
+        json.dump(mmr_cut_edges, f)
     
-    # Generate and print IMR cut edges
-    imr_cut_edges = generate_cut_edges(mst_imr, 6)
-    if imr_cut_edges:
-        print("\nIMR Cut Edges")
-        for line in imr_cut_edges:
-            print(line)
-
-    # Plot MMR MST
-    # plot_mst(mst_mmr, mmr_cut_edges)
-
-    # Plit IMR MST
-    plot_mst(mst_imr, imr_cut_edges)
+    # Generate and export cut edges for cutting edges in top 3 bins
+    imr_cut_edges_top_3 = generate_cut_edges(mst_imr, 2)
+    imr_cut_edges_top_2 = generate_cut_edges(mst_imr, 3)
+    imr_cut_edges_top_1 = generate_cut_edges(mst_imr, 4)
+    imr_cut_edges = [
+        {'threshold': 2, 'cut_edges': imr_cut_edges_top_3},
+        {'threshold': 3, 'cut_edges': imr_cut_edges_top_2},
+        {'threshold': 4, 'cut_edges': imr_cut_edges_top_1},
+    ]
+    with open('data/imr_cut_edges.json', 'w') as f:
+        json.dump(imr_cut_edges, f)
 
     apsp_mmr = run_floyd_warshall(G_mmr)
     d = build_apsp_dataframe(G_mmr, apsp_mmr[0], apsp_mmr[1], 'mmr_apsp')
-    print(d)
 
     apsp_imr = run_floyd_warshall(G_imr)
     d_imr = build_apsp_dataframe(G_imr, apsp_imr[0], apsp_mmr[1], 'imr_apsp')
-    print('\nIMR dataframe\n', d_imr)
 
 if __name__ == '__main__':
     main()

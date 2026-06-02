@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="AL" />
+    <node id="FL" />
+    <node id="GA" />
+    <node id="MS" />
+    <node id="TN" />
+    <node id="AR" />
+    <node id="LA" />
+    <node id="MO" />
+    <node id="OK" />
+    <node id="TX" />
+    <node id="AZ" />
+    <node id="CA" />
+    <node id="CO" />
+    <node id="NM" />
+    <node id="NV" />
+    <node id="UT" />
+    <node id="OR" />
+    <node id="KS" />
+    <node id="NE" />
+    <node id="WY" />
+    <node id="CT" />
+    <node id="MA" />
+    <node id="NY" />
+    <node id="RI" />
+    <node id="DE" />
+    <node id="MD" />
+    <node id="NJ" />
+    <node id="PA" />
+    <node id="NC" />
+    <node id="SC" />
+    <node id="IA" />
+    <node id="IL" />
+    <node id="MN" />
+    <node id="SD" />
+    <node id="WI" />
+    <node id="ID" />
+    <node id="MT" />
+    <node id="WA" />
+    <node id="IN" />
+    <node id="KY" />
+    <node id="OH" />
+    <node id="VA" />
+    <node id="WV" />
+    <node id="NH" />
+    <node id="ME" />
+    <node id="MI" />
+    <node id="ND" />
+    <edge source="AL" target="GA">
+      <data key="d0">0.6499999999999995</data>
+    </edge>
+    <edge source="FL" target="GA">
+      <data key="d0">0.8900000000000006</data>
+    </edge>
+    <edge source="GA" target="SC">
+      <data key="d0">0.03000000000000025</data>
+    </edge>
+    <edge source="MS" target="AR">
+      <data key="d0">0.7199999999999989</data>
+    </edge>
+    <edge source="TN" target="KY">
+      <data key="d0">0.09999999999999964</data>
+    </edge>
+    <edge source="TN" target="MO">
+      <data key="d0">0.3600000000000003</data>
+    </edge>
+    <edge source="TN" target="NC">
+      <data key="d0">0.46999999999999975</data>
+    </edge>
+    <edge source="TN" target="VA">
+      <data key="d0">0.6100000000000003</data>
+    </edge>
+    <edge source="AR" target="LA">
+      <data key="d0">1.080000000000001</data>
+    </edge>
+    <edge source="AR" target="OK">
+      <data key="d0">1.1000000000000005</data>
+    </edge>
+    <edge source="MO" target="IL">
+      <data key="d0">0.20999999999999996</data>
+    </edge>
+    <edge source="MO" target="NE">
+      <data key="d0">0.2699999999999996</data>
+    </edge>
+    <edge source="MO" target="KS">
+      <data key="d0">0.8899999999999997</data>
+    </edge>
+    <edge source="MO" target="OK">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="OK" target="TX">
+      <data key="d0">1.29</data>
+    </edge>
+    <edge source="AZ" target="UT">
+      <data key="d0">0.3200000000000003</data>
+    </edge>
+    <edge source="AZ" target="NV">
+      <data key="d0">0.33999999999999986</data>
+    </edge>
+    <edge source="CA" target="OR">
+      <data key="d0">0.5200000000000005</data>
+    </edge>
+    <edge source="CO" target="NM">
+      <data key="d0">0.16000000000000014</data>
+    </edge>
+    <edge source="CO" target="UT">
+      <data key="d0">0.6699999999999999</data>
+    </edge>
+    <edge source="CO" target="KS">
+      <data key="d0">0.6800000000000006</data>
+    </edge>
+    <edge source="CO" target="WY">
+      <data key="d0">0.71</data>
+    </edge>
+    <edge source="OR" target="ID">
+      <data key="d0">0.2400000000000002</data>
+    </edge>
+    <edge source="OR" target="WA">
+      <data key="d0">0.41999999999999993</data>
+    </edge>
+    <edge source="NE" target="SD">
+      <data key="d0">0.04999999999999982</data>
+    </edge>
+    <edge source="WY" target="ID">
+      <data key="d0">0.54</data>
+    </edge>
+    <edge source="CT" target="RI">
+      <data key="d0">0.2999999999999998</data>
+    </edge>
+    <edge source="CT" target="NY">
+      <data key="d0">0.45999999999999996</data>
+    </edge>
+    <edge source="MA" target="NH">
+      <data key="d0">0.34999999999999964</data>
+    </edge>
+    <edge source="MA" target="NY">
+      <data key="d0">0.7500000000000004</data>
+    </edge>
+    <edge source="NY" target="NJ">
+      <data key="d0">0.3400000000000003</data>
+    </edge>
+    <edge source="NY" target="PA">
+      <data key="d0">1.54</data>
+    </edge>
+    <edge source="DE" target="MD">
+      <data key="d0">0.5299999999999994</data>
+    </edge>
+    <edge source="MD" target="WV">
+      <data key="d0">0.010000000000000675</data>
+    </edge>
+    <edge source="MD" target="VA">
+      <data key="d0">0.2599999999999998</data>
+    </edge>
+    <edge source="PA" target="WV">
+      <data key="d0">0.02999999999999936</data>
+    </edge>
+    <edge source="NC" target="SC">
+      <data key="d0">0.009999999999999787</data>
+    </edge>
+    <edge source="IA" target="MN">
+      <data key="d0">0.3699999999999992</data>
+    </edge>
+    <edge source="IA" target="WI">
+      <data key="d0">0.6699999999999999</data>
+    </edge>
+    <edge source="IL" target="WI">
+      <data key="d0">0.14000000000000057</data>
+    </edge>
+    <edge source="MN" target="ND">
+      <data key="d0">0.13999999999999968</data>
+    </edge>
+    <edge source="WI" target="MI">
+      <data key="d0">0.3200000000000003</data>
+    </edge>
+    <edge source="MT" target="ND">
+      <data key="d0">0.6399999999999997</data>
+    </edge>
+    <edge source="IN" target="KY">
+      <data key="d0">0.07000000000000028</data>
+    </edge>
+    <edge source="KY" target="OH">
+      <data key="d0">0.5800000000000001</data>
+    </edge>
+    <edge source="NH" target="ME">
+      <data key="d0">2.7499999999999996</data>
+    </edge>
+  </graph>
+</graphml>

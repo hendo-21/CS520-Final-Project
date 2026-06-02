@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="AL" />
+    <node id="FL" />
+    <node id="GA" />
+    <node id="MS" />
+    <node id="TN" />
+    <node id="AR" />
+    <node id="LA" />
+    <node id="MO" />
+    <node id="OK" />
+    <node id="TX" />
+    <node id="AZ" />
+    <node id="CA" />
+    <node id="CO" />
+    <node id="NM" />
+    <node id="NV" />
+    <node id="UT" />
+    <node id="OR" />
+    <node id="KS" />
+    <node id="NE" />
+    <node id="WY" />
+    <node id="CT" />
+    <node id="MA" />
+    <node id="NY" />
+    <node id="RI" />
+    <node id="DE" />
+    <node id="MD" />
+    <node id="NJ" />
+    <node id="PA" />
+    <node id="NC" />
+    <node id="SC" />
+    <node id="IA" />
+    <node id="IL" />
+    <node id="MN" />
+    <node id="SD" />
+    <node id="WI" />
+    <node id="ID" />
+    <node id="MT" />
+    <node id="WA" />
+    <node id="IN" />
+    <node id="KY" />
+    <node id="OH" />
+    <node id="VA" />
+    <node id="WV" />
+    <node id="NH" />
+    <node id="ME" />
+    <node id="MI" />
+    <node id="ND" />
+    <edge source="AL" target="MS">
+      <data key="d0">1.714623624323096</data>
+    </edge>
+    <edge source="FL" target="GA">
+      <data key="d0">18.753466179281656</data>
+    </edge>
+    <edge source="GA" target="TN">
+      <data key="d0">1.2881392271832937</data>
+    </edge>
+    <edge source="GA" target="NC">
+      <data key="d0">2.6055812369001927</data>
+    </edge>
+    <edge source="MS" target="AR">
+      <data key="d0">4.091723605969591</data>
+    </edge>
+    <edge source="TN" target="AR">
+      <data key="d0">2.0465084827597977</data>
+    </edge>
+    <edge source="AR" target="LA">
+      <data key="d0">3.570362203209214</data>
+    </edge>
+    <edge source="MO" target="KY">
+      <data key="d0">2.513240211546915</data>
+    </edge>
+    <edge source="MO" target="IN">
+      <data key="d0">2.8945942786158554</data>
+    </edge>
+    <edge source="OK" target="KS">
+      <data key="d0">1.7692417365157134</data>
+    </edge>
+    <edge source="OK" target="TX">
+      <data key="d0">3.0185563943081917</data>
+    </edge>
+    <edge source="TX" target="NM">
+      <data key="d0">2.475800363386746</data>
+    </edge>
+    <edge source="AZ" target="NM">
+      <data key="d0">0.9004484166163778</data>
+    </edge>
+    <edge source="CA" target="NV">
+      <data key="d0">5.938752010628875</data>
+    </edge>
+    <edge source="CO" target="UT">
+      <data key="d0">3.2821845906312674</data>
+    </edge>
+    <edge source="CO" target="NE">
+      <data key="d0">4.803442059188868</data>
+    </edge>
+    <edge source="NV" target="ID">
+      <data key="d0">2.378853990167112</data>
+    </edge>
+    <edge source="NV" target="UT">
+      <data key="d0">4.8733444449167855</data>
+    </edge>
+    <edge source="OR" target="WA">
+      <data key="d0">1.2529792229802652</data>
+    </edge>
+    <edge source="KS" target="NE">
+      <data key="d0">3.4068589417098067</data>
+    </edge>
+    <edge source="NE" target="IA">
+      <data key="d0">1.035889263265382</data>
+    </edge>
+    <edge source="WY" target="MT">
+      <data key="d0">2.371154407077185</data>
+    </edge>
+    <edge source="CT" target="RI">
+      <data key="d0">0.2565845185529163</data>
+    </edge>
+    <edge source="CT" target="MA">
+      <data key="d0">5.654161069355162</data>
+    </edge>
+    <edge source="CT" target="NY">
+      <data key="d0">6.891450265705778</data>
+    </edge>
+    <edge source="MA" target="NH">
+      <data key="d0">1.883778479878817</data>
+    </edge>
+    <edge source="NY" target="NJ">
+      <data key="d0">1.7373922610534294</data>
+    </edge>
+    <edge source="NY" target="PA">
+      <data key="d0">7.665058973763951</data>
+    </edge>
+    <edge source="DE" target="PA">
+      <data key="d0">3.941400682407089</data>
+    </edge>
+    <edge source="MD" target="PA">
+      <data key="d0">5.3379248442502245</data>
+    </edge>
+    <edge source="PA" target="OH">
+      <data key="d0">8.001005718901542</data>
+    </edge>
+    <edge source="NC" target="SC">
+      <data key="d0">2.7159542224247772</data>
+    </edge>
+    <edge source="NC" target="VA">
+      <data key="d0">4.236792087099097</data>
+    </edge>
+    <edge source="IA" target="IL">
+      <data key="d0">1.8447276468036762</data>
+    </edge>
+    <edge source="IL" target="WI">
+      <data key="d0">0.9678477094928901</data>
+    </edge>
+    <edge source="MN" target="WI">
+      <data key="d0">3.509973742241609</data>
+    </edge>
+    <edge source="MN" target="ND">
+      <data key="d0">8.04063472313365</data>
+    </edge>
+    <edge source="SD" target="MT">
+      <data key="d0">5.754912333772275</data>
+    </edge>
+    <edge source="SD" target="ND">
+      <data key="d0">9.19745259544256</data>
+    </edge>
+    <edge source="WI" target="MI">
+      <data key="d0">5.813720321700767</data>
+    </edge>
+    <edge source="ID" target="WA">
+      <data key="d0">0.15138825901089348</data>
+    </edge>
+    <edge source="IN" target="OH">
+      <data key="d0">2.8223832362844092</data>
+    </edge>
+    <edge source="KY" target="VA">
+      <data key="d0">0.2074935596568821</data>
+    </edge>
+    <edge source="KY" target="WV">
+      <data key="d0">2.6201867323311347</data>
+    </edge>
+    <edge source="OH" target="MI">
+      <data key="d0">3.7978773689441674</data>
+    </edge>
+    <edge source="NH" target="ME">
+      <data key="d0">2.117373694930098</data>
+    </edge>
+  </graph>
+</graphml>

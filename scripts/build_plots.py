@@ -4,11 +4,11 @@ import networkx as nx
 import jenkspy
 import plotly.graph_objects as go
 import pandas as pd
+import json
 
 from constants import STATE_CENTROIDS
 
-def build_base_fig(graph: nx.Graph) -> go.Figure:
-    edges = graph.edges(data=True)
+def build_base_fig() -> go.Figure:
     # Build base map plot
     fig = go.Figure()
     fig.add_trace(go.Choropleth(
@@ -21,6 +21,25 @@ def build_base_fig(graph: nx.Graph) -> go.Figure:
         marker_line_width=0.5,
     ))
 
+    # Add state labels
+    fig.add_trace(go.Scattergeo(
+        lon=[c[1] for c in STATE_CENTROIDS.values()],
+        lat=[c[0] for c in STATE_CENTROIDS.values()],
+        text=list(STATE_CENTROIDS.keys()),
+        mode='markers+text',
+        marker=dict(size=4, color='black'),
+        textposition='top center',
+        textfont=dict(size=8),
+        name='States',
+    ))
+
+    fig.update_geos(scope='usa', projection_type='albers usa')
+
+    return fig
+
+
+def plot_weighted_graph(fig: go.Figure, graph: nx.Graph, rate_type: str) -> None:
+    edges = graph.edges(data=True)
     edge_lons, edge_lats = [], []
     edge_text_lons, edge_text_lats, edge_text = [], [], []
     for u, v, data in edges:
@@ -35,7 +54,7 @@ def build_base_fig(graph: nx.Graph) -> go.Figure:
         lon=edge_lons, lat=edge_lats,
         mode='lines',
         line=dict(width=1, color='gray'),
-        name='MST edges',
+        name='Edge weights',
     ))
 
     fig.add_trace(go.Scattergeo(
@@ -47,29 +66,11 @@ def build_base_fig(graph: nx.Graph) -> go.Figure:
         hoverinfo='skip',
         showlegend=False,
     ))
-
-    # Add state labels
-    fig.add_trace(go.Scattergeo(
-        lon=[c[1] for c in STATE_CENTROIDS.values()],
-        lat=[c[0] for c in STATE_CENTROIDS.values()],
-        text=list(STATE_CENTROIDS.keys()),
-        mode='markers+text',
-        marker=dict(size=4, color='black'),
-        textposition='top center',
-        textfont=dict(size=8),
-        name='States',
-    ))
     
-    fig.update_geos(scope='usa', projection_type='albers usa')
-    fig.update_layout(title='MMR weighted graph', width=1500, height=1000)
+    fig.update_layout(title=f'Contiguous 48 states weighted by {rate_type} variance', width=1500, height=1000)
+    fig.show()
 
-    return fig
-
-
-def plot_weighted_graph(graph: nx.Graph) -> None:
-    pass
-
-def plot_mst(fig: go.Figure, mst: nx.Graph, cut_edges: list) -> None:
+def plot_mst(fig: go.Figure, mst: nx.Graph, cut_edges: list, rate_type: str, bin_cut: int) -> None:
     # Add MST edges to figure
     mst_lons, mst_lats = [], []
     for u, v in mst.edges():
@@ -131,19 +132,36 @@ def plot_mst(fig: go.Figure, mst: nx.Graph, cut_edges: list) -> None:
     ))
 
     fig.update_geos(scope='usa', projection_type='albers usa')
-    fig.update_layout(title='MMR MST with cut edges', width=900, height=600)
+    fig.update_layout(title=f'{rate_type} MST with cut edges. Top {bin_cut} classes cut.', width=1500, height=1000)
+
+    fig.show()
 
 
 def main():
     # Import graphs
     G_mmr = nx.read_graphml('graphs/mmr_graph.graphml')
-    G_imr = nx.read_graphml('graphs/mmr_graph.graphml')
+    G_imr = nx.read_graphml('graphs/imr_graph.graphml')
+    MST_mmr = nx.read_graphml('graphs/mmr_mst.graphml')
+    MST_imr = nx.read_graphml('graphs/imr_mst.graphml')
+
+    # Import cut edges
+    with open('data/mmr_cut_edges.json', 'r') as f:
+        MMR_cut_edges = json.load(f)
+    with open('data/imr_cut_edges.json', 'r') as f:
+        IMR_cut_edges = json.load(f)
 
     # Build base MMR map plot
-    figure = build_base_fig(G_mmr)
-    figure.show()
+    plot_weighted_graph(build_base_fig(), G_mmr, 'MMR')
+    plot_weighted_graph(build_base_fig(), G_imr, 'IMR')
 
+    # Plot MSTs
+    plot_mst(build_base_fig(), MST_mmr, MMR_cut_edges[0]['cut_edges'], 'MMR', 3) 
+    plot_mst(build_base_fig(), MST_mmr, MMR_cut_edges[1]['cut_edges'], 'MMR', 2) 
+    plot_mst(build_base_fig(), MST_mmr, MMR_cut_edges[2]['cut_edges'], 'MMR', 1) 
 
+    plot_mst(build_base_fig(), MST_imr, IMR_cut_edges[0]['cut_edges'], 'IMR', 3) 
+    plot_mst(build_base_fig(), MST_imr, IMR_cut_edges[1]['cut_edges'], 'IMR', 2) 
+    plot_mst(build_base_fig(), MST_imr, IMR_cut_edges[2]['cut_edges'], 'IMR', 1) 
 
 
 if __name__ == '__main__':
