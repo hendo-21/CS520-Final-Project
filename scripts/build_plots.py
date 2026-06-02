@@ -70,6 +70,7 @@ def plot_weighted_graph(fig: go.Figure, graph: nx.Graph, rate_type: str) -> None
     fig.update_layout(title=f'Contiguous 48 states weighted by {rate_type} variance', width=1500, height=1000)
     fig.show()
 
+
 def plot_mst(fig: go.Figure, mst: nx.Graph, cut_edges: list, rate_type: str, bin_cut: int) -> None:
     # Add MST edges to figure
     mst_lons, mst_lats = [], []
@@ -137,6 +138,23 @@ def plot_mst(fig: go.Figure, mst: nx.Graph, cut_edges: list, rate_type: str, bin
     fig.show()
 
 
+def filter_apsp_data(df: pd.DataFrame) -> None:
+    n = 10
+    # Isolate top 25% highest values in hops column
+    hops_75th_percentile = df['hops'].quantile(0.75)
+    n_smallest_dist_per_hop = df[(df['distance_per_hop'] > 0.0) & (df['hops'] > hops_75th_percentile)].nsmallest(n, 'distance_per_hop')
+    print(type(n_smallest_dist_per_hop))
+    print(f'{n} Smallest Dist / Hop\n', n_smallest_dist_per_hop)    
+
+    n_largest_dist_per_hop = df.nlargest(n, 'distance_per_hop')
+    print(f'\n{n} Largest Dist / Hop\n', n_largest_dist_per_hop)
+
+    n_largest_dist_per_hop = df[df['hops'] > hops_75th_percentile].nlargest(n, 'distance_per_hop')
+    print(f'\n{n} Largest Dist / Hop\n', n_largest_dist_per_hop)
+
+    avg_dist_per_hop = df['distance_per_hop'].mean()
+    print('\nAvg Dist Per Hop', avg_dist_per_hop)
+
 def main():
     # Import graphs
     G_mmr = nx.read_graphml('graphs/mmr_graph.graphml')
@@ -150,6 +168,11 @@ def main():
     with open('data/imr_cut_edges.json', 'r') as f:
         IMR_cut_edges = json.load(f)
 
+    # Import APSP data
+    df_mmr_apsp = pd.read_json('data/mmr_apsp.json')
+    df_imr_apsp = pd.read_json('data/imr_apsp.json')
+
+    """
     # Build base MMR map plot
     plot_weighted_graph(build_base_fig(), G_mmr, 'MMR')
     plot_weighted_graph(build_base_fig(), G_imr, 'IMR')
@@ -162,6 +185,8 @@ def main():
     plot_mst(build_base_fig(), MST_imr, IMR_cut_edges[0]['cut_edges'], 'IMR', 3) 
     plot_mst(build_base_fig(), MST_imr, IMR_cut_edges[1]['cut_edges'], 'IMR', 2) 
     plot_mst(build_base_fig(), MST_imr, IMR_cut_edges[2]['cut_edges'], 'IMR', 1) 
+    """
+    filter_apsp_data(df_mmr_apsp)
 
 
 if __name__ == '__main__':

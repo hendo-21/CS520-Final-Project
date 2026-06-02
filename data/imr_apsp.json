@@ -554,6 +554,20 @@
     },
     {
         "state1":"AL",
+        "state2":"MI",
+        "distance":1.75,
+        "hops":4,
+        "distance_per_hop":0.4375,
+        "states_in_path":[
+            "AL",
+            "TN",
+            "KY",
+            "IN",
+            "MI"
+        ]
+    },
+    {
+        "state1":"AL",
         "state2":"OH",
         "distance":1.84,
         "hops":3,
@@ -623,20 +637,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"AL",
-        "state2":"MI",
-        "distance":1.75,
-        "hops":4,
-        "distance_per_hop":0.4375,
-        "states_in_path":[
-            "AL",
-            "TN",
-            "KY",
-            "IN",
-            "MI"
         ]
     },
     {
@@ -1234,6 +1234,21 @@
     },
     {
         "state1":"FL",
+        "state2":"MI",
+        "distance":1.99,
+        "hops":5,
+        "distance_per_hop":0.398,
+        "states_in_path":[
+            "FL",
+            "GA",
+            "TN",
+            "KY",
+            "IN",
+            "MI"
+        ]
+    },
+    {
+        "state1":"FL",
         "state2":"OH",
         "distance":2.08,
         "hops":4,
@@ -1308,21 +1323,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"FL",
-        "state2":"MI",
-        "distance":1.99,
-        "hops":5,
-        "distance_per_hop":0.398,
-        "states_in_path":[
-            "FL",
-            "GA",
-            "TN",
-            "KY",
-            "IN",
-            "MI"
         ]
     },
     {
@@ -1874,6 +1874,20 @@
     },
     {
         "state1":"GA",
+        "state2":"MI",
+        "distance":1.1,
+        "hops":4,
+        "distance_per_hop":0.275,
+        "states_in_path":[
+            "GA",
+            "TN",
+            "KY",
+            "IN",
+            "MI"
+        ]
+    },
+    {
+        "state1":"GA",
         "state2":"OH",
         "distance":1.19,
         "hops":3,
@@ -1943,20 +1957,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"GA",
-        "state2":"MI",
-        "distance":1.1,
-        "hops":4,
-        "distance_per_hop":0.275,
-        "states_in_path":[
-            "GA",
-            "TN",
-            "KY",
-            "IN",
-            "MI"
         ]
     },
     {
@@ -2486,6 +2486,20 @@
     },
     {
         "state1":"MS",
+        "state2":"MI",
+        "distance":3.05,
+        "hops":4,
+        "distance_per_hop":0.7625,
+        "states_in_path":[
+            "MS",
+            "TN",
+            "KY",
+            "IN",
+            "MI"
+        ]
+    },
+    {
+        "state1":"MS",
         "state2":"OH",
         "distance":3.14,
         "hops":3,
@@ -2555,20 +2569,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"MS",
-        "state2":"MI",
-        "distance":3.05,
-        "hops":4,
-        "distance_per_hop":0.7625,
-        "states_in_path":[
-            "MS",
-            "TN",
-            "KY",
-            "IN",
-            "MI"
         ]
     },
     {
@@ -3075,6 +3075,19 @@
     },
     {
         "state1":"TN",
+        "state2":"MI",
+        "distance":0.59,
+        "hops":3,
+        "distance_per_hop":0.1966666667,
+        "states_in_path":[
+            "TN",
+            "KY",
+            "IN",
+            "MI"
+        ]
+    },
+    {
+        "state1":"TN",
         "state2":"OH",
         "distance":0.68,
         "hops":2,
@@ -3128,19 +3141,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"TN",
-        "state2":"MI",
-        "distance":0.59,
-        "hops":3,
-        "distance_per_hop":0.1966666667,
-        "states_in_path":[
-            "TN",
-            "KY",
-            "IN",
-            "MI"
         ]
     },
     {
@@ -3602,8 +3602,8 @@
         "state1":"AR",
         "state2":"IN",
         "distance":1.91,
-        "hops":2,
-        "distance_per_hop":0.955,
+        "hops":3,
+        "distance_per_hop":0.6366666667,
         "states_in_path":[
             "AR",
             "TN",
@@ -3621,6 +3621,20 @@
             "AR",
             "TN",
             "KY"
+        ]
+    },
+    {
+        "state1":"AR",
+        "state2":"MI",
+        "distance":2.33,
+        "hops":4,
+        "distance_per_hop":0.5825,
+        "states_in_path":[
+            "AR",
+            "TN",
+            "KY",
+            "IN",
+            "MI"
         ]
     },
     {
@@ -3694,20 +3708,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"AR",
-        "state2":"MI",
-        "distance":2.33,
-        "hops":3,
-        "distance_per_hop":0.7766666667,
-        "states_in_path":[
-            "AR",
-            "TN",
-            "KY",
-            "IN",
-            "MI"
         ]
     },
     {
@@ -4181,8 +4181,8 @@
         "state1":"LA",
         "state2":"IN",
         "distance":2.99,
-        "hops":3,
-        "distance_per_hop":0.9966666667,
+        "hops":4,
+        "distance_per_hop":0.7475,
         "states_in_path":[
             "LA",
             "AR",
@@ -4202,6 +4202,21 @@
             "AR",
             "TN",
             "KY"
+        ]
+    },
+    {
+        "state1":"LA",
+        "state2":"MI",
+        "distance":3.41,
+        "hops":5,
+        "distance_per_hop":0.682,
+        "states_in_path":[
+            "LA",
+            "AR",
+            "TN",
+            "KY",
+            "IN",
+            "MI"
         ]
     },
     {
@@ -4284,21 +4299,6 @@
     },
     {
         "state1":"LA",
-        "state2":"MI",
-        "distance":3.41,
-        "hops":4,
-        "distance_per_hop":0.8525,
-        "states_in_path":[
-            "LA",
-            "AR",
-            "TN",
-            "KY",
-            "IN",
-            "MI"
-        ]
-    },
-    {
-        "state1":"LA",
         "state2":"ND",
         "distance":4.71,
         "hops":5,
@@ -4342,17 +4342,6 @@
         "states_in_path":[
             "MO",
             "IL"
-        ]
-    },
-    {
-        "state1":"MO",
-        "state2":"IN",
-        "distance":0.39,
-        "hops":1,
-        "distance_per_hop":0.39,
-        "states_in_path":[
-            "MO",
-            "IN"
         ]
     },
     {
@@ -4745,13 +4734,38 @@
     },
     {
         "state1":"MO",
+        "state2":"IN",
+        "distance":0.53,
+        "hops":2,
+        "distance_per_hop":0.265,
+        "states_in_path":[
+            "MO",
+            "KY",
+            "IN"
+        ]
+    },
+    {
+        "state1":"MO",
+        "state2":"MI",
+        "distance":0.67,
+        "hops":3,
+        "distance_per_hop":0.2233333333,
+        "states_in_path":[
+            "MO",
+            "IL",
+            "WI",
+            "MI"
+        ]
+    },
+    {
+        "state1":"MO",
         "state2":"OH",
         "distance":1.04,
         "hops":2,
         "distance_per_hop":0.52,
         "states_in_path":[
             "MO",
-            "IN",
+            "KY",
             "OH"
         ]
     },
@@ -4813,19 +4827,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"MO",
-        "state2":"MI",
-        "distance":0.67,
-        "hops":2,
-        "distance_per_hop":0.335,
-        "states_in_path":[
-            "MO",
-            "IL",
-            "WI",
-            "MI"
         ]
     },
     {
@@ -5255,12 +5256,13 @@
     {
         "state1":"OK",
         "state2":"IN",
-        "distance":1.39,
-        "hops":2,
-        "distance_per_hop":0.695,
+        "distance":1.53,
+        "hops":3,
+        "distance_per_hop":0.51,
         "states_in_path":[
             "OK",
             "MO",
+            "KY",
             "IN"
         ]
     },
@@ -5278,6 +5280,20 @@
     },
     {
         "state1":"OK",
+        "state2":"MI",
+        "distance":1.67,
+        "hops":4,
+        "distance_per_hop":0.4175,
+        "states_in_path":[
+            "OK",
+            "MO",
+            "IL",
+            "WI",
+            "MI"
+        ]
+    },
+    {
+        "state1":"OK",
         "state2":"OH",
         "distance":2.04,
         "hops":3,
@@ -5285,7 +5301,7 @@
         "states_in_path":[
             "OK",
             "MO",
-            "IN",
+            "KY",
             "OH"
         ]
     },
@@ -5351,20 +5367,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"OK",
-        "state2":"MI",
-        "distance":1.67,
-        "hops":3,
-        "distance_per_hop":0.5566666667,
-        "states_in_path":[
-            "OK",
-            "MO",
-            "IL",
-            "WI",
-            "MI"
         ]
     },
     {
@@ -5801,13 +5803,14 @@
     {
         "state1":"TX",
         "state2":"IN",
-        "distance":2.68,
-        "hops":3,
-        "distance_per_hop":0.8933333333,
+        "distance":2.82,
+        "hops":4,
+        "distance_per_hop":0.705,
         "states_in_path":[
             "TX",
             "OK",
             "MO",
+            "KY",
             "IN"
         ]
     },
@@ -5826,6 +5829,21 @@
     },
     {
         "state1":"TX",
+        "state2":"MI",
+        "distance":2.96,
+        "hops":5,
+        "distance_per_hop":0.592,
+        "states_in_path":[
+            "TX",
+            "OK",
+            "MO",
+            "IL",
+            "WI",
+            "MI"
+        ]
+    },
+    {
+        "state1":"TX",
         "state2":"OH",
         "distance":3.33,
         "hops":4,
@@ -5834,7 +5852,7 @@
             "TX",
             "OK",
             "MO",
-            "IN",
+            "KY",
             "OH"
         ]
     },
@@ -5904,21 +5922,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"TX",
-        "state2":"MI",
-        "distance":2.96,
-        "hops":4,
-        "distance_per_hop":0.74,
-        "states_in_path":[
-            "TX",
-            "OK",
-            "MO",
-            "IL",
-            "WI",
-            "MI"
         ]
     },
     {
@@ -6339,14 +6342,15 @@
     {
         "state1":"AZ",
         "state2":"IN",
-        "distance":2.95,
-        "hops":4,
-        "distance_per_hop":0.7375,
+        "distance":3.09,
+        "hops":5,
+        "distance_per_hop":0.618,
         "states_in_path":[
             "AZ",
             "CO",
             "KS",
             "MO",
+            "KY",
             "IN"
         ]
     },
@@ -6366,6 +6370,22 @@
     },
     {
         "state1":"AZ",
+        "state2":"MI",
+        "distance":3.23,
+        "hops":5,
+        "distance_per_hop":0.646,
+        "states_in_path":[
+            "AZ",
+            "CO",
+            "KS",
+            "MO",
+            "IL",
+            "WI",
+            "MI"
+        ]
+    },
+    {
+        "state1":"AZ",
         "state2":"OH",
         "distance":3.6,
         "hops":5,
@@ -6375,7 +6395,7 @@
             "CO",
             "KS",
             "MO",
-            "IN",
+            "KY",
             "OH"
         ]
     },
@@ -6449,22 +6469,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"AZ",
-        "state2":"MI",
-        "distance":3.23,
-        "hops":5,
-        "distance_per_hop":0.646,
-        "states_in_path":[
-            "AZ",
-            "CO",
-            "KS",
-            "MO",
-            "IL",
-            "WI",
-            "MI"
         ]
     },
     {
@@ -6923,9 +6927,9 @@
     {
         "state1":"CA",
         "state2":"IN",
-        "distance":3.43,
-        "hops":5,
-        "distance_per_hop":0.686,
+        "distance":3.57,
+        "hops":6,
+        "distance_per_hop":0.595,
         "states_in_path":[
             "CA",
             "OR",
@@ -6934,6 +6938,7 @@
             "SD",
             "NE",
             "MO",
+            "KY",
             "IN"
         ]
     },
@@ -6956,6 +6961,25 @@
     },
     {
         "state1":"CA",
+        "state2":"MI",
+        "distance":3.71,
+        "hops":6,
+        "distance_per_hop":0.6183333333,
+        "states_in_path":[
+            "CA",
+            "OR",
+            "ID",
+            "MT",
+            "SD",
+            "NE",
+            "MO",
+            "IL",
+            "WI",
+            "MI"
+        ]
+    },
+    {
+        "state1":"CA",
         "state2":"OH",
         "distance":4.08,
         "hops":6,
@@ -6968,7 +6992,7 @@
             "SD",
             "NE",
             "MO",
-            "IN",
+            "KY",
             "OH"
         ]
     },
@@ -7054,25 +7078,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"CA",
-        "state2":"MI",
-        "distance":3.71,
-        "hops":6,
-        "distance_per_hop":0.6183333333,
-        "states_in_path":[
-            "CA",
-            "OR",
-            "ID",
-            "MT",
-            "SD",
-            "NE",
-            "MO",
-            "IL",
-            "WI",
-            "MI"
         ]
     },
     {
@@ -7450,13 +7455,14 @@
     {
         "state1":"CO",
         "state2":"IN",
-        "distance":1.96,
-        "hops":3,
-        "distance_per_hop":0.6533333333,
+        "distance":2.1,
+        "hops":4,
+        "distance_per_hop":0.525,
         "states_in_path":[
             "CO",
             "KS",
             "MO",
+            "KY",
             "IN"
         ]
     },
@@ -7475,6 +7481,21 @@
     },
     {
         "state1":"CO",
+        "state2":"MI",
+        "distance":2.24,
+        "hops":4,
+        "distance_per_hop":0.56,
+        "states_in_path":[
+            "CO",
+            "KS",
+            "MO",
+            "IL",
+            "WI",
+            "MI"
+        ]
+    },
+    {
+        "state1":"CO",
         "state2":"OH",
         "distance":2.61,
         "hops":4,
@@ -7483,7 +7504,7 @@
             "CO",
             "KS",
             "MO",
-            "IN",
+            "KY",
             "OH"
         ]
     },
@@ -7553,21 +7574,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"CO",
-        "state2":"MI",
-        "distance":2.24,
-        "hops":4,
-        "distance_per_hop":0.56,
-        "states_in_path":[
-            "CO",
-            "KS",
-            "MO",
-            "IL",
-            "WI",
-            "MI"
         ]
     },
     {
@@ -7955,14 +7961,15 @@
     {
         "state1":"NM",
         "state2":"IN",
-        "distance":2.12,
-        "hops":3,
-        "distance_per_hop":0.7066666667,
+        "distance":2.26,
+        "hops":4,
+        "distance_per_hop":0.565,
         "states_in_path":[
             "NM",
             "CO",
             "KS",
             "MO",
+            "KY",
             "IN"
         ]
     },
@@ -7982,6 +7989,22 @@
     },
     {
         "state1":"NM",
+        "state2":"MI",
+        "distance":2.4,
+        "hops":5,
+        "distance_per_hop":0.48,
+        "states_in_path":[
+            "NM",
+            "CO",
+            "KS",
+            "MO",
+            "IL",
+            "WI",
+            "MI"
+        ]
+    },
+    {
+        "state1":"NM",
         "state2":"OH",
         "distance":2.77,
         "hops":4,
@@ -7991,7 +8014,7 @@
             "CO",
             "KS",
             "MO",
-            "IN",
+            "KY",
             "OH"
         ]
     },
@@ -8065,22 +8088,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"NM",
-        "state2":"MI",
-        "distance":2.4,
-        "hops":4,
-        "distance_per_hop":0.6,
-        "states_in_path":[
-            "NM",
-            "CO",
-            "KS",
-            "MO",
-            "IL",
-            "WI",
-            "MI"
         ]
     },
     {
@@ -8465,15 +8472,16 @@
     {
         "state1":"NV",
         "state2":"IN",
-        "distance":3.29,
-        "hops":5,
-        "distance_per_hop":0.658,
+        "distance":3.43,
+        "hops":6,
+        "distance_per_hop":0.5716666667,
         "states_in_path":[
             "NV",
             "AZ",
             "CO",
             "KS",
             "MO",
+            "KY",
             "IN"
         ]
     },
@@ -8494,6 +8502,23 @@
     },
     {
         "state1":"NV",
+        "state2":"MI",
+        "distance":3.57,
+        "hops":6,
+        "distance_per_hop":0.595,
+        "states_in_path":[
+            "NV",
+            "AZ",
+            "CO",
+            "KS",
+            "MO",
+            "IL",
+            "WI",
+            "MI"
+        ]
+    },
+    {
+        "state1":"NV",
         "state2":"OH",
         "distance":3.94,
         "hops":6,
@@ -8504,7 +8529,7 @@
             "CO",
             "KS",
             "MO",
-            "IN",
+            "KY",
             "OH"
         ]
     },
@@ -8582,23 +8607,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"NV",
-        "state2":"MI",
-        "distance":3.57,
-        "hops":6,
-        "distance_per_hop":0.595,
-        "states_in_path":[
-            "NV",
-            "AZ",
-            "CO",
-            "KS",
-            "MO",
-            "IL",
-            "WI",
-            "MI"
         ]
     },
     {
@@ -8955,14 +8963,15 @@
     {
         "state1":"UT",
         "state2":"IN",
-        "distance":2.63,
-        "hops":4,
-        "distance_per_hop":0.6575,
+        "distance":2.77,
+        "hops":5,
+        "distance_per_hop":0.554,
         "states_in_path":[
             "UT",
             "CO",
             "KS",
             "MO",
+            "KY",
             "IN"
         ]
     },
@@ -8982,6 +8991,22 @@
     },
     {
         "state1":"UT",
+        "state2":"MI",
+        "distance":2.91,
+        "hops":5,
+        "distance_per_hop":0.582,
+        "states_in_path":[
+            "UT",
+            "CO",
+            "KS",
+            "MO",
+            "IL",
+            "WI",
+            "MI"
+        ]
+    },
+    {
+        "state1":"UT",
         "state2":"OH",
         "distance":3.28,
         "hops":5,
@@ -8991,7 +9016,7 @@
             "CO",
             "KS",
             "MO",
-            "IN",
+            "KY",
             "OH"
         ]
     },
@@ -9065,22 +9090,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"UT",
-        "state2":"MI",
-        "distance":2.91,
-        "hops":5,
-        "distance_per_hop":0.582,
-        "states_in_path":[
-            "UT",
-            "CO",
-            "KS",
-            "MO",
-            "IL",
-            "WI",
-            "MI"
         ]
     },
     {
@@ -9453,9 +9462,9 @@
     {
         "state1":"OR",
         "state2":"IN",
-        "distance":2.91,
-        "hops":5,
-        "distance_per_hop":0.582,
+        "distance":3.05,
+        "hops":6,
+        "distance_per_hop":0.5083333333,
         "states_in_path":[
             "OR",
             "ID",
@@ -9463,6 +9472,7 @@
             "SD",
             "NE",
             "MO",
+            "KY",
             "IN"
         ]
     },
@@ -9484,6 +9494,24 @@
     },
     {
         "state1":"OR",
+        "state2":"MI",
+        "distance":3.19,
+        "hops":6,
+        "distance_per_hop":0.5316666667,
+        "states_in_path":[
+            "OR",
+            "ID",
+            "MT",
+            "SD",
+            "NE",
+            "MO",
+            "IL",
+            "WI",
+            "MI"
+        ]
+    },
+    {
+        "state1":"OR",
         "state2":"OH",
         "distance":3.56,
         "hops":6,
@@ -9495,7 +9523,7 @@
             "SD",
             "NE",
             "MO",
-            "IN",
+            "KY",
             "OH"
         ]
     },
@@ -9577,24 +9605,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"OR",
-        "state2":"MI",
-        "distance":3.19,
-        "hops":6,
-        "distance_per_hop":0.5316666667,
-        "states_in_path":[
-            "OR",
-            "ID",
-            "MT",
-            "SD",
-            "NE",
-            "MO",
-            "IL",
-            "WI",
-            "MI"
         ]
     },
     {
@@ -9903,12 +9913,13 @@
     {
         "state1":"KS",
         "state2":"IN",
-        "distance":1.28,
-        "hops":2,
-        "distance_per_hop":0.64,
+        "distance":1.42,
+        "hops":3,
+        "distance_per_hop":0.4733333333,
         "states_in_path":[
             "KS",
             "MO",
+            "KY",
             "IN"
         ]
     },
@@ -9926,6 +9937,20 @@
     },
     {
         "state1":"KS",
+        "state2":"MI",
+        "distance":1.56,
+        "hops":4,
+        "distance_per_hop":0.39,
+        "states_in_path":[
+            "KS",
+            "MO",
+            "IL",
+            "WI",
+            "MI"
+        ]
+    },
+    {
+        "state1":"KS",
         "state2":"OH",
         "distance":1.93,
         "hops":3,
@@ -9933,7 +9958,7 @@
         "states_in_path":[
             "KS",
             "MO",
-            "IN",
+            "KY",
             "OH"
         ]
     },
@@ -9999,20 +10024,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"KS",
-        "state2":"MI",
-        "distance":1.56,
-        "hops":3,
-        "distance_per_hop":0.52,
-        "states_in_path":[
-            "KS",
-            "MO",
-            "IL",
-            "WI",
-            "MI"
         ]
     },
     {
@@ -10306,12 +10317,13 @@
     {
         "state1":"NE",
         "state2":"IN",
-        "distance":0.66,
-        "hops":2,
-        "distance_per_hop":0.33,
+        "distance":0.8,
+        "hops":3,
+        "distance_per_hop":0.2666666667,
         "states_in_path":[
             "NE",
             "MO",
+            "KY",
             "IN"
         ]
     },
@@ -10329,6 +10341,20 @@
     },
     {
         "state1":"NE",
+        "state2":"MI",
+        "distance":0.94,
+        "hops":3,
+        "distance_per_hop":0.3133333333,
+        "states_in_path":[
+            "NE",
+            "MO",
+            "IL",
+            "WI",
+            "MI"
+        ]
+    },
+    {
+        "state1":"NE",
         "state2":"OH",
         "distance":1.31,
         "hops":3,
@@ -10336,7 +10362,7 @@
         "states_in_path":[
             "NE",
             "MO",
-            "IN",
+            "KY",
             "OH"
         ]
     },
@@ -10402,20 +10428,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"NE",
-        "state2":"MI",
-        "distance":0.94,
-        "hops":3,
-        "distance_per_hop":0.3133333333,
-        "states_in_path":[
-            "NE",
-            "MO",
-            "IL",
-            "WI",
-            "MI"
         ]
     },
     {
@@ -10719,14 +10731,15 @@
     {
         "state1":"WY",
         "state2":"IN",
-        "distance":2.67,
-        "hops":3,
-        "distance_per_hop":0.89,
+        "distance":2.81,
+        "hops":4,
+        "distance_per_hop":0.7025,
         "states_in_path":[
             "WY",
             "CO",
             "KS",
             "MO",
+            "KY",
             "IN"
         ]
     },
@@ -10746,6 +10759,22 @@
     },
     {
         "state1":"WY",
+        "state2":"MI",
+        "distance":2.95,
+        "hops":4,
+        "distance_per_hop":0.7375,
+        "states_in_path":[
+            "WY",
+            "CO",
+            "KS",
+            "MO",
+            "IL",
+            "WI",
+            "MI"
+        ]
+    },
+    {
+        "state1":"WY",
         "state2":"OH",
         "distance":3.32,
         "hops":4,
@@ -10755,7 +10784,7 @@
             "CO",
             "KS",
             "MO",
-            "IN",
+            "KY",
             "OH"
         ]
     },
@@ -10829,22 +10858,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"WY",
-        "state2":"MI",
-        "distance":2.95,
-        "hops":4,
-        "distance_per_hop":0.7375,
-        "states_in_path":[
-            "WY",
-            "CO",
-            "KS",
-            "MO",
-            "IL",
-            "WI",
-            "MI"
         ]
     },
     {
@@ -11164,6 +11177,23 @@
     },
     {
         "state1":"CT",
+        "state2":"MI",
+        "distance":3.5,
+        "hops":4,
+        "distance_per_hop":0.875,
+        "states_in_path":[
+            "CT",
+            "NY",
+            "PA",
+            "MD",
+            "VA",
+            "KY",
+            "IN",
+            "MI"
+        ]
+    },
+    {
+        "state1":"CT",
         "state2":"OH",
         "distance":3.59,
         "hops":3,
@@ -11225,23 +11255,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"CT",
-        "state2":"MI",
-        "distance":3.5,
-        "hops":4,
-        "distance_per_hop":0.875,
-        "states_in_path":[
-            "CT",
-            "NY",
-            "PA",
-            "MD",
-            "VA",
-            "KY",
-            "IN",
-            "MI"
         ]
     },
     {
@@ -11568,6 +11581,23 @@
     },
     {
         "state1":"MA",
+        "state2":"MI",
+        "distance":3.79,
+        "hops":4,
+        "distance_per_hop":0.9475,
+        "states_in_path":[
+            "MA",
+            "NY",
+            "PA",
+            "MD",
+            "VA",
+            "KY",
+            "IN",
+            "MI"
+        ]
+    },
+    {
+        "state1":"MA",
         "state2":"OH",
         "distance":3.88,
         "hops":3,
@@ -11616,23 +11646,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"MA",
-        "state2":"MI",
-        "distance":3.79,
-        "hops":4,
-        "distance_per_hop":0.9475,
-        "states_in_path":[
-            "MA",
-            "NY",
-            "PA",
-            "MD",
-            "VA",
-            "KY",
-            "IN",
-            "MI"
         ]
     },
     {
@@ -11922,6 +11935,22 @@
     },
     {
         "state1":"NY",
+        "state2":"MI",
+        "distance":3.04,
+        "hops":3,
+        "distance_per_hop":1.0133333333,
+        "states_in_path":[
+            "NY",
+            "PA",
+            "MD",
+            "VA",
+            "KY",
+            "IN",
+            "MI"
+        ]
+    },
+    {
+        "state1":"NY",
         "state2":"OH",
         "distance":3.13,
         "hops":2,
@@ -11980,22 +12009,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"NY",
-        "state2":"MI",
-        "distance":3.04,
-        "hops":3,
-        "distance_per_hop":1.0133333333,
-        "states_in_path":[
-            "NY",
-            "PA",
-            "MD",
-            "VA",
-            "KY",
-            "IN",
-            "MI"
         ]
     },
     {
@@ -12304,6 +12317,24 @@
     },
     {
         "state1":"RI",
+        "state2":"MI",
+        "distance":3.8,
+        "hops":5,
+        "distance_per_hop":0.76,
+        "states_in_path":[
+            "RI",
+            "CT",
+            "NY",
+            "PA",
+            "MD",
+            "VA",
+            "KY",
+            "IN",
+            "MI"
+        ]
+    },
+    {
+        "state1":"RI",
         "state2":"OH",
         "distance":3.89,
         "hops":4,
@@ -12368,24 +12399,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"RI",
-        "state2":"MI",
-        "distance":3.8,
-        "hops":5,
-        "distance_per_hop":0.76,
-        "states_in_path":[
-            "RI",
-            "CT",
-            "NY",
-            "PA",
-            "MD",
-            "VA",
-            "KY",
-            "IN",
-            "MI"
         ]
     },
     {
@@ -12639,6 +12652,21 @@
     },
     {
         "state1":"DE",
+        "state2":"MI",
+        "distance":1.99,
+        "hops":3,
+        "distance_per_hop":0.6633333333,
+        "states_in_path":[
+            "DE",
+            "MD",
+            "VA",
+            "KY",
+            "IN",
+            "MI"
+        ]
+    },
+    {
+        "state1":"DE",
         "state2":"OH",
         "distance":2.08,
         "hops":2,
@@ -12702,21 +12730,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"DE",
-        "state2":"MI",
-        "distance":1.99,
-        "hops":3,
-        "distance_per_hop":0.6633333333,
-        "states_in_path":[
-            "DE",
-            "MD",
-            "VA",
-            "KY",
-            "IN",
-            "MI"
         ]
     },
     {
@@ -12967,6 +12980,20 @@
     },
     {
         "state1":"MD",
+        "state2":"MI",
+        "distance":1.46,
+        "hops":3,
+        "distance_per_hop":0.4866666667,
+        "states_in_path":[
+            "MD",
+            "VA",
+            "KY",
+            "IN",
+            "MI"
+        ]
+    },
+    {
+        "state1":"MD",
         "state2":"OH",
         "distance":1.55,
         "hops":2,
@@ -13005,20 +13032,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"MD",
-        "state2":"MI",
-        "distance":1.46,
-        "hops":3,
-        "distance_per_hop":0.4866666667,
-        "states_in_path":[
-            "MD",
-            "VA",
-            "KY",
-            "IN",
-            "MI"
         ]
     },
     {
@@ -13258,6 +13271,22 @@
     },
     {
         "state1":"NJ",
+        "state2":"MI",
+        "distance":3.38,
+        "hops":3,
+        "distance_per_hop":1.1266666667,
+        "states_in_path":[
+            "NJ",
+            "PA",
+            "MD",
+            "VA",
+            "KY",
+            "IN",
+            "MI"
+        ]
+    },
+    {
+        "state1":"NJ",
         "state2":"OH",
         "distance":3.47,
         "hops":2,
@@ -13318,22 +13347,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"NJ",
-        "state2":"MI",
-        "distance":3.38,
-        "hops":3,
-        "distance_per_hop":1.1266666667,
-        "states_in_path":[
-            "NJ",
-            "PA",
-            "MD",
-            "VA",
-            "KY",
-            "IN",
-            "MI"
         ]
     },
     {
@@ -13574,6 +13587,21 @@
     },
     {
         "state1":"PA",
+        "state2":"MI",
+        "distance":1.5,
+        "hops":2,
+        "distance_per_hop":0.75,
+        "states_in_path":[
+            "PA",
+            "MD",
+            "VA",
+            "KY",
+            "IN",
+            "MI"
+        ]
+    },
+    {
+        "state1":"PA",
         "state2":"VA",
         "distance":0.3,
         "hops":2,
@@ -13609,21 +13637,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"PA",
-        "state2":"MI",
-        "distance":1.5,
-        "hops":2,
-        "distance_per_hop":0.75,
-        "states_in_path":[
-            "PA",
-            "MD",
-            "VA",
-            "KY",
-            "IN",
-            "MI"
         ]
     },
     {
@@ -13818,6 +13831,20 @@
     },
     {
         "state1":"NC",
+        "state2":"MI",
+        "distance":1.06,
+        "hops":4,
+        "distance_per_hop":0.265,
+        "states_in_path":[
+            "NC",
+            "TN",
+            "KY",
+            "IN",
+            "MI"
+        ]
+    },
+    {
+        "state1":"NC",
         "state2":"OH",
         "distance":1.15,
         "hops":3,
@@ -13872,20 +13899,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"NC",
-        "state2":"MI",
-        "distance":1.06,
-        "hops":4,
-        "distance_per_hop":0.265,
-        "states_in_path":[
-            "NC",
-            "TN",
-            "KY",
-            "IN",
-            "MI"
         ]
     },
     {
@@ -14066,6 +14079,21 @@
     },
     {
         "state1":"SC",
+        "state2":"MI",
+        "distance":1.07,
+        "hops":5,
+        "distance_per_hop":0.214,
+        "states_in_path":[
+            "SC",
+            "NC",
+            "TN",
+            "KY",
+            "IN",
+            "MI"
+        ]
+    },
+    {
+        "state1":"SC",
         "state2":"OH",
         "distance":1.16,
         "hops":4,
@@ -14136,21 +14164,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"SC",
-        "state2":"MI",
-        "distance":1.07,
-        "hops":5,
-        "distance_per_hop":0.214,
-        "states_in_path":[
-            "SC",
-            "NC",
-            "TN",
-            "KY",
-            "IN",
-            "MI"
         ]
     },
     {
@@ -14273,7 +14286,7 @@
         "distance_per_hop":0.705,
         "states_in_path":[
             "IA",
-            "MO",
+            "IL",
             "IN"
         ]
     },
@@ -14291,13 +14304,25 @@
     },
     {
         "state1":"IA",
+        "state2":"MI",
+        "distance":0.99,
+        "hops":2,
+        "distance_per_hop":0.495,
+        "states_in_path":[
+            "IA",
+            "WI",
+            "MI"
+        ]
+    },
+    {
+        "state1":"IA",
         "state2":"OH",
         "distance":2.06,
         "hops":3,
         "distance_per_hop":0.6866666667,
         "states_in_path":[
             "IA",
-            "MO",
+            "IL",
             "IN",
             "OH"
         ]
@@ -14364,18 +14389,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"IA",
-        "state2":"MI",
-        "distance":0.99,
-        "hops":2,
-        "distance_per_hop":0.495,
-        "states_in_path":[
-            "IA",
-            "WI",
-            "MI"
         ]
     },
     {
@@ -14505,6 +14518,18 @@
     },
     {
         "state1":"IL",
+        "state2":"MI",
+        "distance":0.46,
+        "hops":2,
+        "distance_per_hop":0.23,
+        "states_in_path":[
+            "IL",
+            "WI",
+            "MI"
+        ]
+    },
+    {
+        "state1":"IL",
         "state2":"OH",
         "distance":1.25,
         "hops":2,
@@ -14577,18 +14602,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"IL",
-        "state2":"MI",
-        "distance":0.46,
-        "hops":2,
-        "distance_per_hop":0.23,
-        "states_in_path":[
-            "IL",
-            "WI",
-            "MI"
         ]
     },
     {
@@ -14690,12 +14703,12 @@
         "state1":"MN",
         "state2":"IN",
         "distance":1.78,
-        "hops":2,
-        "distance_per_hop":0.89,
+        "hops":3,
+        "distance_per_hop":0.5933333333,
         "states_in_path":[
             "MN",
             "IA",
-            "MO",
+            "IL",
             "IN"
         ]
     },
@@ -14714,6 +14727,18 @@
     },
     {
         "state1":"MN",
+        "state2":"MI",
+        "distance":1.36,
+        "hops":2,
+        "distance_per_hop":0.68,
+        "states_in_path":[
+            "MN",
+            "WI",
+            "MI"
+        ]
+    },
+    {
+        "state1":"MN",
         "state2":"OH",
         "distance":2.43,
         "hops":3,
@@ -14721,7 +14746,7 @@
         "states_in_path":[
             "MN",
             "IA",
-            "MO",
+            "IL",
             "IN",
             "OH"
         ]
@@ -14792,18 +14817,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"MN",
-        "state2":"MI",
-        "distance":1.36,
-        "hops":2,
-        "distance_per_hop":0.68,
-        "states_in_path":[
-            "MN",
-            "WI",
-            "MI"
         ]
     },
     {
@@ -14880,13 +14893,14 @@
     {
         "state1":"SD",
         "state2":"IN",
-        "distance":0.71,
+        "distance":0.85,
         "hops":3,
-        "distance_per_hop":0.2366666667,
+        "distance_per_hop":0.2833333333,
         "states_in_path":[
             "SD",
             "NE",
             "MO",
+            "KY",
             "IN"
         ]
     },
@@ -14905,6 +14919,21 @@
     },
     {
         "state1":"SD",
+        "state2":"MI",
+        "distance":0.99,
+        "hops":3,
+        "distance_per_hop":0.33,
+        "states_in_path":[
+            "SD",
+            "NE",
+            "MO",
+            "IL",
+            "WI",
+            "MI"
+        ]
+    },
+    {
+        "state1":"SD",
         "state2":"OH",
         "distance":1.36,
         "hops":4,
@@ -14913,7 +14942,7 @@
             "SD",
             "NE",
             "MO",
-            "IN",
+            "KY",
             "OH"
         ]
     },
@@ -14986,21 +15015,6 @@
         ]
     },
     {
-        "state1":"SD",
-        "state2":"MI",
-        "distance":0.99,
-        "hops":3,
-        "distance_per_hop":0.33,
-        "states_in_path":[
-            "SD",
-            "NE",
-            "MO",
-            "IL",
-            "WI",
-            "MI"
-        ]
-    },
-    {
         "state1":"WI",
         "state2":"WI",
         "distance":0.0,
@@ -15008,17 +15022,6 @@
         "distance_per_hop":0.0,
         "states_in_path":[
 
-        ]
-    },
-    {
-        "state1":"WI",
-        "state2":"IN",
-        "distance":0.74,
-        "hops":1,
-        "distance_per_hop":0.74,
-        "states_in_path":[
-            "WI",
-            "IN"
         ]
     },
     {
@@ -15082,6 +15085,18 @@
     },
     {
         "state1":"WI",
+        "state2":"IN",
+        "distance":0.74,
+        "hops":2,
+        "distance_per_hop":0.37,
+        "states_in_path":[
+            "WI",
+            "IL",
+            "IN"
+        ]
+    },
+    {
+        "state1":"WI",
         "state2":"KY",
         "distance":0.81,
         "hops":2,
@@ -15100,6 +15115,7 @@
         "distance_per_hop":0.695,
         "states_in_path":[
             "WI",
+            "IL",
             "IN",
             "OH"
         ]
@@ -15219,15 +15235,16 @@
     {
         "state1":"ID",
         "state2":"IN",
-        "distance":2.67,
-        "hops":4,
-        "distance_per_hop":0.6675,
+        "distance":2.81,
+        "hops":5,
+        "distance_per_hop":0.562,
         "states_in_path":[
             "ID",
             "MT",
             "SD",
             "NE",
             "MO",
+            "KY",
             "IN"
         ]
     },
@@ -15248,6 +15265,23 @@
     },
     {
         "state1":"ID",
+        "state2":"MI",
+        "distance":2.95,
+        "hops":5,
+        "distance_per_hop":0.59,
+        "states_in_path":[
+            "ID",
+            "MT",
+            "SD",
+            "NE",
+            "MO",
+            "IL",
+            "WI",
+            "MI"
+        ]
+    },
+    {
+        "state1":"ID",
         "state2":"OH",
         "distance":3.32,
         "hops":5,
@@ -15258,7 +15292,7 @@
             "SD",
             "NE",
             "MO",
-            "IN",
+            "KY",
             "OH"
         ]
     },
@@ -15340,23 +15374,6 @@
     },
     {
         "state1":"ID",
-        "state2":"MI",
-        "distance":2.95,
-        "hops":5,
-        "distance_per_hop":0.59,
-        "states_in_path":[
-            "ID",
-            "MT",
-            "SD",
-            "NE",
-            "MO",
-            "IL",
-            "WI",
-            "MI"
-        ]
-    },
-    {
-        "state1":"ID",
         "state2":"ND",
         "distance":1.77,
         "hops":2,
@@ -15403,14 +15420,15 @@
     {
         "state1":"MT",
         "state2":"IN",
-        "distance":1.54,
+        "distance":1.68,
         "hops":4,
-        "distance_per_hop":0.385,
+        "distance_per_hop":0.42,
         "states_in_path":[
             "MT",
             "SD",
             "NE",
             "MO",
+            "KY",
             "IN"
         ]
     },
@@ -15430,6 +15448,22 @@
     },
     {
         "state1":"MT",
+        "state2":"MI",
+        "distance":1.82,
+        "hops":4,
+        "distance_per_hop":0.455,
+        "states_in_path":[
+            "MT",
+            "SD",
+            "NE",
+            "MO",
+            "IL",
+            "WI",
+            "MI"
+        ]
+    },
+    {
+        "state1":"MT",
         "state2":"OH",
         "distance":2.19,
         "hops":5,
@@ -15439,7 +15473,7 @@
             "SD",
             "NE",
             "MO",
-            "IN",
+            "KY",
             "OH"
         ]
     },
@@ -15516,22 +15550,6 @@
         ]
     },
     {
-        "state1":"MT",
-        "state2":"MI",
-        "distance":1.82,
-        "hops":4,
-        "distance_per_hop":0.455,
-        "states_in_path":[
-            "MT",
-            "SD",
-            "NE",
-            "MO",
-            "IL",
-            "WI",
-            "MI"
-        ]
-    },
-    {
         "state1":"WA",
         "state2":"WA",
         "distance":0.0,
@@ -15544,9 +15562,9 @@
     {
         "state1":"WA",
         "state2":"IN",
-        "distance":3.33,
-        "hops":5,
-        "distance_per_hop":0.666,
+        "distance":3.47,
+        "hops":6,
+        "distance_per_hop":0.5783333333,
         "states_in_path":[
             "WA",
             "ID",
@@ -15554,6 +15572,7 @@
             "SD",
             "NE",
             "MO",
+            "KY",
             "IN"
         ]
     },
@@ -15575,6 +15594,24 @@
     },
     {
         "state1":"WA",
+        "state2":"MI",
+        "distance":3.61,
+        "hops":6,
+        "distance_per_hop":0.6016666667,
+        "states_in_path":[
+            "WA",
+            "ID",
+            "MT",
+            "SD",
+            "NE",
+            "MO",
+            "IL",
+            "WI",
+            "MI"
+        ]
+    },
+    {
+        "state1":"WA",
         "state2":"OH",
         "distance":3.98,
         "hops":6,
@@ -15586,7 +15623,7 @@
             "SD",
             "NE",
             "MO",
-            "IN",
+            "KY",
             "OH"
         ]
     },
@@ -15668,24 +15705,6 @@
             "MA",
             "NH",
             "ME"
-        ]
-    },
-    {
-        "state1":"WA",
-        "state2":"MI",
-        "distance":3.61,
-        "hops":6,
-        "distance_per_hop":0.6016666667,
-        "states_in_path":[
-            "WA",
-            "ID",
-            "MT",
-            "SD",
-            "NE",
-            "MO",
-            "IL",
-            "WI",
-            "MI"
         ]
     },
     {
@@ -15807,11 +15826,11 @@
         "state1":"IN",
         "state2":"ND",
         "distance":1.92,
-        "hops":3,
-        "distance_per_hop":0.64,
+        "hops":4,
+        "distance_per_hop":0.48,
         "states_in_path":[
             "IN",
-            "MO",
+            "IL",
             "IA",
             "MN",
             "ND"
@@ -15862,6 +15881,18 @@
     },
     {
         "state1":"KY",
+        "state2":"MI",
+        "distance":0.49,
+        "hops":2,
+        "distance_per_hop":0.245,
+        "states_in_path":[
+            "KY",
+            "IN",
+            "MI"
+        ]
+    },
+    {
+        "state1":"KY",
         "state2":"NH",
         "distance":3.65,
         "hops":5,
@@ -15895,18 +15926,6 @@
     },
     {
         "state1":"KY",
-        "state2":"MI",
-        "distance":0.49,
-        "hops":2,
-        "distance_per_hop":0.245,
-        "states_in_path":[
-            "KY",
-            "IN",
-            "MI"
-        ]
-    },
-    {
-        "state1":"KY",
         "state2":"ND",
         "distance":1.99,
         "hops":4,
@@ -15920,8 +15939,8 @@
         ]
     },
     {
-        "state1":"OH",
-        "state2":"OH",
+        "state1":"MI",
+        "state2":"MI",
         "distance":0.0,
         "hops":0,
         "distance_per_hop":0.0,
@@ -15930,14 +15949,100 @@
         ]
     },
     {
-        "state1":"OH",
-        "state2":"MI",
+        "state1":"MI",
+        "state2":"OH",
         "distance":1.07,
         "hops":1,
         "distance_per_hop":1.07,
         "states_in_path":[
-            "OH",
-            "MI"
+            "MI",
+            "OH"
+        ]
+    },
+    {
+        "state1":"MI",
+        "state2":"VA",
+        "distance":1.2,
+        "hops":3,
+        "distance_per_hop":0.4,
+        "states_in_path":[
+            "MI",
+            "IN",
+            "KY",
+            "VA"
+        ]
+    },
+    {
+        "state1":"MI",
+        "state2":"WV",
+        "distance":1.47,
+        "hops":2,
+        "distance_per_hop":0.735,
+        "states_in_path":[
+            "MI",
+            "IN",
+            "KY",
+            "WV"
+        ]
+    },
+    {
+        "state1":"MI",
+        "state2":"NH",
+        "distance":4.14,
+        "hops":5,
+        "distance_per_hop":0.828,
+        "states_in_path":[
+            "MI",
+            "IN",
+            "KY",
+            "VA",
+            "MD",
+            "PA",
+            "NY",
+            "MA",
+            "NH"
+        ]
+    },
+    {
+        "state1":"MI",
+        "state2":"ME",
+        "distance":6.89,
+        "hops":6,
+        "distance_per_hop":1.1483333333,
+        "states_in_path":[
+            "MI",
+            "IN",
+            "KY",
+            "VA",
+            "MD",
+            "PA",
+            "NY",
+            "MA",
+            "NH",
+            "ME"
+        ]
+    },
+    {
+        "state1":"MI",
+        "state2":"ND",
+        "distance":1.5,
+        "hops":3,
+        "distance_per_hop":0.5,
+        "states_in_path":[
+            "MI",
+            "WI",
+            "MN",
+            "ND"
+        ]
+    },
+    {
+        "state1":"OH",
+        "state2":"OH",
+        "distance":0.0,
+        "hops":0,
+        "distance_per_hop":0.0,
+        "states_in_path":[
+
         ]
     },
     {
@@ -16001,7 +16106,7 @@
         "states_in_path":[
             "OH",
             "IN",
-            "MO",
+            "IL",
             "IA",
             "MN",
             "ND"
@@ -16061,19 +16166,6 @@
     },
     {
         "state1":"VA",
-        "state2":"MI",
-        "distance":1.2,
-        "hops":3,
-        "distance_per_hop":0.4,
-        "states_in_path":[
-            "VA",
-            "KY",
-            "IN",
-            "MI"
-        ]
-    },
-    {
-        "state1":"VA",
         "state2":"ND",
         "distance":2.5,
         "hops":5,
@@ -16128,19 +16220,6 @@
     },
     {
         "state1":"WV",
-        "state2":"MI",
-        "distance":1.47,
-        "hops":2,
-        "distance_per_hop":0.735,
-        "states_in_path":[
-            "WV",
-            "KY",
-            "IN",
-            "MI"
-        ]
-    },
-    {
-        "state1":"WV",
         "state2":"ND",
         "distance":2.77,
         "hops":5,
@@ -16178,24 +16257,6 @@
     },
     {
         "state1":"NH",
-        "state2":"MI",
-        "distance":4.14,
-        "hops":5,
-        "distance_per_hop":0.828,
-        "states_in_path":[
-            "NH",
-            "MA",
-            "NY",
-            "PA",
-            "MD",
-            "VA",
-            "KY",
-            "IN",
-            "MI"
-        ]
-    },
-    {
-        "state1":"NH",
         "state2":"ND",
         "distance":5.44,
         "hops":8,
@@ -16226,25 +16287,6 @@
     },
     {
         "state1":"ME",
-        "state2":"MI",
-        "distance":6.89,
-        "hops":6,
-        "distance_per_hop":1.1483333333,
-        "states_in_path":[
-            "ME",
-            "NH",
-            "MA",
-            "NY",
-            "PA",
-            "MD",
-            "VA",
-            "KY",
-            "IN",
-            "MI"
-        ]
-    },
-    {
-        "state1":"ME",
         "state2":"ND",
         "distance":8.19,
         "hops":9,
@@ -16260,29 +16302,6 @@
             "TN",
             "MO",
             "IA",
-            "MN",
-            "ND"
-        ]
-    },
-    {
-        "state1":"MI",
-        "state2":"MI",
-        "distance":0.0,
-        "hops":0,
-        "distance_per_hop":0.0,
-        "states_in_path":[
-
-        ]
-    },
-    {
-        "state1":"MI",
-        "state2":"ND",
-        "distance":1.5,
-        "hops":3,
-        "distance_per_hop":0.5,
-        "states_in_path":[
-            "MI",
-            "WI",
             "MN",
             "ND"
         ]

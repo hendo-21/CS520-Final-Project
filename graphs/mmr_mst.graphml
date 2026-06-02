@@ -42,12 +42,12 @@
     <node id="WA" />
     <node id="IN" />
     <node id="KY" />
+    <node id="MI" />
     <node id="OH" />
     <node id="VA" />
     <node id="WV" />
     <node id="NH" />
     <node id="ME" />
-    <node id="MI" />
     <node id="ND" />
     <edge source="AL" target="MS">
       <data key="d0">1.714623624323096</data>
@@ -72,9 +72,6 @@
     </edge>
     <edge source="MO" target="KY">
       <data key="d0">2.513240211546915</data>
-    </edge>
-    <edge source="MO" target="IN">
-      <data key="d0">2.8945942786158554</data>
     </edge>
     <edge source="OK" target="KS">
       <data key="d0">1.7692417365157134</data>
@@ -175,13 +172,16 @@
     <edge source="IN" target="OH">
       <data key="d0">2.8223832362844092</data>
     </edge>
+    <edge source="IN" target="KY">
+      <data key="d0">5.40783449016277</data>
+    </edge>
     <edge source="KY" target="VA">
       <data key="d0">0.2074935596568821</data>
     </edge>
     <edge source="KY" target="WV">
       <data key="d0">2.6201867323311347</data>
     </edge>
-    <edge source="OH" target="MI">
+    <edge source="MI" target="OH">
       <data key="d0">3.7978773689441674</data>
     </edge>
     <edge source="NH" target="ME">
