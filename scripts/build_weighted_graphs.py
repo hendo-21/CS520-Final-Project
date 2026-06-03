@@ -51,7 +51,8 @@ def build_imr_graph():
     imr_by_state = {}
     for target_state in STATE_CODE_REF:
         imr_by_state[STATE_CODE_REF[target_state]] = float(next(item['Death Rate']for item in infant_mortality_by_state if item['State'] == target_state))
-
+    with open('data/imr_by_state.json', 'w') as f:
+        json.dump(imr_by_state, f)
 
     # create the weighted networkx graph for imr
     G = nx.Graph()

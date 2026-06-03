@@ -104,7 +104,18 @@ def run_floyd_warshall(graph: nx.Graph) -> dict:
     apsp = nx.floyd_warshall(graph)
     return apsp
 
-def build_apsp_dataframe(graph: nx.Graph, distances: dict, filename: str) -> pd.DataFrame:
+def build_apsp_dataframe(rate_flag: str, graph: nx.Graph, distances: dict, filename: str) -> pd.DataFrame:
+    # Import abs rates
+    with open('data/mmr_by_state.json', 'r') as f:
+        mmr_by_state = json.load(f)
+    with open('data/imr_by_state.json', 'r') as f:
+        imr_by_state = json.load(f)
+
+    if rate_flag == 'MMR':
+        state_rates = mmr_by_state
+    else:
+        state_rates = imr_by_state
+
     apsp_paths, _ = nx.floyd_warshall_predecessor_and_distance(graph)
     rows_list = []
     seen_pairs = set()
@@ -121,13 +132,16 @@ def build_apsp_dataframe(graph: nx.Graph, distances: dict, filename: str) -> pd.
             hops = len(path) - 1
             distance = distances[first_state][second_state]
             
+            state1, state2 = sorted([first_state, second_state])
+
             rows_list.append({
-                'state1': first_state,
-                'state2': second_state,
+                'state1': state1,
+                'state2': state2,
                 'distance': distance,
                 'hops': hops,
                 'distance_per_hop': distance / hops if hops > 0 else 0,
                 'states_in_path': path,
+                'avg_rate_along_path': sum(state_rates[s] for s in path) / len(path)
             })
     
     df = pd.DataFrame(rows_list)
@@ -172,10 +186,10 @@ def main():
         json.dump(imr_cut_edges, f)
 
     apsp_mmr = run_floyd_warshall(G_mmr)
-    d = build_apsp_dataframe(G_mmr, apsp_mmr, 'mmr_apsp')
+    d = build_apsp_dataframe('MMR', G_mmr, apsp_mmr, 'mmr_apsp')
 
     apsp_imr = run_floyd_warshall(G_imr)
-    d_imr = build_apsp_dataframe(G_imr, apsp_imr, 'imr_apsp')
+    d_imr = build_apsp_dataframe('IMR', G_imr, apsp_imr, 'imr_apsp')
 
 if __name__ == '__main__':
     main()

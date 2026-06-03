@@ -38,7 +38,6 @@ def build_base_fig() -> go.Figure:
 
     return fig
 
-
 def plot_weighted_graph(fig: go.Figure, graph: nx.Graph, rate_type: str) -> None:
     edges = graph.edges(data=True)
     edge_lons, edge_lats = [], []
@@ -70,7 +69,6 @@ def plot_weighted_graph(fig: go.Figure, graph: nx.Graph, rate_type: str) -> None
     
     fig.update_layout(title=f'Contiguous 48 states weighted by {rate_type} variance', width=1500, height=1000)
     fig.show()
-
 
 def plot_mst(fig: go.Figure, mst: nx.Graph, cut_edges: list, rate_type: str, bin_cut: int) -> None:
     # Add MST edges to figure
@@ -160,7 +158,7 @@ def plot_apsp_data(fig: go.Figure, rate_type: str, edges: dict) -> None:
         ))
 
     fig.update_geos(scope='usa', projection_type='albers usa')
-    fig.update_layout(title=f'{rate_type} APSP paths', width=1500, height=1000)
+    fig.update_layout(title=f'Top 5 paths with smoothest {rate_type} rate transition', width=1500, height=1000)
 
     fig.show()
 
@@ -168,7 +166,6 @@ def filter_apsp_data(df: pd.DataFrame) -> dict:
     n = 5
     # Isolate top 25% highest values in hops column
     hops_75th_percentile = df['hops'].quantile(0.75)
-    print(hops_75th_percentile)
     n_smallest_dist_per_hop = df[(df['distance_per_hop'] > 0.0) & (df['hops'] > hops_75th_percentile)].nsmallest(n, 'distance_per_hop')
 
     df_n_paths = {}
@@ -177,7 +174,6 @@ def filter_apsp_data(df: pd.DataFrame) -> dict:
         path_key = f"{states_in_path[0]}, {states_in_path[-1]}"
         df_n_paths[path_key] = list(zip(states_in_path[:-1], states_in_path[1:]))
 
-    print('df_n_paths =', df_n_paths)
     print(f'{n} Smallest Dist / Hop - Top 25% of Hops\n', n_smallest_dist_per_hop)
 
     n_largest_dist_per_hop = df.nlargest(n, 'distance_per_hop')
@@ -188,7 +184,16 @@ def filter_apsp_data(df: pd.DataFrame) -> dict:
 
     avg_dist_per_hop = df['distance_per_hop'].mean()
     print('\nAvg Dist Per Hop', avg_dist_per_hop)
+    avg_weight_along_path = df['avg_rate_along_path'].mean()
+    print('\nAvg Weight Along Path:', avg_weight_along_path)
     return df_n_paths
+
+def compute_mst_jaccard_similarity(edge_list_1: list, edge_list_2: list) -> float:
+    s1 = set(edge_list_1)
+    s2 = set(edge_list_2)
+    intersection = len(s1.intersection(s2))
+    union = len(s1.union(s2))
+    return intersection / union
 
 def main():
     # Import graphs
@@ -221,9 +226,14 @@ def main():
     plot_mst(build_base_fig(), MST_imr, IMR_cut_edges[1]['cut_edges'], 'IMR', 2) 
     plot_mst(build_base_fig(), MST_imr, IMR_cut_edges[2]['cut_edges'], 'IMR', 1) 
     """
+    """
     edges = filter_apsp_data(df_mmr_apsp)
     plot_apsp_data(build_base_fig(), 'MMR', edges)
-
+    edges = filter_apsp_data(df_imr_apsp)
+    plot_apsp_data(build_base_fig(), 'IMR', edges)
+    """
+    jac_res = compute_mst_jaccard_similarity(list(MST_mmr.edges), list(MST_imr.edges))
+    print('MST Jaccard Similarity Score:', round(jac_res, 4) * 100)
 
 if __name__ == '__main__':
     main()
