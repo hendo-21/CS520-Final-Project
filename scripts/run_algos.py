@@ -97,6 +97,21 @@ def generate_cut_edges(mst: nx.Graph, threshold: int) -> list:
     for edge in bin_of:
         if bin_of[edge] >= threshold:
             cut_edges.append(edge)
+    
+    cluster_cum_weight = 0
+    non_cut_cluster_edges = []
+    cut_edge_cum_weight = 0
+    for edge in mst.edges(data=True):
+        if (edge[0], edge[1]) not in cut_edges:
+            cluster_cum_weight += edge[2]['weight']
+            non_cut_cluster_edges.append(edge)
+        else:
+            cut_edge_cum_weight += edge[2]['weight']
+    avg_cluster_edge_weight = cluster_cum_weight / len(non_cut_cluster_edges)
+    avg_cut_edge_weight = cut_edge_cum_weight / len(cut_edges)
+    print(f"Avg cluster edge weight for {threshold}:", avg_cluster_edge_weight)
+    print(f"Avg cut edge weight for {threshold}:", avg_cut_edge_weight)
+
     return cut_edges
 
 def run_floyd_warshall(graph: nx.Graph) -> dict:

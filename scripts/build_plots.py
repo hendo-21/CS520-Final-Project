@@ -1,7 +1,6 @@
 """ This module builds map plots for the final report. """
 
 import networkx as nx
-import jenkspy
 import plotly.graph_objects as go
 from plotly.colors import qualitative
 import pandas as pd
@@ -132,7 +131,7 @@ def plot_mst(fig: go.Figure, mst: nx.Graph, cut_edges: list, rate_type: str, bin
     ))
 
     fig.update_geos(scope='usa', projection_type='albers usa')
-    fig.update_layout(title=f'{rate_type} MST with cut edges. Top {bin_cut} classes cut.', width=1500, height=1000)
+    fig.update_layout(title=f'Regional {rate_type} clusters from MST cuts', width=1500, height=1000)
 
     fig.show()
 
@@ -163,6 +162,8 @@ def plot_apsp_data(fig: go.Figure, rate_type: str, edges: dict) -> None:
     fig.show()
 
 def filter_apsp_data(df: pd.DataFrame) -> dict:
+    print(df)
+
     n = 5
     # Isolate top 25% highest values in hops column
     hops_75th_percentile = df['hops'].quantile(0.75)
@@ -180,7 +181,7 @@ def filter_apsp_data(df: pd.DataFrame) -> dict:
     print(f'\n{n} Largest Dist / Hop\n', n_largest_dist_per_hop)
 
     n_largest_dist_per_hop = df[df['hops'] > hops_75th_percentile].nlargest(n, 'distance_per_hop')
-    print(f'\n{n} Largest Dist / Hop - Top 25% of Hops\n', n_largest_dist_per_hop)
+    # print(f'\n{n} Largest Dist / Hop - Top 25% of Hops\n', n_largest_dist_per_hop)
 
     avg_dist_per_hop = df['distance_per_hop'].mean()
     print('\nAvg Dist Per Hop', avg_dist_per_hop)
@@ -194,6 +195,11 @@ def compute_mst_jaccard_similarity(edge_list_1: list, edge_list_2: list) -> floa
     intersection = len(s1.intersection(s2))
     union = len(s1.union(s2))
     return intersection / union
+
+def compute_apsp_pearson_similarity(df_mmr: pd.DataFrame, df_imr: pd.DataFrame) -> float:
+    merged = pd.merge(df_mmr, df_imr, on=['state1', 'state2'], suffixes=('_mmr', '_imr'))
+    correlation = merged['distance_mmr'].corr(merged['distance_imr'])
+    return correlation
 
 def main():
     # Import graphs
@@ -212,28 +218,29 @@ def main():
     df_mmr_apsp = pd.read_json('data/mmr_apsp.json')
     df_imr_apsp = pd.read_json('data/imr_apsp.json')
 
-    """
     # Build base MMR map plot
-    plot_weighted_graph(build_base_fig(), G_mmr, 'MMR')
-    plot_weighted_graph(build_base_fig(), G_imr, 'IMR')
+    # plot_weighted_graph(build_base_fig(), G_mmr, 'MMR')
+    # plot_weighted_graph(build_base_fig(), G_imr, 'IMR')
 
     # Plot MSTs
-    plot_mst(build_base_fig(), MST_mmr, MMR_cut_edges[0]['cut_edges'], 'MMR', 3) 
-    plot_mst(build_base_fig(), MST_mmr, MMR_cut_edges[1]['cut_edges'], 'MMR', 2) 
-    plot_mst(build_base_fig(), MST_mmr, MMR_cut_edges[2]['cut_edges'], 'MMR', 1) 
+    # plot_mst(build_base_fig(), MST_mmr, MMR_cut_edges[0]['cut_edges'], 'MMR', 3) 
+    # plot_mst(build_base_fig(), MST_mmr, MMR_cut_edges[1]['cut_edges'], 'MMR', 2) 
+    # plot_mst(build_base_fig(), MST_mmr, MMR_cut_edges[2]['cut_edges'], 'MMR', 1) 
 
-    plot_mst(build_base_fig(), MST_imr, IMR_cut_edges[0]['cut_edges'], 'IMR', 3) 
-    plot_mst(build_base_fig(), MST_imr, IMR_cut_edges[1]['cut_edges'], 'IMR', 2) 
-    plot_mst(build_base_fig(), MST_imr, IMR_cut_edges[2]['cut_edges'], 'IMR', 1) 
-    """
-    """
+    # plot_mst(build_base_fig(), MST_imr, IMR_cut_edges[0]['cut_edges'], 'IMR', 3) 
+    # plot_mst(build_base_fig(), MST_imr, IMR_cut_edges[1]['cut_edges'], 'IMR', 2) 
+    # plot_mst(build_base_fig(), MST_imr, IMR_cut_edges[2]['cut_edges'], 'IMR', 1) 
+
     edges = filter_apsp_data(df_mmr_apsp)
-    plot_apsp_data(build_base_fig(), 'MMR', edges)
+    # plot_apsp_data(build_base_fig(), 'MMR', edges)
     edges = filter_apsp_data(df_imr_apsp)
-    plot_apsp_data(build_base_fig(), 'IMR', edges)
-    """
+    # plot_apsp_data(build_base_fig(), 'IMR', edges)
+
     jac_res = compute_mst_jaccard_similarity(list(MST_mmr.edges), list(MST_imr.edges))
     print('MST Jaccard Similarity Score:', round(jac_res, 4) * 100)
+
+    pears_res = compute_apsp_pearson_similarity(df_mmr_apsp, df_imr_apsp)
+    print(pears_res)
 
 if __name__ == '__main__':
     main()
